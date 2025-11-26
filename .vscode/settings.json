@@ -1,0 +1,16 @@
+{
+	"latex-workshop.formatting.latex": "latexindent",
+	"latex-workshop.formatting.latexindent.path": "latexindent",
+	"latex-workshop.formatting.latexindent.args": [
+		"-c",
+		"%DIR%/",
+		"%TMPFILE%",
+		"-y=defaultIndent: '%INDENT%'"
+	],
+	"[latex]": {
+		"editor.wordWrap": "wordWrapColumn",
+		"editor.wordWrapColumn": 70,
+		"editor.rulers": [70]
+	}
+}
+

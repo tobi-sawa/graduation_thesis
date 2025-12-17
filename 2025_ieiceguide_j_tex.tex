@@ -1,0 +1,58 @@
+\documentclass[twocolumn,a4paper,dvipdfmx]{ieicejsp}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{latexsym}
+%\usepackage[fleqn]{amsmath}
+%\usepackage{amssymb}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+
+\title{{\bf LLMマルチエージェントを用いたWebサービス合成}
+  {\normalsize \\LLM-based Multi-Agent Approach to Web Service Composition} }
+  \author{
+    飛澤佑季$^1$ \\ Yuuki Tobisawa \and
+    村上陽平$^2$ \\ Yohei Murakami
+  }
+  \affliate{%
+    立命館大学$^1$\\
+    Ritsumeikan Univ.\\
+    \and
+    立命館大学$^2$ \\
+    Ritsumeikan Univ.\\
+}
+
+\begin{document}
+\maketitle
+\section{まえがき}
+近年，Webサービスは生活や産業の基盤となり，複数サービスを組み合わせるサービス合成の重要性が増している．しかし従来手法では，ユーザ要求を時相論理・述語論理などで記述する必要があり，非専門家にとって障壁が大きい．
+本研究は，要求を自然言語で扱えるLLMに着目し，CNPに基づくマルチエージェント協調により，プロンプト制約を緩和しつつ高精度なサービス合成を実現する．
+
+\section{CNPに基づくAPI選定フレームワーク}
+本研究の提案手法は，契約ネットプロトコル（Contract Net Protocol; CNP）に基づき，自然言語で記述されたユーザ要求からサービス合成の実行可能な計画（Plan）を生成する枠組みである．図 1のように統括役のマネージャ（Manager）エージェントが要求文を受け取り，必要となる処理をタスク候補として整理し，タスク公告を行う．次に，複数のコントラクタ（Contractor）エージェントが公告を参照し，自身が担当可能なタスクについて，
+担当可能である理由を入札として返す．ここで各コントラクタはAPIカテゴリ/機能領域に特化した知識に基づいて判断するため，単一エージェント方式で生じやすい仕様理解不足や知識希薄化，およびプロンプト肥大を抑制できる．マネージャは入札結果を統合してタスクごとの担当（採用API）を決定する．最後に，確定したタスク集合・採用API・依存関係に基づき，APIまたはAPI群を出力する．
+
+\begin{figure}[!b]
+  \centering
+  \includegraphics[width=\linewidth]{cnp_api_framework}
+  \caption{CNPに基づくAPI選定フレームワーク}
+  \label{fig:cnp-api-framework}
+\end{figure}
+
+\FloatBarrier
+
+\section{タスク分解の安定化と専門エージェント設計}
+本研究における主要課題は，(1) 自然言語要求に対する適切なタスク分解，および (2) LLMエージェントの役割分担の設計，の二点である．
+課題(1)に対しては，要求の粒度や曖昧さが一定でないことに起因して，単一の分解方針では過分解・不足分解が発生し，タスク境界や依存関係が不安定になりやすいという問題がある．そこで本研究では，契約ネットプロトコル（CNP）の考え方を応用し，タスク分解における「分解の主導権」と「調整の仕組み」を状況に応じて切り替えられる枠組みを導入する．具体的には，(i) マネージャ主導，(ii) コントラクタ主導，(iii) 協調型の三つの分解プロトコルを用意し，要求の性質に応じて段階的に適用することで，いずれの方式でも一貫したタスク構造を得るとともに，入札・応札過程でタスク境界や前後関係を調整することで計画破綻を抑制し，安定したサービス合成を実現する．
+課題(2)に対しては，対象とするサービス領域が広がるほど単一エージェントでは仕様理解が浅くなり，さらにプロンプトが肥大化するという問題がある．これに対し，本研究ではLLMエージェントをAPIごとに専門化し，各エージェントが担当領域に限定された知識のみを参照して推論・入札を行うように設計する．この役割分担により，プロンプト制約を緩和しつつ，仕様理解に基づく高精度な推薦と，大規模サービス集合に対するスケーラビリティを両立する．また，タスク分解プロトコルの違いが情報共有や推論過程に与える影響を比較することで，役割分担設計の妥当性を分析可能とする．
+
+\section{おわりに}
+本研究の貢献は，契約ネットプロトコル（CNP）に基づくマルチLLMエージェント協調により，自然言語要求に対して要求の粒度や曖昧さに応じてタスク構造と依存関係を入札・応札過程で調整しつつ安定したサービス合成計画を生成する枠組みを提示するとともに，APIカテゴリ特化エージェントによる役割分担によってプロンプト肥大と知識希薄化を抑え，大規模サービス集合に対しても高精度かつスケーラブルなサービス推薦・合成を可能にする点にあると考える．
+
+\begin{thebibliography}{9}
+\bibitem{1}
+Reid G. Smith,
+``The Contract Net Protocol: High-Level Communication and Control in a Distributed Problem Solver,'',IEEE Transactions on Computers, Vol. C-29, No. 12, pp. 1104–1113, Dec. 1980.
+\end{thebibliography}
+\end{document}

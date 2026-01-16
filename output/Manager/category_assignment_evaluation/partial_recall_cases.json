@@ -1,0 +1,1514 @@
+[
+  {
+    "case_id": 543,
+    "mashup_name": "scoopmap.net",
+    "ground_truth_apis": [
+      "dbpedia",
+      "guardian",
+      "new_york_times_article_search",
+      "thomson_reuters_open_calais"
+    ],
+    "ground_truth_categories": [
+      "news_services",
+      "tagging",
+      "wiki"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "content",
+      "data",
+      "location",
+      "news_services",
+      "search",
+      "text"
+    ],
+    "num_tasks": 2,
+    "precision": 0.14285714285714285,
+    "recall": 0.3333333333333333,
+    "f1": 0.2,
+    "tp": 1,
+    "fp": 6,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "Task1",
+        "description": "Identify and map global hotspots of breaking news by aggregating geographic metadata from news articles.",
+        "recommended_categories": [
+          "analytics",
+          "data",
+          "location",
+          "search"
+        ]
+      },
+      {
+        "task_id": "Task2",
+        "description": "Retrieve the latest articles from high‑quality newspapers such as The Guardian and New York Times, and present their textual content.",
+        "recommended_categories": [
+          "content",
+          "news_services",
+          "search",
+          "text"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 860,
+    "mashup_name": "realwebstats",
+    "ground_truth_apis": [
+      "seomoz",
+      "whois"
+    ],
+    "ground_truth_categories": [
+      "domains",
+      "search"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "big_data",
+      "business",
+      "data",
+      "financial",
+      "marketing",
+      "reporting",
+      "search",
+      "seo",
+      "web_site_management"
+    ],
+    "num_tasks": 4,
+    "precision": 0.1,
+    "recall": 0.5,
+    "f1": 0.16666666666666669,
+    "tp": 1,
+    "fp": 9,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Collect and normalize web traffic & engagement metrics (visits, pageviews, bounce rate, source/channel data)",
+        "recommended_categories": [
+          "analytics",
+          "big_data",
+          "data",
+          "web_site_management"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Compute a website valuation score using traffic, ad revenue proxies, backlink profile, and revenue indicators",
+        "recommended_categories": [
+          "analytics",
+          "business",
+          "financial"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Generate SEO/SERP insight reports (rank positions, keyword gaps, backlink quality, page authority)",
+        "recommended_categories": [
+          "marketing",
+          "search",
+          "seo"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Provide interactive dashboards, scheduled reporting, and data export options for site owners",
+        "recommended_categories": [
+          "analytics",
+          "reporting",
+          "web_site_management"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1068,
+    "mashup_name": "sweet-soundtrack",
+    "ground_truth_apis": [
+      "lastfm",
+      "movie_database_tmdb"
+    ],
+    "ground_truth_categories": [
+      "entertainment",
+      "music"
+    ],
+    "recommended_categories": [
+      "data",
+      "data_as_a_service",
+      "movies",
+      "music",
+      "recommendations",
+      "search"
+    ],
+    "num_tasks": 5,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1": 0.25,
+    "tp": 1,
+    "fp": 5,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "TaskMSS-01",
+        "description": "Implement a search interface that accepts query parameters (movie, song, artist) and returns matching soundtrack entries.",
+        "recommended_categories": [
+          "movies",
+          "music",
+          "search"
+        ]
+      },
+      {
+        "task_id": "TaskMSS-02",
+        "description": "Provide detailed information for a selected track, including metadata and related media.",
+        "recommended_categories": [
+          "data",
+          "movies",
+          "music"
+        ]
+      },
+      {
+        "task_id": "TaskMSS-03",
+        "description": "Generate a full track list for a given movie.",
+        "recommended_categories": [
+          "data",
+          "movies",
+          "music"
+        ]
+      },
+      {
+        "task_id": "TaskMSS-04",
+        "description": "Integrate with external movie and music data services to populate and update the database.",
+        "recommended_categories": [
+          "data_as_a_service",
+          "movies",
+          "music"
+        ]
+      },
+      {
+        "task_id": "TaskMSS-05",
+        "description": "Deliver recommendation logic to suggest similar songs or movies based on user selections.",
+        "recommended_categories": [
+          "movies",
+          "music",
+          "recommendations"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1213,
+    "mashup_name": "actionzap",
+    "ground_truth_apis": [
+      "citygrid",
+      "google_geocoding",
+      "google_maps",
+      "yahoo_local_search",
+      "yelp_fusion",
+      "yipit"
+    ],
+    "ground_truth_categories": [
+      "ecommerce",
+      "mapping",
+      "recommendations",
+      "search"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "booking",
+      "coupons",
+      "ecommerce",
+      "events",
+      "financial",
+      "location",
+      "recommendations",
+      "search"
+    ],
+    "num_tasks": 4,
+    "precision": 0.3333333333333333,
+    "recall": 0.75,
+    "f1": 0.46153846153846156,
+    "tp": 3,
+    "fp": 6,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Search and list adventures/activities with location data.",
+        "recommended_categories": [
+          "events",
+          "location",
+          "search"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Aggregate, compute, and display customer reviews and overall ratings.",
+        "recommended_categories": [
+          "analytics",
+          "recommendations"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Retrieve and display daily deals/coupons for each search result.",
+        "recommended_categories": [
+          "coupons",
+          "ecommerce"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Enable secure, instant online reservations for activities.",
+        "recommended_categories": [
+          "booking",
+          "financial"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2416,
+    "mashup_name": "textwhosnext",
+    "ground_truth_apis": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "ground_truth_categories": [
+      "messaging",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "api",
+      "application_development",
+      "backend",
+      "business",
+      "cloud",
+      "dashboard",
+      "data",
+      "database",
+      "enterprise",
+      "messaging",
+      "notifications",
+      "text"
+    ],
+    "num_tasks": 5,
+    "precision": 0.08333333333333333,
+    "recall": 0.5,
+    "f1": 0.14285714285714285,
+    "tp": 1,
+    "fp": 11,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Patron check‑in & data capture: capture patron name, phone number and add to queue.",
+        "recommended_categories": [
+          "application_development",
+          "messaging",
+          "text"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Queue management & ordering: keep an ordered list per business, support removal and re‑ordering.",
+        "recommended_categories": [
+          "backend",
+          "data",
+          "database"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Text notification trigger: send SMS when patron reaches front of the queue.",
+        "recommended_categories": [
+          "messaging",
+          "notifications",
+          "text"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Business dashboard & reporting: display queue size, wait time and allow admin actions.",
+        "recommended_categories": [
+          "business",
+          "dashboard",
+          "enterprise"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Third‑party messaging integration: wrap SMS provider API and manage delivery status.",
+        "recommended_categories": [
+          "api",
+          "cloud",
+          "messaging"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2484,
+    "mashup_name": "awayfind",
+    "ground_truth_apis": [
+      "tropo_scripting",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "social",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "authentication",
+      "collaboration",
+      "email",
+      "identity",
+      "machine_learning",
+      "messaging",
+      "social",
+      "voice"
+    ],
+    "num_tasks": 5,
+    "precision": 0.1111111111111111,
+    "recall": 0.5,
+    "f1": 0.1818181818181818,
+    "tp": 1,
+    "fp": 8,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Email ingestion and filtering",
+        "recommended_categories": [
+          "email"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Importance scoring through analytics/machine learning",
+        "recommended_categories": [
+          "analytics",
+          "machine_learning"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Multi‑channel notification (voice call, SMS, IM, Twitter DM)",
+        "recommended_categories": [
+          "messaging",
+          "social",
+          "voice"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Delegation handling and assignment",
+        "recommended_categories": [
+          "collaboration",
+          "messaging"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Authentication & identity management",
+        "recommended_categories": [
+          "authentication",
+          "identity"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2714,
+    "mashup_name": "geosay-super-local-information",
+    "ground_truth_apis": [
+      "foursquare",
+      "google_maps",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "social"
+    ],
+    "recommended_categories": [
+      "api",
+      "applications",
+      "display",
+      "location",
+      "other",
+      "search",
+      "social"
+    ],
+    "num_tasks": 6,
+    "precision": 0.14285714285714285,
+    "recall": 0.5,
+    "f1": 0.22222222222222224,
+    "tp": 1,
+    "fp": 6,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "TaskID1",
+        "description": "Capture the user's current geographic coordinates.",
+        "recommended_categories": [
+          "location"
+        ]
+      },
+      {
+        "task_id": "TaskID2",
+        "description": "Retrieve geotagged tweets from Twitter's API.",
+        "recommended_categories": [
+          "api",
+          "social"
+        ]
+      },
+      {
+        "task_id": "TaskID3",
+        "description": "Retrieve location‑based posts from Foursquare's API.",
+        "recommended_categories": [
+          "api",
+          "social"
+        ]
+      },
+      {
+        "task_id": "TaskID4",
+        "description": "Retrieve posts from the internal geosay platform that include geospatial metadata.",
+        "recommended_categories": [
+          "other",
+          "social"
+        ]
+      },
+      {
+        "task_id": "TaskID5",
+        "description": "Compute distances from the user to each post and sort the collection by ascending distance.",
+        "recommended_categories": [
+          "location",
+          "search"
+        ]
+      },
+      {
+        "task_id": "TaskID6",
+        "description": "Assemble and deliver the sorted list to the user interface or consumer.",
+        "recommended_categories": [
+          "applications",
+          "display"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2918,
+    "mashup_name": "locafollow",
+    "ground_truth_apis": [
+      "google_app_engine",
+      "google_cloud_translation",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "social",
+      "tools",
+      "translation"
+    ],
+    "recommended_categories": [
+      "api",
+      "authentication",
+      "monitoring",
+      "reporting",
+      "search",
+      "social"
+    ],
+    "num_tasks": 5,
+    "precision": 0.16666666666666666,
+    "recall": 0.3333333333333333,
+    "f1": 0.2222222222222222,
+    "tp": 1,
+    "fp": 5,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "Task01",
+        "description": "Authenticate with Twitter’s API to obtain a bearer token and user‑level access",
+        "recommended_categories": [
+          "api",
+          "authentication"
+        ]
+      },
+      {
+        "task_id": "Task02",
+        "description": "Search Twitter for users near a given latitude/longitude and retrieve their profile data",
+        "recommended_categories": [
+          "search",
+          "social"
+        ]
+      },
+      {
+        "task_id": "Task03",
+        "description": "Filter the returned user profiles by matching keywords against the Bio and Location fields",
+        "recommended_categories": [
+          "search"
+        ]
+      },
+      {
+        "task_id": "Task04",
+        "description": "Batch‑follow the filtered users while respecting rate limits and handling failures",
+        "recommended_categories": [
+          "social"
+        ]
+      },
+      {
+        "task_id": "Task05",
+        "description": "Log and report the outcome of each follow attempt, including successes, failures, and rate‑limit statuses",
+        "recommended_categories": [
+          "monitoring",
+          "reporting"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2930,
+    "mashup_name": "my-friends-mosaic",
+    "ground_truth_apis": [
+      "livejournal",
+      "twitter",
+      "zazzle"
+    ],
+    "ground_truth_categories": [
+      "blogging",
+      "ecommerce",
+      "social"
+    ],
+    "recommended_categories": [
+      "authentication",
+      "cloud",
+      "data",
+      "design",
+      "ecommerce",
+      "identity",
+      "image_processing",
+      "images",
+      "ordering",
+      "payments",
+      "pdf",
+      "personal_information_management",
+      "printing",
+      "product_catalog",
+      "social",
+      "storage"
+    ],
+    "num_tasks": 8,
+    "precision": 0.125,
+    "recall": 0.6666666666666666,
+    "f1": 0.21052631578947367,
+    "tp": 2,
+    "fp": 14,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Authenticate user via Twitter or LiveJournal OAuth",
+        "recommended_categories": [
+          "authentication",
+          "identity",
+          "social"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Retrieve friends’ profile pictures or latest photos",
+        "recommended_categories": [
+          "images",
+          "personal_information_management",
+          "social"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Process photos (crop, resize, color adjustment) for uniform tile size",
+        "recommended_categories": [
+          "design",
+          "image_processing",
+          "images"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Generate mosaic collage from processed tiles",
+        "recommended_categories": [
+          "design",
+          "image_processing",
+          "images"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Allow selection of product type and customize layout for print dimensions",
+        "recommended_categories": [
+          "design",
+          "ecommerce",
+          "product_catalog"
+        ]
+      },
+      {
+        "task_id": "T6",
+        "description": "Export final design as a print‑ready PDF or image file",
+        "recommended_categories": [
+          "design",
+          "pdf",
+          "printing"
+        ]
+      },
+      {
+        "task_id": "T7",
+        "description": "Initiate e‑commerce checkout (order creation, shipping, payment)",
+        "recommended_categories": [
+          "ecommerce",
+          "ordering",
+          "payments"
+        ]
+      },
+      {
+        "task_id": "T8",
+        "description": "Store design assets temporarily in cloud storage for user retrieval",
+        "recommended_categories": [
+          "cloud",
+          "data",
+          "storage"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3166,
+    "mashup_name": "darwin-bus-map",
+    "ground_truth_apis": [
+      "google_maps",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "social"
+    ],
+    "recommended_categories": [
+      "location",
+      "mapping",
+      "photos",
+      "transportation",
+      "travel"
+    ],
+    "num_tasks": 3,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1": 0.28571428571428575,
+    "tp": 1,
+    "fp": 4,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task1",
+        "description": "Retrieve and display bus routes and their timetables for Darwin, Australia.",
+        "recommended_categories": [
+          "location",
+          "mapping",
+          "transportation",
+          "travel"
+        ]
+      },
+      {
+        "task_id": "Task2",
+        "description": "Provide real-time bus positions and traffic information for routes and stops.",
+        "recommended_categories": [
+          "location",
+          "mapping",
+          "transportation",
+          "travel"
+        ]
+      },
+      {
+        "task_id": "Task3",
+        "description": "Fetch StreetView images for each bus stop.",
+        "recommended_categories": [
+          "location",
+          "mapping",
+          "photos"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3188,
+    "mashup_name": "tidespy-tide-charts-best-fishing-times",
+    "ground_truth_apis": [
+      "google_maps",
+      "noaa_national_weather_service_nws_ndfd_soap",
+      "panoramio",
+      "strikeiron_ip_address_lookup"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "photos",
+      "reference",
+      "weather"
+    ],
+    "recommended_categories": [
+      "applications",
+      "astronomy",
+      "cloud",
+      "data_as_a_service",
+      "fishing",
+      "geography",
+      "images",
+      "location",
+      "maps",
+      "photos",
+      "weather"
+    ],
+    "num_tasks": 4,
+    "precision": 0.18181818181818182,
+    "recall": 0.5,
+    "f1": 0.26666666666666666,
+    "tp": 2,
+    "fp": 9,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "TaskID1",
+        "description": "Gather latitude/longitude and basic properties for over 3000 locations across the US, Pacific, Caribbean, and New Zealand.",
+        "recommended_categories": [
+          "data_as_a_service",
+          "geography",
+          "location"
+        ]
+      },
+      {
+        "task_id": "TaskID2",
+        "description": "Retrieve tide times, sunrise/sunset, moonrise/moonset, moon phase, and calculate best fishing and solunar windows for each location.",
+        "recommended_categories": [
+          "astronomy",
+          "fishing",
+          "weather"
+        ]
+      },
+      {
+        "task_id": "TaskID3",
+        "description": "Fetch or store a representative photo for each place.",
+        "recommended_categories": [
+          "images",
+          "photos"
+        ]
+      },
+      {
+        "task_id": "TaskID4",
+        "description": "Integrate all collected data into Google Maps, handle clustering, caching, and user interaction.",
+        "recommended_categories": [
+          "applications",
+          "cloud",
+          "maps"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3332,
+    "mashup_name": "mymaps.dk",
+    "ground_truth_apis": [
+      "google_adwords",
+      "google_maps",
+      "panoramio",
+      "wikipedia"
+    ],
+    "ground_truth_categories": [
+      "advertising",
+      "mapping",
+      "photos",
+      "reference"
+    ],
+    "recommended_categories": [
+      "addresses",
+      "data",
+      "data_as_a_service",
+      "location",
+      "mapping",
+      "search"
+    ],
+    "num_tasks": 3,
+    "precision": 0.16666666666666666,
+    "recall": 0.25,
+    "f1": 0.2,
+    "tp": 1,
+    "fp": 5,
+    "fn": 3,
+    "tasks": [
+      {
+        "task_id": "TaskA",
+        "description": "Interactive digital map service for Denmark’s cities",
+        "recommended_categories": [
+          "data_as_a_service",
+          "location",
+          "mapping"
+        ]
+      },
+      {
+        "task_id": "TaskB",
+        "description": "Geocoding & address lookup for Danish city names",
+        "recommended_categories": [
+          "addresses",
+          "data_as_a_service",
+          "location"
+        ]
+      },
+      {
+        "task_id": "TaskC",
+        "description": "Local information repository with city‑level data",
+        "recommended_categories": [
+          "data",
+          "data_as_a_service",
+          "location",
+          "search"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4337,
+    "mashup_name": "enomalism-elastic-computing",
+    "ground_truth_apis": [
+      "amazon_ec2",
+      "amazon_s3"
+    ],
+    "ground_truth_categories": [
+      "cloud",
+      "storage"
+    ],
+    "recommended_categories": [
+      "application_development",
+      "cloud",
+      "enterprise",
+      "hosting",
+      "monitoring",
+      "performance",
+      "security"
+    ],
+    "num_tasks": 4,
+    "precision": 0.14285714285714285,
+    "recall": 0.5,
+    "f1": 0.22222222222222224,
+    "tp": 1,
+    "fp": 6,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "TaskA",
+        "description": "Provision, schedule, and manage virtual machine instances globally.",
+        "recommended_categories": [
+          "cloud",
+          "enterprise",
+          "hosting",
+          "monitoring"
+        ]
+      },
+      {
+        "task_id": "TaskB",
+        "description": "Automate the migration of workloads from on‑premise to the cloud.",
+        "recommended_categories": [
+          "cloud",
+          "enterprise"
+        ]
+      },
+      {
+        "task_id": "TaskC",
+        "description": "Monitor the health, performance, and utilization of the virtual infrastructure.",
+        "recommended_categories": [
+          "cloud",
+          "monitoring",
+          "performance"
+        ]
+      },
+      {
+        "task_id": "TaskD",
+        "description": "Deliver a secure, web‑based UI for administrators and developers.",
+        "recommended_categories": [
+          "application_development",
+          "cloud",
+          "enterprise",
+          "security"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4828,
+    "mashup_name": "flickr-wrappr",
+    "ground_truth_apis": [
+      "dbpedia",
+      "flickr"
+    ],
+    "ground_truth_categories": [
+      "photos",
+      "wiki"
+    ],
+    "recommended_categories": [
+      "api",
+      "authentication",
+      "cloud",
+      "data",
+      "data_as_a_service",
+      "data_mining",
+      "database",
+      "images",
+      "language",
+      "location",
+      "mapping",
+      "media",
+      "metadata",
+      "monitoring",
+      "natural_language_processing",
+      "parsing",
+      "performance",
+      "photos",
+      "search",
+      "security",
+      "storage"
+    ],
+    "num_tasks": 5,
+    "precision": 0.047619047619047616,
+    "recall": 0.5,
+    "f1": 0.08695652173913042,
+    "tp": 1,
+    "fp": 20,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task01",
+        "description": "Retrieve DBpedia concept identifiers and basic properties",
+        "recommended_categories": [
+          "data",
+          "data_as_a_service",
+          "data_mining",
+          "database"
+        ]
+      },
+      {
+        "task_id": "Task02",
+        "description": "For each concept, fetch multilingual labels and geo-coordinates from Wikipedia",
+        "recommended_categories": [
+          "data",
+          "language",
+          "metadata",
+          "natural_language_processing",
+          "parsing"
+        ]
+      },
+      {
+        "task_id": "Task03",
+        "description": "Query Flickr API for photos using retrieved labels and coordinates",
+        "recommended_categories": [
+          "api",
+          "authentication",
+          "images",
+          "location",
+          "mapping",
+          "media",
+          "photos",
+          "search"
+        ]
+      },
+      {
+        "task_id": "Task04",
+        "description": "Store the retrieved photo metadata and URLs in a persistent datastore",
+        "recommended_categories": [
+          "cloud",
+          "data",
+          "database",
+          "storage"
+        ]
+      },
+      {
+        "task_id": "Task05",
+        "description": "Manage API keys, rate limits, and error handling across all external services",
+        "recommended_categories": [
+          "api",
+          "authentication",
+          "monitoring",
+          "performance",
+          "security"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5200,
+    "mashup_name": "repository66",
+    "ground_truth_apis": [
+      "google_maps",
+      "opendoar"
+    ],
+    "ground_truth_categories": [
+      "education",
+      "mapping"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "api",
+      "application_development",
+      "backend",
+      "cloud",
+      "data",
+      "data_as_a_service",
+      "filters",
+      "geography",
+      "mapping",
+      "search",
+      "statistics",
+      "user_interface",
+      "visualization",
+      "web_applications"
+    ],
+    "num_tasks": 6,
+    "precision": 0.06666666666666667,
+    "recall": 0.5,
+    "f1": 0.11764705882352941,
+    "tp": 1,
+    "fp": 14,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task1",
+        "description": "Retrieve repository metadata from OpenDOAR and ROAR and combine the datasets.",
+        "recommended_categories": [
+          "api",
+          "data",
+          "data_as_a_service"
+        ]
+      },
+      {
+        "task_id": "Task2",
+        "description": "Geocode repository addresses to latitude/longitude using Google Maps Geocoding API.",
+        "recommended_categories": [
+          "geography",
+          "mapping"
+        ]
+      },
+      {
+        "task_id": "Task3",
+        "description": "Display repository locations on an interactive Google Maps interface.",
+        "recommended_categories": [
+          "mapping",
+          "visualization",
+          "web_applications"
+        ]
+      },
+      {
+        "task_id": "Task4",
+        "description": "Generate growth charts from ROAR statistics and display them graphically.",
+        "recommended_categories": [
+          "analytics",
+          "statistics",
+          "visualization"
+        ]
+      },
+      {
+        "task_id": "Task5",
+        "description": "Build a backend service to orchestrate data retrieval, geocoding, chart aggregation, and expose APIs for the front‑end.",
+        "recommended_categories": [
+          "application_development",
+          "backend",
+          "cloud"
+        ]
+      },
+      {
+        "task_id": "Task6",
+        "description": "Provide search and filtering capabilities for repositories by name, location, and subject.",
+        "recommended_categories": [
+          "filters",
+          "search",
+          "user_interface"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5331,
+    "mashup_name": "tennis-jobs-map",
+    "ground_truth_apis": [
+      "google_maps",
+      "indeed"
+    ],
+    "ground_truth_categories": [
+      "jobs",
+      "mapping"
+    ],
+    "recommended_categories": [
+      "api",
+      "data",
+      "jobs",
+      "location",
+      "maps",
+      "search"
+    ],
+    "num_tasks": 4,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1": 0.25,
+    "tp": 1,
+    "fp": 5,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task1",
+        "description": "Query the Indeed.com job API for tennis positions",
+        "recommended_categories": [
+          "api",
+          "jobs",
+          "search"
+        ]
+      },
+      {
+        "task_id": "Task2",
+        "description": "Filter the query results to U.S. locations and limit to 50",
+        "recommended_categories": [
+          "data",
+          "search"
+        ]
+      },
+      {
+        "task_id": "Task3",
+        "description": "Geocode each job's address into latitude/longitude coordinates",
+        "recommended_categories": [
+          "location",
+          "maps"
+        ]
+      },
+      {
+        "task_id": "Task4",
+        "description": "Render Google Maps with markers for each job and display info windows",
+        "recommended_categories": [
+          "location",
+          "maps"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5584,
+    "mashup_name": "thursday-club",
+    "ground_truth_apis": [
+      "google_maps",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "video"
+    ],
+    "recommended_categories": [
+      "entertainment",
+      "filtering",
+      "food",
+      "location",
+      "mapping",
+      "search",
+      "travel"
+    ],
+    "num_tasks": 5,
+    "precision": 0.14285714285714285,
+    "recall": 0.5,
+    "f1": 0.22222222222222224,
+    "tp": 1,
+    "fp": 6,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Venue Discovery: Retrieve a list of nightlife and dining venues globally.",
+        "recommended_categories": [
+          "entertainment",
+          "food",
+          "search",
+          "travel"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Geolocation & Nearby Search: Determine the user’s current location and filter venues within a user‑defined radius.",
+        "recommended_categories": [
+          "location",
+          "search"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Mapping & Visualization: Render an interactive map with markers for each venue, including clustering for density.",
+        "recommended_categories": [
+          "location",
+          "mapping"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Filtering & Categorization: Provide UI controls to filter results by venue type (bar, club, lounge, restaurant).",
+        "recommended_categories": [
+          "entertainment",
+          "filtering",
+          "food",
+          "search"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Venue Detail Display: Show supplemental information (address, phone, rating) when a venue marker is selected.",
+        "recommended_categories": [
+          "entertainment",
+          "food",
+          "location"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5657,
+    "mashup_name": "retrotube",
+    "ground_truth_apis": [
+      "amazon_product_advertising",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "ecommerce",
+      "video"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "content",
+      "entertainment",
+      "search",
+      "translation",
+      "video"
+    ],
+    "num_tasks": 5,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1": 0.25,
+    "tp": 1,
+    "fp": 5,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T001",
+        "description": "Integrate the YouTube Data API to perform search queries and fetch video metadata.",
+        "recommended_categories": [
+          "search",
+          "video"
+        ]
+      },
+      {
+        "task_id": "T002",
+        "description": "Apply YouTube’s age‑restriction information to filter results for Japanese compliance.",
+        "recommended_categories": [
+          "video"
+        ]
+      },
+      {
+        "task_id": "T003",
+        "description": "Map YouTube’s category IDs to Music, Games, Anime and expose them as filter options.",
+        "recommended_categories": [
+          "content",
+          "entertainment",
+          "video"
+        ]
+      },
+      {
+        "task_id": "T004",
+        "description": "Add Japanese localization and translation support for UI text and labels.",
+        "recommended_categories": [
+          "content",
+          "translation"
+        ]
+      },
+      {
+        "task_id": "T005",
+        "description": "Collect analytics on search terms, filter usage, and video clicks.",
+        "recommended_categories": [
+          "analytics"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5750,
+    "mashup_name": "headlinemap",
+    "ground_truth_apis": [
+      "flickr",
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "photos"
+    ],
+    "recommended_categories": [
+      "applications",
+      "cloud",
+      "content",
+      "data",
+      "data_as_a_service",
+      "location",
+      "mapping",
+      "news_services",
+      "performance",
+      "web_site_management"
+    ],
+    "num_tasks": 5,
+    "precision": 0.1,
+    "recall": 0.5,
+    "f1": 0.16666666666666669,
+    "tp": 1,
+    "fp": 9,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "TaskMAP1",
+        "description": "Implement the base interactive map, place markers, and enable zoom/pan.",
+        "recommended_categories": [
+          "location",
+          "mapping"
+        ]
+      },
+      {
+        "task_id": "TaskNEWS_FETCH",
+        "description": "Call Topix API to retrieve global and local news, parse and store results.",
+        "recommended_categories": [
+          "data",
+          "data_as_a_service",
+          "news_services"
+        ]
+      },
+      {
+        "task_id": "TaskDETAIL_VIEW",
+        "description": "Add double‑click behaviour on markers to load deeper news levels.",
+        "recommended_categories": [
+          "content",
+          "data",
+          "mapping"
+        ]
+      },
+      {
+        "task_id": "TaskRESPONSIVE",
+        "description": "Style and structure the interface for responsiveness across devices.",
+        "recommended_categories": [
+          "applications",
+          "cloud",
+          "web_site_management"
+        ]
+      },
+      {
+        "task_id": "TaskPERFORMANCE",
+        "description": "Optimize API usage with caching, lazy loading, and data minimization.",
+        "recommended_categories": [
+          "cloud",
+          "data_as_a_service",
+          "performance"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 6225,
+    "mashup_name": "jacktracker-24",
+    "ground_truth_apis": [
+      "flickr",
+      "google_maps",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "photos",
+      "video"
+    ],
+    "recommended_categories": [
+      "api",
+      "application_development",
+      "authentication",
+      "backend",
+      "chat",
+      "content",
+      "database",
+      "identity",
+      "images",
+      "location",
+      "mapping",
+      "movies",
+      "security",
+      "social",
+      "storage",
+      "web_site_management"
+    ],
+    "num_tasks": 7,
+    "precision": 0.0625,
+    "recall": 0.3333333333333333,
+    "f1": 0.10526315789473684,
+    "tp": 1,
+    "fp": 15,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Retrieve TV show metadata and episode details from Jacktracker.",
+        "recommended_categories": [
+          "api",
+          "content",
+          "movies"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Fetch episode images and plot details.",
+        "recommended_categories": [
+          "content",
+          "images",
+          "movies"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Map plot points into navigable waypoints and render them.",
+        "recommended_categories": [
+          "location",
+          "mapping"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Integrate Wayfaring.com discussion board functionality per waypoint.",
+        "recommended_categories": [
+          "chat",
+          "social"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Implement authentication and identity management for users.",
+        "recommended_categories": [
+          "authentication",
+          "identity",
+          "security"
+        ]
+      },
+      {
+        "task_id": "T6",
+        "description": "Persist discussion posts, user data, and waypoint interactions.",
+        "recommended_categories": [
+          "backend",
+          "database",
+          "storage"
+        ]
+      },
+      {
+        "task_id": "T7",
+        "description": "Build the front‑end UI for metadata, imagery, waypoints, and discussion boards.",
+        "recommended_categories": [
+          "application_development",
+          "web_site_management"
+        ]
+      }
+    ]
+  }
+]

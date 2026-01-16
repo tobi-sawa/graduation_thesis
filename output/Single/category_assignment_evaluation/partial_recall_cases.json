@@ -1,0 +1,255 @@
+[
+  {
+    "case_id": 1068,
+    "mashup_name": "sweet-soundtrack",
+    "ground_truth_apis": [
+      "lastfm",
+      "movie_database_tmdb"
+    ],
+    "ground_truth_categories": [
+      "entertainment",
+      "music"
+    ],
+    "recommended_categories": [
+      "movies",
+      "music"
+    ],
+    "num_tasks": 1,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 1,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "movies",
+          "music"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1869,
+    "mashup_name": "safetygrid",
+    "ground_truth_apis": [
+      "facebook",
+      "twilio",
+      "twilio_sms"
+    ],
+    "ground_truth_categories": [
+      "messaging",
+      "social",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "emergency",
+      "messaging",
+      "mobile",
+      "social"
+    ],
+    "num_tasks": 1,
+    "precision": 0.5,
+    "recall": 0.6666666666666666,
+    "f1": 0.5714285714285715,
+    "tp": 2,
+    "fp": 2,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "emergency",
+          "messaging",
+          "mobile",
+          "social"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2416,
+    "mashup_name": "textwhosnext",
+    "ground_truth_apis": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "ground_truth_categories": [
+      "messaging",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "messaging",
+      "sms",
+      "video",
+      "voice"
+    ],
+    "num_tasks": 1,
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1": 0.3333333333333333,
+    "tp": 1,
+    "fp": 3,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "messaging",
+          "sms",
+          "video",
+          "voice"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2484,
+    "mashup_name": "awayfind",
+    "ground_truth_apis": [
+      "tropo_scripting",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "social",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "email",
+      "messaging",
+      "telephony"
+    ],
+    "num_tasks": 1,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 2,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "email",
+          "messaging",
+          "telephony"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2930,
+    "mashup_name": "my-friends-mosaic",
+    "ground_truth_apis": [
+      "livejournal",
+      "twitter",
+      "zazzle"
+    ],
+    "ground_truth_categories": [
+      "blogging",
+      "ecommerce",
+      "social"
+    ],
+    "recommended_categories": [
+      "art",
+      "ecommerce",
+      "photos",
+      "social",
+      "visualizations"
+    ],
+    "num_tasks": 1,
+    "precision": 0.4,
+    "recall": 0.6666666666666666,
+    "f1": 0.5,
+    "tp": 2,
+    "fp": 3,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "art",
+          "ecommerce",
+          "photos",
+          "social",
+          "visualizations"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5200,
+    "mashup_name": "repository66",
+    "ground_truth_apis": [
+      "google_maps",
+      "opendoar"
+    ],
+    "ground_truth_categories": [
+      "education",
+      "mapping"
+    ],
+    "recommended_categories": [
+      "mapping"
+    ],
+    "num_tasks": 1,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "mapping"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 6225,
+    "mashup_name": "jacktracker-24",
+    "ground_truth_apis": [
+      "flickr",
+      "google_maps",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "photos",
+      "video"
+    ],
+    "recommended_categories": [
+      "mapping",
+      "tv",
+      "video"
+    ],
+    "num_tasks": 1,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1": 0.6666666666666666,
+    "tp": 2,
+    "fp": 1,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "mapping",
+          "tv",
+          "video"
+        ]
+      }
+    ]
+  }
+]

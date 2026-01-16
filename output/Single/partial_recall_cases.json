@@ -1,0 +1,122 @@
+[
+  {
+    "case_id": 1869,
+    "ground_truth": [
+      "twilio-sms",
+      "facebook",
+      "twilio"
+    ],
+    "predictions": [
+      "sendgrid",
+      "facebook-graph-api",
+      "twilio"
+    ],
+    "precision": 0.3333333333333333,
+    "recall": 0.3333333333333333,
+    "f1": 0.3333333333333333,
+    "tp": 1,
+    "fp": 2,
+    "fn": 2
+  },
+  {
+    "case_id": 1892,
+    "ground_truth": [
+      "twilio-sms",
+      "twilio"
+    ],
+    "predictions": [
+      "tropo-scripting",
+      "twilio"
+    ],
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 2099,
+    "ground_truth": [
+      "dribbble",
+      "google-app-engine"
+    ],
+    "predictions": [
+      "dribbble"
+    ],
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 0,
+    "fn": 1
+  },
+  {
+    "case_id": 2416,
+    "ground_truth": [
+      "twilio-sms",
+      "twilio"
+    ],
+    "predictions": [
+      "vonage",
+      "twilio"
+    ],
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 2930,
+    "ground_truth": [
+      "zazzle",
+      "livejournal",
+      "twitter"
+    ],
+    "predictions": [
+      "simpleapi",
+      "recognizeim",
+      "twitter"
+    ],
+    "precision": 0.3333333333333333,
+    "recall": 0.3333333333333333,
+    "f1": 0.3333333333333333,
+    "tp": 1,
+    "fp": 2,
+    "fn": 2
+  },
+  {
+    "case_id": 4828,
+    "ground_truth": [
+      "dbpedia",
+      "flickr"
+    ],
+    "predictions": [
+      "flickr"
+    ],
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 0,
+    "fn": 1
+  },
+  {
+    "case_id": 5657,
+    "ground_truth": [
+      "amazon-product-advertising",
+      "youtube"
+    ],
+    "predictions": [
+      "youtube"
+    ],
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 0,
+    "fn": 1
+  }
+]

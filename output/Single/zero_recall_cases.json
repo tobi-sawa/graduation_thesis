@@ -1,0 +1,1763 @@
+[
+  {
+    "case_id": 31,
+    "ground_truth": [
+      "youtube",
+      "google-ad-manager",
+      "flickr",
+      "google-adsense"
+    ],
+    "predictions": [
+      "priceline-api",
+      "tripadvisor-api",
+      "kayak-api",
+      "twilio-api",
+      "google-maps-api",
+      "amadeus-travel-apis",
+      "skyscanner-api",
+      "booking-com-api",
+      "expedia-rapid-api",
+      "google-places-api",
+      "rentalcars-com-api",
+      "yelp-fusion-api",
+      "stripe-api",
+      "auth0-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 14,
+    "fn": 4
+  },
+  {
+    "case_id": 76,
+    "ground_truth": [
+      "google-pagespeed-insights"
+    ],
+    "predictions": [
+      "algolia-search-api",
+      "firebase-authentication",
+      "opentable-api",
+      "twilio-api",
+      "google-cloud-vision-api",
+      "mapbox-api",
+      "google-places-api",
+      "google-cloud-firestore",
+      "yelp-fusion-api",
+      "stripe-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 1
+  },
+  {
+    "case_id": 535,
+    "ground_truth": [
+      "wolfram-alpha",
+      "opencnam",
+      "wikipedia",
+      "youtube",
+      "open-movie-database",
+      "bing"
+    ],
+    "predictions": [
+      "mapbox",
+      "google-maps",
+      "accuweather",
+      "ipgeolocation-io",
+      "weatherbit-io",
+      "firebase-cloud-messaging",
+      "noaa-climate-data-online-cdo",
+      "openaq",
+      "openstreetmap-nominatim",
+      "weatherapi-com",
+      "openweathermap",
+      "apple-push-notification-service",
+      "ipapi",
+      "ipstack"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 14,
+    "fn": 6
+  },
+  {
+    "case_id": 543,
+    "ground_truth": [
+      "new-york-times-article-search",
+      "dbpedia",
+      "guardian",
+      "thomson-reuters-open-calais"
+    ],
+    "predictions": [
+      "google-maps-geocoding-api",
+      "new-york-times-api",
+      "guardian-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 4
+  },
+  {
+    "case_id": 584,
+    "ground_truth": [
+      "opensecrets",
+      "govtrackus"
+    ],
+    "predictions": [
+      "ax-set-zlabel",
+      "plot-wireframe",
+      "np-where",
+      "mpl-toolkits-mplot3d-axes3d",
+      "fig-colorbar",
+      "numpy",
+      "matplotlib-pyplot",
+      "plt-title",
+      "ax-set-xlabel",
+      "plt-tight-layout",
+      "np-linspace",
+      "plt-show",
+      "np-meshgrid",
+      "plot-surface",
+      "ax-set-ylabel",
+      "ax-view-init"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 16,
+    "fn": 2
+  },
+  {
+    "case_id": 773,
+    "ground_truth": [
+      "motorsportregcom"
+    ],
+    "predictions": [
+      "motorsportreg"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 782,
+    "ground_truth": [
+      "google-maps",
+      "instagram-graph"
+    ],
+    "predictions": [
+      "google-maps-ios-sdk-places-sdk-for-ios",
+      "google-maps-javascript-api-places-library",
+      "google-places-api-web-service",
+      "google-maps-geocoding-api",
+      "google-maps-android-sdk-places-sdk-for-android",
+      "google-maps-geolocation-api-cloud",
+      "google-maps-api-for-work",
+      "google-maps-geolocation-api",
+      "google-maps-places-api-cloud",
+      "google-maps-geocoding-api-cloud"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 2
+  },
+  {
+    "case_id": 786,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "highcharts-api",
+      "openstreetmap-api",
+      "bing-maps-api",
+      "google-maps-api",
+      "mapquest-api",
+      "mapbox-api",
+      "google-earth-engine-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1
+  },
+  {
+    "case_id": 800,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "google-maps-geocoding-api",
+      "google-maps-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 811,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "google-maps-geolocation"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 860,
+    "ground_truth": [
+      "whois",
+      "seomoz"
+    ],
+    "predictions": [
+      "index-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 2
+  },
+  {
+    "case_id": 1068,
+    "ground_truth": [
+      "movie-database-tmdb",
+      "lastfm"
+    ],
+    "predictions": [
+      "movie-database-api",
+      "music-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2
+  },
+  {
+    "case_id": 1213,
+    "ground_truth": [
+      "yelp-fusion",
+      "google-maps",
+      "google-geocoding",
+      "yipit",
+      "citygrid",
+      "yahoo-local-search"
+    ],
+    "predictions": [
+      "here-geocoding-search-api",
+      "tripadvisor-api",
+      "google-maps-geocoding-api",
+      "lyft-api",
+      "openstreetmap-nominatim-api",
+      "skyscanner-api",
+      "openweathermap-api",
+      "uber-api",
+      "expedia-rapid-api",
+      "google-places-api",
+      "yelp-fusion-api",
+      "amadeus-travel-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 12,
+    "fn": 6
+  },
+  {
+    "case_id": 1262,
+    "ground_truth": [
+      "twitter"
+    ],
+    "predictions": [
+      "roslyn",
+      "microsoft-codeanalysis"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 1286,
+    "ground_truth": [
+      "weather-central"
+    ],
+    "predictions": [
+      "accuweather",
+      "weatherstack",
+      "open-meteo",
+      "weatherapi-com",
+      "openweathermap",
+      "weatherbit",
+      "weatherapi-formerly-weatherstack",
+      "weatherapi-open-meteo",
+      "climacell-tomorrow-io",
+      "visual-crossing-weather"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 1
+  },
+  {
+    "case_id": 1307,
+    "ground_truth": [
+      "sensis-business-search",
+      "yelp-fusion"
+    ],
+    "predictions": [
+      "yelp-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 2
+  },
+  {
+    "case_id": 1337,
+    "ground_truth": [
+      "twitter"
+    ],
+    "predictions": [
+      "post-api-auth-login",
+      "get-api-users-me",
+      "post-api-auth-register",
+      "put-api-users-me"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 1
+  },
+  {
+    "case_id": 1366,
+    "ground_truth": [
+      "google-maps",
+      "twitter"
+    ],
+    "predictions": [
+      "ticketmaster-ticketing-order-refund-status-api",
+      "ticketmaster-ticketing-order-refund-history-api",
+      "ticketapi-com",
+      "sendgrid-api",
+      "ticketmaster-ticketing-api",
+      "ticketmaster-ticketing-orders-api",
+      "google-places-api",
+      "ticketmaster-ticketing-order-refund-api",
+      "ticketmaster-ticketing-order-history-api",
+      "eventbrite-public-api",
+      "mapbox-api",
+      "ticketmaster-ticketing-order-cancellation-api",
+      "ticketmaster-ticketing-order-status-api",
+      "ticketmaster-ticket-api",
+      "ticketmaster-discovery-api",
+      "google-maps-api",
+      "firebase-cloud-messaging-api",
+      "ticketmaster-ticketing-order-confirmation-api",
+      "seatgeek-search-api",
+      "stripe-api",
+      "ticketmaster-ticketing-order-refund-cancellation-api",
+      "ticketmaster-venue-api",
+      "ticketmaster-ticketing-order-refund-confirmation-api",
+      "openweathermap-api",
+      "ticketmaster-ticketing-events-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 25,
+    "fn": 2
+  },
+  {
+    "case_id": 1489,
+    "ground_truth": [
+      "florist-one"
+    ],
+    "predictions": [
+      "bcrypt",
+      "sqlalchemy",
+      "werkzeug-security",
+      "sequelize"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 1
+  },
+  {
+    "case_id": 1491,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "fetch",
+      "abortcontroller"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 1854,
+    "ground_truth": [
+      "twilio-sms",
+      "twilio"
+    ],
+    "predictions": [
+      "create-index",
+      "create-table-as-select",
+      "insert-into-select",
+      "alter-table",
+      "select-into"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 2
+  },
+  {
+    "case_id": 1866,
+    "ground_truth": [
+      "twilio-sms",
+      "twilio"
+    ],
+    "predictions": [
+      "create-temp-table",
+      "drop-table",
+      "create-table-as",
+      "select-into",
+      "create-temporary-table"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 2
+  },
+  {
+    "case_id": 1898,
+    "ground_truth": [
+      "twilio"
+    ],
+    "predictions": [
+      "1and1"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 2282,
+    "ground_truth": [
+      "google-gmail-oauth"
+    ],
+    "predictions": [
+      "date"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 2344,
+    "ground_truth": [
+      "twilio-sms",
+      "twilio"
+    ],
+    "predictions": [
+      "twilio-rest-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 2
+  },
+  {
+    "case_id": 2484,
+    "ground_truth": [
+      "tropo-scripting",
+      "twitter"
+    ],
+    "predictions": [
+      "twitter-api",
+      "twilio-api",
+      "slack-api",
+      "gmail-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 2
+  },
+  {
+    "case_id": 2491,
+    "ground_truth": [
+      "zazzle"
+    ],
+    "predictions": [
+      "order-management-api",
+      "payment-processing-api",
+      "image-upload-api",
+      "image-processing-api",
+      "inventory-management-api",
+      "custom-product-api",
+      "shipping-label-api",
+      "analytics-api",
+      "image-storage-api",
+      "user-profile-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 1
+  },
+  {
+    "case_id": 2516,
+    "ground_truth": [
+      "amazon-product-advertising"
+    ],
+    "predictions": [
+      "amazon-product-advertising-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 2540,
+    "ground_truth": [
+      "google-latitude",
+      "tropo-scripting",
+      "google-gadgets"
+    ],
+    "predictions": [
+      "kelley-blue-book",
+      "cargurus",
+      "autotrader",
+      "nada-guides",
+      "autocheck",
+      "carfax",
+      "carmax",
+      "edmunds"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 8,
+    "fn": 3
+  },
+  {
+    "case_id": 2598,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "shippo-api",
+      "shipengine-api",
+      "ups-developer-kit",
+      "postmates-api",
+      "easypost-api",
+      "usps-web-tools",
+      "fedex-developer-account"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1
+  },
+  {
+    "case_id": 2599,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "coinpaprika",
+      "kraken",
+      "coinmarketcap",
+      "bitstamp",
+      "coingecko",
+      "bitfinex",
+      "coincap",
+      "huobi",
+      "gemini",
+      "binance",
+      "bittrex",
+      "okx",
+      "coinapi"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 13,
+    "fn": 1
+  },
+  {
+    "case_id": 2664,
+    "ground_truth": [
+      "twilio"
+    ],
+    "predictions": [
+      "tropo-scripting"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 2714,
+    "ground_truth": [
+      "google-maps",
+      "foursquare",
+      "twitter"
+    ],
+    "predictions": [
+      "google-maps-geocoding-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 3
+  },
+  {
+    "case_id": 2780,
+    "ground_truth": [
+      "box"
+    ],
+    "predictions": [
+      "https-upload-box-com-api-2-0-files-content"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 2918,
+    "ground_truth": [
+      "google-cloud-translation",
+      "google-app-engine",
+      "twitter"
+    ],
+    "predictions": [
+      "find"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 3
+  },
+  {
+    "case_id": 3005,
+    "ground_truth": [
+      "twitter",
+      "twilio"
+    ],
+    "predictions": [
+      "firebase-hosting",
+      "passport-js",
+      "vercel-serverless-functions",
+      "supabase-realtime",
+      "jitsi-meet",
+      "twilio-programmable-video",
+      "vercel",
+      "daily-co",
+      "netlify",
+      "firebase-realtime-database",
+      "firebase-auth",
+      "postgresql-on-heroku",
+      "cloud-functions-for-firebase",
+      "agora",
+      "auth0",
+      "firestore",
+      "firebase-cloud-messaging",
+      "mongodb-atlas",
+      "aws-lambda"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 19,
+    "fn": 2
+  },
+  {
+    "case_id": 3045,
+    "ground_truth": [
+      "box"
+    ],
+    "predictions": [
+      "box-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 3115,
+    "ground_truth": [
+      "bing-maps"
+    ],
+    "predictions": [
+      "noaa-climate-data-online-cdo-api",
+      "noaa-tides-currents-api",
+      "noaa-national-weather-service-nws-api",
+      "noaa-national-centers-for-environmental-information-ncei-api",
+      "noaa-national-hurricane-center-nhc-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 1
+  },
+  {
+    "case_id": 3166,
+    "ground_truth": [
+      "google-maps",
+      "twitter"
+    ],
+    "predictions": [
+      "roads-api",
+      "distance-matrix-api",
+      "directions-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 2
+  },
+  {
+    "case_id": 3188,
+    "ground_truth": [
+      "google-maps",
+      "noaa-national-weather-service-nws-ndfd-soap",
+      "strikeiron-ip-address-lookup",
+      "panoramio"
+    ],
+    "predictions": [
+      "tidespy-tide-charts-best-fishing-times"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 4
+  },
+  {
+    "case_id": 3332,
+    "ground_truth": [
+      "wikipedia",
+      "google-maps",
+      "google-adwords",
+      "panoramio"
+    ],
+    "predictions": [
+      "mapbox-geocoding-api",
+      "tomtom-search-api",
+      "openstreetmap-nominatim",
+      "geoapify-places-api",
+      "bing-maps-locations-api",
+      "opencage-geocoder",
+      "google-places-api",
+      "here-geocoding-search-api",
+      "locationiq",
+      "danish-geodata-api-geodata-dk"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 4
+  },
+  {
+    "case_id": 3413,
+    "ground_truth": [
+      "getglue"
+    ],
+    "predictions": [
+      "mapbox",
+      "segment",
+      "algolia",
+      "shopify",
+      "stripe",
+      "auth0",
+      "agora",
+      "aws-ec2-s3",
+      "openai-chatgpt",
+      "twilio"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 1
+  },
+  {
+    "case_id": 3539,
+    "ground_truth": [
+      "google-analytics-managment"
+    ],
+    "predictions": [
+      "google-maps-geocoding-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 3610,
+    "ground_truth": [
+      "wikipedia",
+      "geonames"
+    ],
+    "predictions": [
+      "cleartrip"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 2
+  },
+  {
+    "case_id": 3668,
+    "ground_truth": [
+      "betfair"
+    ],
+    "predictions": [
+      "https-api-bittrex-com-v3-markets-marketsymbol-ticker"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 3798,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "google-maps-distance-matrix",
+      "bing-maps-distance-matrix"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 3824,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "tomtom-maps-sdk",
+      "ups-developer-kit",
+      "australia-post-api",
+      "pirate-ship",
+      "bing-maps",
+      "stamps-com",
+      "royal-mail-api",
+      "usps-web-tools",
+      "shipengine",
+      "fedex-web-services",
+      "here-technologies",
+      "google-maps-platform",
+      "mapbox",
+      "esri-arcgis-online",
+      "openstreetmap-osm-nominatim",
+      "shipstation",
+      "easypost",
+      "dhl-api",
+      "canada-post-api",
+      "shippo"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 20,
+    "fn": 1
+  },
+  {
+    "case_id": 3825,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "transit",
+      "nextbus"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 3942,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "moviepilot",
+      "google-maps-geolocation"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 4034,
+    "ground_truth": [
+      "friendfeed"
+    ],
+    "predictions": [
+      "friendfeed-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 4075,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "google-places-api-web-service",
+      "google-maps-geocoding-api",
+      "google-maps-javascript-api",
+      "google-places-api-javascript-library",
+      "google-maps-geolocation-api",
+      "google-maps-directions-api",
+      "google-street-view-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1
+  },
+  {
+    "case_id": 4164,
+    "ground_truth": [
+      "geonames"
+    ],
+    "predictions": [
+      "get-https-graph-microsoft-com-v1-0-users-filter-usertype-eq-member",
+      "get-https-graph-microsoft-com-v1-0-users"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 4279,
+    "ground_truth": [
+      "flickr"
+    ],
+    "predictions": [
+      "flickr-photos-getinfo",
+      "flickr-photos-getsizes",
+      "flickr-people-getinfo"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 4337,
+    "ground_truth": [
+      "amazon-ec2",
+      "amazon-s3"
+    ],
+    "predictions": [
+      "dir-s",
+      "for-r"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2
+  },
+  {
+    "case_id": 4594,
+    "ground_truth": [
+      "amazon-product-advertising"
+    ],
+    "predictions": [
+      "amazon-ecommerce-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 4605,
+    "ground_truth": [
+      "amazon-product-advertising"
+    ],
+    "predictions": [
+      "hasura",
+      "aws-s3",
+      "algolia",
+      "cloudinary",
+      "stripe",
+      "google-cloud-storage",
+      "supabase",
+      "redis",
+      "redis-labs",
+      "aws-elasticache",
+      "heroku-postgres",
+      "firebase-auth",
+      "graphql",
+      "sendgrid",
+      "postgresql",
+      "apollo-server",
+      "auth0",
+      "twilio"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 18,
+    "fn": 1
+  },
+  {
+    "case_id": 4663,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "google-maps-geocoding",
+      "google-maps-geolocation"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 4670,
+    "ground_truth": [
+      "amazon-ec2"
+    ],
+    "predictions": [
+      "deepai-text-classification",
+      "openai-codex",
+      "deepai-sentiment-analysis",
+      "hugging-face-inference-api",
+      "stable-diffusion",
+      "deepai-image-to-text",
+      "openai-gpt-3-gpt-4",
+      "openai-clip",
+      "deepai-text-to-image",
+      "deepai-text-to-speech",
+      "deepai-image-super-resolution",
+      "deepai-text-generation",
+      "deepai-image-colorization",
+      "deepai-image-captioning",
+      "deepai-image-classification",
+      "openai-dall-e-2",
+      "deepai-image-to-image",
+      "deepai-text-summarization",
+      "eleutherai-gpt-neo-gpt-j",
+      "openai-whisper",
+      "hugging-face-transformers-node",
+      "replicate-api",
+      "deepai-speech-to-text"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 23,
+    "fn": 1
+  },
+  {
+    "case_id": 4675,
+    "ground_truth": [
+      "google-gadgets"
+    ],
+    "predictions": [
+      "themealdb",
+      "spoonacular"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 4964,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "databasemetadata-gettables"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 5035,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "linkedin",
+      "indeed",
+      "google-maps-geolocation",
+      "salary-com"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 1
+  },
+  {
+    "case_id": 5105,
+    "ground_truth": [
+      "youtube",
+      "google-maps"
+    ],
+    "predictions": [
+      "google-maps-geocoding-api",
+      "google-maps-static-maps-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2
+  },
+  {
+    "case_id": 5114,
+    "ground_truth": [
+      "strikeiron-sms-mobile-marketing"
+    ],
+    "predictions": [
+      "tiktok",
+      "google-ads",
+      "meta"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 5200,
+    "ground_truth": [
+      "google-maps",
+      "opendoar"
+    ],
+    "predictions": [
+      "google-maps-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 2
+  },
+  {
+    "case_id": 5202,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "google-maps-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 5236,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "google-maps-places-api",
+      "google-maps-static-maps-api",
+      "google-maps-geocoding-api",
+      "google-maps-javascript-api",
+      "google-maps-geolocation-api",
+      "google-maps-directions-api",
+      "google-maps-street-view-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1
+  },
+  {
+    "case_id": 5238,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "google-maps-places-api",
+      "google-maps-static-maps-api",
+      "google-maps-time-zone-api",
+      "google-maps-geocoding-api",
+      "google-maps-javascript-api",
+      "google-maps-roads-api",
+      "google-maps-elevation-api",
+      "google-maps-geolocation-api",
+      "google-maps-directions-api",
+      "google-maps-street-view-api",
+      "google-maps-distance-matrix-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 11,
+    "fn": 1
+  },
+  {
+    "case_id": 5251,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "plaid-api",
+      "openstreetmap-nominatim",
+      "spotify-charts-api",
+      "yahoo-finance-api-via-rapidapi",
+      "amadeus-self-service-apis",
+      "pexels-api",
+      "magento-2-rest-api",
+      "nest-api",
+      "google-cloud-apis",
+      "steam-web-api",
+      "okta-api",
+      "skyscanner-api",
+      "shopify-admin-api",
+      "heroku-platform-api",
+      "instagram-basic-display-api",
+      "digitalocean-api",
+      "google-maps-geocoding-api",
+      "socket-io",
+      "facebook-graph-api",
+      "xbox-live-api",
+      "tiktok-api",
+      "pusher-api",
+      "coursera-api",
+      "reddit-api",
+      "bitbucket-api",
+      "edx-api",
+      "auth0-api",
+      "paypal-rest-api",
+      "amplitude-api",
+      "google-cloud-ai-apis",
+      "flickr-api",
+      "weatherapi-com",
+      "gitlab-api",
+      "mapbox-api",
+      "philips-hue-api",
+      "ip2location-api",
+      "the-movie-database-tmdb-api",
+      "mailgun-api",
+      "playstation-network-api",
+      "hotjar-api",
+      "youtube-data-api",
+      "ipstack-api",
+      "telegram-bot-api",
+      "booking-com-affiliate-partner-api",
+      "box-api",
+      "ip-geolocation-api-ipinfo-io",
+      "algolia-api",
+      "square-api",
+      "google-analytics-data-api",
+      "alpha-vantage-api",
+      "tenor-api",
+      "ibm-watson-api",
+      "rest-countries-api",
+      "guardian-api",
+      "vimeo-api",
+      "elasticsearch-rest-api",
+      "microsoft-azure-rest-api",
+      "iex-cloud-api",
+      "fitbit-web-api",
+      "unsplash-api",
+      "google-fit-api",
+      "eventbrite-api",
+      "aws-sdk-api",
+      "open-exchange-rates-api",
+      "openweathermap-api",
+      "open-library-api",
+      "youtube-live-streaming-api",
+      "github-rest-api",
+      "mixpanel-api",
+      "accuweather-api",
+      "amazon-ses-api",
+      "meetup-api",
+      "sendgrid-api",
+      "discord-api",
+      "apple-healthkit-api",
+      "nytimes-developer-api",
+      "khan-academy-api",
+      "twitch-api",
+      "microsoft-azure-cognitive-search-api",
+      "timezonedb-api",
+      "linkedin-api",
+      "slack-api",
+      "spotify-web-api",
+      "weatherstack-api",
+      "google-drive-api",
+      "newsapi-org",
+      "giphy-api",
+      "dropbox-api",
+      "currencylayer-api",
+      "stripe-api",
+      "openai-api",
+      "apple-music-api",
+      "woocommerce-rest-api",
+      "amazon-alexa-skills-kit",
+      "microsoft-azure-ad-graph-api",
+      "twilio-programmable-messaging",
+      "twitter-api-v2"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 97,
+    "fn": 1
+  },
+  {
+    "case_id": 5331,
+    "ground_truth": [
+      "google-maps",
+      "indeed"
+    ],
+    "predictions": [
+      "openstreetmap-overpass-api",
+      "mapbox-geocoding-api",
+      "mapquest-directions-api",
+      "google-maps-geocoding-api",
+      "tomtom-search-api",
+      "openstreetmap-nominatim",
+      "tomtom-routing-api",
+      "bing-maps-rest-services",
+      "arcgis-routing-service",
+      "mapbox-directions-api",
+      "google-maps-directions-api",
+      "mapquest-geocoding-api",
+      "here-geocoding-search-api",
+      "arcgis-geocoding-service",
+      "here-routing-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 15,
+    "fn": 2
+  },
+  {
+    "case_id": 5496,
+    "ground_truth": [
+      "netvibes"
+    ],
+    "predictions": [
+      "google-shopping-api",
+      "google-maps-roads-api",
+      "reddit-api",
+      "google-maps-geolocation-api",
+      "google-places-api",
+      "ebay-finding-api",
+      "openstreetmap-nominatim-api",
+      "bing-web-search-api",
+      "google-custom-search-api",
+      "flickr-api",
+      "duckduckgo-instant-answer-api",
+      "google-maps-places-api",
+      "pinterest-api",
+      "twitter-search-api",
+      "google-maps-elevation-api",
+      "google-maps-directions-api",
+      "foursquare-places-api",
+      "google-maps-distance-matrix-api",
+      "google-books-api",
+      "amazon-product-advertising-api",
+      "instagram-basic-display-api",
+      "google-maps-geocoding-api",
+      "yahoo-search-web-services",
+      "google-news-api",
+      "yelp-fusion-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 25,
+    "fn": 1
+  },
+  {
+    "case_id": 5580,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "foursquare-api",
+      "openstreetmap-osm-overpass-api",
+      "openrouteservice-ors",
+      "mapbox-directions-api",
+      "graphhopper",
+      "city-specific-open-data-portals",
+      "google-places-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1
+  },
+  {
+    "case_id": 5584,
+    "ground_truth": [
+      "youtube",
+      "google-maps"
+    ],
+    "predictions": [
+      "tree",
+      "find"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2
+  },
+  {
+    "case_id": 5659,
+    "ground_truth": [
+      "openlayers"
+    ],
+    "predictions": [
+      "icameradevicemetadata",
+      "icameradevicecontrol",
+      "icameradevice",
+      "icameradevicestreamcallback",
+      "icameradevicestreamcontrol",
+      "icameradevicestream",
+      "icameradevicecallback",
+      "icameradevicestreammetadata",
+      "icameradevicestreambuffer"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 9,
+    "fn": 1
+  },
+  {
+    "case_id": 5750,
+    "ground_truth": [
+      "google-maps",
+      "flickr"
+    ],
+    "predictions": [
+      "google-maps-api",
+      "news-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2
+  },
+  {
+    "case_id": 5924,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "mapbox",
+      "accuweather",
+      "google-maps-api",
+      "thesportsdb",
+      "openweathermap-api",
+      "weatherapi",
+      "api-football",
+      "sports-open-data-api",
+      "openstreetmap"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 9,
+    "fn": 1
+  },
+  {
+    "case_id": 6002,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "places-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 6063,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "google-maps-static-api",
+      "google-maps-places-api",
+      "google-maps-javascript-api",
+      "google-maps-geocoding-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 1
+  },
+  {
+    "case_id": 6067,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "unesco-institute-for-statistics-uis-api",
+      "world-bank-open-data",
+      "us-census-bureau-api",
+      "oecd-stat-api",
+      "eurostat-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 1
+  },
+  {
+    "case_id": 6106,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "google-maps-static-api",
+      "leaflet",
+      "google-maps-javascript-api",
+      "us-census-bureau-api",
+      "mapbox-gl-js",
+      "mapbox-static-images-api",
+      "openstreetmap-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1
+  },
+  {
+    "case_id": 6225,
+    "ground_truth": [
+      "youtube",
+      "google-maps",
+      "flickr"
+    ],
+    "predictions": [
+      "tvdb",
+      "tvmaze"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 3
+  },
+  {
+    "case_id": 6255,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "opentripplanner",
+      "gtfs-rt-feeds",
+      "google-maps-directions-api",
+      "openmobilitydata",
+      "nextbus-api",
+      "transit-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 6,
+    "fn": 1
+  },
+  {
+    "case_id": 6302,
+    "ground_truth": [
+      "google-maps",
+      "flickr"
+    ],
+    "predictions": [
+      "flickr-api",
+      "google-maps-api"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2
+  }
+]

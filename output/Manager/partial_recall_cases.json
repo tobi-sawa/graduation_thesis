@@ -1,0 +1,249 @@
+[
+  {
+    "case_id": 1213,
+    "ground_truth": [
+      "google_geocoding",
+      "citygrid",
+      "yipit",
+      "yahoo_local_search",
+      "google_maps",
+      "yelp_fusion"
+    ],
+    "predictions": [
+      "groupon",
+      "active",
+      "yelp_fusion"
+    ],
+    "precision": 0.3333333333333333,
+    "recall": 0.16666666666666666,
+    "f1": 0.2222222222222222,
+    "tp": 1,
+    "fp": 2,
+    "fn": 5
+  },
+  {
+    "case_id": 1854,
+    "ground_truth": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "predictions": [
+      "twilio",
+      "antideo",
+      "google_calendar",
+      "pryv"
+    ],
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1": 0.3333333333333333,
+    "tp": 1,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 1869,
+    "ground_truth": [
+      "facebook",
+      "twilio_sms",
+      "twilio"
+    ],
+    "predictions": [
+      "geoloqi",
+      "pushover_message",
+      "twilio",
+      "sendgrid",
+      "facebook_graph"
+    ],
+    "precision": 0.2,
+    "recall": 0.3333333333333333,
+    "f1": 0.25,
+    "tp": 1,
+    "fp": 4,
+    "fn": 2
+  },
+  {
+    "case_id": 1892,
+    "ground_truth": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "predictions": [
+      "twilio"
+    ],
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 0,
+    "fn": 1
+  },
+  {
+    "case_id": 2416,
+    "ground_truth": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "predictions": [
+      "twilio_sms",
+      "cloudmine",
+      "servicem8",
+      "mogreet"
+    ],
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1": 0.3333333333333333,
+    "tp": 1,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 2714,
+    "ground_truth": [
+      "google_maps",
+      "foursquare",
+      "twitter"
+    ],
+    "predictions": [
+      "twitter_streaming",
+      "earth911_search",
+      "foursquare",
+      "contentful",
+      "garmin_communicator_plugin",
+      "plancast"
+    ],
+    "precision": 0.16666666666666666,
+    "recall": 0.3333333333333333,
+    "f1": 0.2222222222222222,
+    "tp": 1,
+    "fp": 5,
+    "fn": 2
+  },
+  {
+    "case_id": 4337,
+    "ground_truth": [
+      "amazon_ec2",
+      "amazon_s3"
+    ],
+    "predictions": [
+      "amazon_ec2",
+      "google_single_signon",
+      "scalarium"
+    ],
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 4828,
+    "ground_truth": [
+      "flickr",
+      "dbpedia"
+    ],
+    "predictions": [
+      "parsebot",
+      "google_bigquery",
+      "amazon_dynamodb",
+      "flickr"
+    ],
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1": 0.3333333333333333,
+    "tp": 1,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 5105,
+    "ground_truth": [
+      "google_maps",
+      "youtube"
+    ],
+    "predictions": [
+      "youtube",
+      "google_maps_places"
+    ],
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 5200,
+    "ground_truth": [
+      "google_maps",
+      "opendoar"
+    ],
+    "predictions": [
+      "google_geocoding",
+      "vast",
+      "looker",
+      "cloudmine",
+      "google_maps"
+    ],
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1": 0.28571428571428575,
+    "tp": 1,
+    "fp": 4,
+    "fn": 1
+  },
+  {
+    "case_id": 5331,
+    "ground_truth": [
+      "indeed",
+      "google_maps"
+    ],
+    "predictions": [
+      "indeed",
+      "google_custom_search",
+      "garmin_communicator_plugin"
+    ],
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 5584,
+    "ground_truth": [
+      "google_maps",
+      "youtube"
+    ],
+    "predictions": [
+      "untappd",
+      "google_maps",
+      "brandify"
+    ],
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 5657,
+    "ground_truth": [
+      "amazon_product_advertising",
+      "youtube"
+    ],
+    "predictions": [
+      "youtube",
+      "google_cloud_translation",
+      "mixpanel"
+    ],
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 2,
+    "fn": 1
+  }
+]

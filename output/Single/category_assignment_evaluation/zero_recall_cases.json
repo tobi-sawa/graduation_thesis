@@ -1,0 +1,2351 @@
+[
+  {
+    "case_id": 31,
+    "mashup_name": "vacationic",
+    "ground_truth_apis": [
+      "flickr",
+      "google_ad_manager",
+      "google_adsense",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "advertising",
+      "photos",
+      "video"
+    ],
+    "recommended_categories": [
+      "authentication",
+      "car rental",
+      "flight",
+      "hotel",
+      "mapping",
+      "notifications",
+      "payment",
+      "reviews"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 8,
+    "fn": 3,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "authentication",
+          "car rental",
+          "flight",
+          "hotel",
+          "mapping",
+          "notifications",
+          "payment",
+          "reviews"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 76,
+    "mashup_name": "website-gradercom",
+    "ground_truth_apis": [
+      "google_pagespeed_insights"
+    ],
+    "ground_truth_categories": [
+      "performance"
+    ],
+    "recommended_categories": [
+      "auth",
+      "database",
+      "image analysis",
+      "location",
+      "maps & navigation",
+      "messaging",
+      "payments",
+      "reservation",
+      "search"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 9,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "auth",
+          "database",
+          "image analysis",
+          "location",
+          "maps & navigation",
+          "messaging",
+          "payments",
+          "reservation",
+          "search"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 535,
+    "mashup_name": "linda",
+    "ground_truth_apis": [
+      "bing",
+      "open_movie_database",
+      "opencnam",
+      "wikipedia",
+      "wolfram_alpha",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "reference",
+      "search",
+      "telephony",
+      "video"
+    ],
+    "recommended_categories": [
+      "air quality",
+      "geocoding",
+      "ip geolocation",
+      "push notifications",
+      "weather"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 4,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "air quality",
+          "geocoding",
+          "ip geolocation",
+          "push notifications",
+          "weather"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 543,
+    "mashup_name": "scoopmap.net",
+    "ground_truth_apis": [
+      "dbpedia",
+      "guardian",
+      "new_york_times_article_search",
+      "thomson_reuters_open_calais"
+    ],
+    "ground_truth_categories": [
+      "news_services",
+      "tagging",
+      "wiki"
+    ],
+    "recommended_categories": [
+      "location",
+      "news"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 3,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "location",
+          "news"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 584,
+    "mashup_name": "bills-news",
+    "ground_truth_apis": [
+      "govtrackus",
+      "opensecrets"
+    ],
+    "ground_truth_categories": [
+      "government"
+    ],
+    "recommended_categories": [
+      "3d plotting",
+      "data visualization",
+      "matplotlib",
+      "numpy"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "3d plotting",
+          "data visualization",
+          "matplotlib",
+          "numpy"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 782,
+    "mashup_name": "wild-food-map",
+    "ground_truth_apis": [
+      "google_maps",
+      "instagram_graph"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "photos"
+    ],
+    "recommended_categories": [
+      "android sdk",
+      "cloud",
+      "geocoding api",
+      "geolocation api",
+      "ios sdk",
+      "javascript api",
+      "places api"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "android sdk",
+          "cloud",
+          "geocoding api",
+          "geolocation api",
+          "ios sdk",
+          "javascript api",
+          "places api"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 860,
+    "mashup_name": "realwebstats",
+    "ground_truth_apis": [
+      "seomoz",
+      "whois"
+    ],
+    "ground_truth_categories": [
+      "domains",
+      "search"
+    ],
+    "recommended_categories": [
+      "google search console"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "google search console"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 992,
+    "mashup_name": "ccquick",
+    "ground_truth_apis": [
+      "constantcontact"
+    ],
+    "ground_truth_categories": [
+      "email"
+    ],
+    "recommended_categories": [
+      "contacts",
+      "sales",
+      "tools"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "contacts",
+          "sales",
+          "tools"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1213,
+    "mashup_name": "actionzap",
+    "ground_truth_apis": [
+      "citygrid",
+      "google_geocoding",
+      "google_maps",
+      "yahoo_local_search",
+      "yelp_fusion",
+      "yipit"
+    ],
+    "ground_truth_categories": [
+      "ecommerce",
+      "mapping",
+      "recommendations",
+      "search"
+    ],
+    "recommended_categories": [
+      "travel & transportation"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 4,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "travel & transportation"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1262,
+    "mashup_name": "tweeting-earth",
+    "ground_truth_apis": [
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "social"
+    ],
+    "recommended_categories": [
+      "development tools",
+      "nuget packages",
+      "runtime"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "development tools",
+          "nuget packages",
+          "runtime"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1286,
+    "mashup_name": "myweather",
+    "ground_truth_apis": [
+      "weather_central"
+    ],
+    "ground_truth_categories": [
+      "weather"
+    ],
+    "recommended_categories": [],
+    "num_tasks": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 1,
+    "tasks": []
+  },
+  {
+    "case_id": 1307,
+    "mashup_name": "aussie-pubcrawl",
+    "ground_truth_apis": [
+      "sensis_business_search",
+      "yelp_fusion"
+    ],
+    "ground_truth_categories": [
+      "recommendations",
+      "reference"
+    ],
+    "recommended_categories": [
+      "search",
+      "social"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "search",
+          "social"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1337,
+    "mashup_name": "malva-weather",
+    "ground_truth_apis": [
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "social"
+    ],
+    "recommended_categories": [
+      "api endpoints",
+      "database schema changes",
+      "front_end form validation",
+      "optional enhancements",
+      "summary checklist"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "api endpoints",
+          "database schema changes",
+          "front_end form validation",
+          "optional enhancements",
+          "summary checklist"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1366,
+    "mashup_name": "flowd",
+    "ground_truth_apis": [
+      "google_maps",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "social"
+    ],
+    "recommended_categories": [
+      "event search",
+      "maps",
+      "notifications",
+      "payments",
+      "places",
+      "social features",
+      "ticketing",
+      "venue info",
+      "weather"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 9,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "event search",
+          "maps",
+          "notifications",
+          "payments",
+          "places",
+          "social features",
+          "ticketing",
+          "venue info",
+          "weather"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1489,
+    "mashup_name": "floral-gifts",
+    "ground_truth_apis": [
+      "florist_one"
+    ],
+    "ground_truth_categories": [
+      "ecommerce"
+    ],
+    "recommended_categories": [
+      "authentication",
+      "user management"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "authentication",
+          "user management"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1491,
+    "mashup_name": "qmpeople-places",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "abortcontroller",
+      "data fetching",
+      "react hooks"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "abortcontroller",
+          "data fetching",
+          "react hooks"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1698,
+    "mashup_name": "media-street-apps",
+    "ground_truth_apis": [
+      "yelp_fusion"
+    ],
+    "ground_truth_categories": [
+      "recommendations"
+    ],
+    "recommended_categories": [
+      "localization"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "localization"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1854,
+    "mashup_name": "cloudient-personal-digital-assistant",
+    "ground_truth_apis": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "ground_truth_categories": [
+      "messaging",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "mysql",
+      "oracle",
+      "postgresql",
+      "sql server",
+      "sqlite"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "mysql",
+          "oracle",
+          "postgresql",
+          "sql server",
+          "sqlite"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1866,
+    "mashup_name": "decisions-heroes-0",
+    "ground_truth_apis": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "ground_truth_categories": [
+      "messaging",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "mysql",
+      "postgresql",
+      "sql server",
+      "sqlite"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "mysql",
+          "postgresql",
+          "sql server",
+          "sqlite"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1898,
+    "mashup_name": "buzzdata",
+    "ground_truth_apis": [
+      "twilio"
+    ],
+    "ground_truth_categories": [
+      "telephony"
+    ],
+    "recommended_categories": [
+      "data",
+      "social",
+      "visualizations"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "data",
+          "social",
+          "visualizations"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2099,
+    "mashup_name": "infinilla",
+    "ground_truth_apis": [
+      "dribbble",
+      "google_app_engine"
+    ],
+    "ground_truth_categories": [
+      "other",
+      "tools"
+    ],
+    "recommended_categories": [
+      "humor",
+      "photos",
+      "social"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "humor",
+          "photos",
+          "social"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2267,
+    "mashup_name": "google-maps-weather-mashup",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "map",
+      "weather"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "map",
+          "weather"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2282,
+    "mashup_name": "0boxer",
+    "ground_truth_apis": [
+      "google_gmail_oauth"
+    ],
+    "ground_truth_categories": [
+      "email"
+    ],
+    "recommended_categories": [
+      "shell commands"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "shell commands"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2344,
+    "mashup_name": "yaptap",
+    "ground_truth_apis": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "ground_truth_categories": [
+      "messaging",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "twilio"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "twilio"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2540,
+    "mashup_name": "moveable-weather",
+    "ground_truth_apis": [
+      "google_gadgets",
+      "google_latitude",
+      "tropo_scripting"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "telephony",
+      "widgets"
+    ],
+    "recommended_categories": [
+      "budget",
+      "certified pre_owned",
+      "financing options",
+      "inspection & test drive",
+      "market value research",
+      "mechanic inspection",
+      "model & trim selection",
+      "negotiation",
+      "paperwork",
+      "price match tools",
+      "private sellers",
+      "search",
+      "timing",
+      "vehicle history report"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 14,
+    "fn": 3,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "budget",
+          "certified pre_owned",
+          "financing options",
+          "inspection & test drive",
+          "market value research",
+          "mechanic inspection",
+          "model & trim selection",
+          "negotiation",
+          "paperwork",
+          "price match tools",
+          "private sellers",
+          "search",
+          "timing",
+          "vehicle history report"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2598,
+    "mashup_name": "australia-post-tracking",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "easypost",
+      "fedex",
+      "postmates",
+      "shipengine",
+      "shippo",
+      "ups",
+      "usps"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "easypost",
+          "fedex",
+          "postmates",
+          "shipengine",
+          "shippo",
+          "ups",
+          "usps"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2599,
+    "mashup_name": "canada-post-tracking",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "cryptocurrency exchange apis",
+      "real_time price data"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "cryptocurrency exchange apis",
+          "real_time price data"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2664,
+    "mashup_name": "myphonetap",
+    "ground_truth_apis": [
+      "twilio"
+    ],
+    "ground_truth_categories": [
+      "telephony"
+    ],
+    "recommended_categories": [],
+    "num_tasks": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 1,
+    "tasks": []
+  },
+  {
+    "case_id": 2714,
+    "mashup_name": "geosay-super-local-information",
+    "ground_truth_apis": [
+      "foursquare",
+      "google_maps",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "social"
+    ],
+    "recommended_categories": [
+      "geocoding"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "geocoding"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2780,
+    "mashup_name": "activeprint-and-box.net",
+    "ground_truth_apis": [
+      "box"
+    ],
+    "ground_truth_categories": [
+      "content"
+    ],
+    "recommended_categories": [
+      "box api",
+      "file upload"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "box api",
+          "file upload"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2918,
+    "mashup_name": "locafollow",
+    "ground_truth_apis": [
+      "google_app_engine",
+      "google_cloud_translation",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "social",
+      "tools",
+      "translation"
+    ],
+    "recommended_categories": [
+      "file system operations",
+      "shell scripting"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 3,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "file system operations",
+          "shell scripting"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3005,
+    "mashup_name": "groupcall",
+    "ground_truth_apis": [
+      "twilio",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "social",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "backend logic",
+      "database (optional)",
+      "front‑end hosting",
+      "push notifications",
+      "realtime chat data",
+      "twitter authentication",
+      "voice / video"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "backend logic",
+          "database (optional)",
+          "front‑end hosting",
+          "push notifications",
+          "realtime chat data",
+          "twitter authentication",
+          "voice / video"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3045,
+    "mashup_name": "fuze-meeting-and-box.net",
+    "ground_truth_apis": [
+      "box"
+    ],
+    "ground_truth_categories": [
+      "content"
+    ],
+    "recommended_categories": [
+      "collaboration",
+      "enterprise",
+      "meetings"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "collaboration",
+          "enterprise",
+          "meetings"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3115,
+    "mashup_name": "hurricane-watch-visualization",
+    "ground_truth_apis": [
+      "bing_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "climate data",
+      "current weather conditions",
+      "historical hurricane data",
+      "oceanographic context",
+      "real‑time hurricane data"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "climate data",
+          "current weather conditions",
+          "historical hurricane data",
+          "oceanographic context",
+          "real‑time hurricane data"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3166,
+    "mashup_name": "darwin-bus-map",
+    "ground_truth_apis": [
+      "google_maps",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "social"
+    ],
+    "recommended_categories": [
+      "directions",
+      "distance matrix",
+      "roads"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "directions",
+          "distance matrix",
+          "roads"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3188,
+    "mashup_name": "tidespy-tide-charts-best-fishing-times",
+    "ground_truth_apis": [
+      "google_maps",
+      "noaa_national_weather_service_nws_ndfd_soap",
+      "panoramio",
+      "strikeiron_ip_address_lookup"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "photos",
+      "reference",
+      "weather"
+    ],
+    "recommended_categories": [
+      "fishing"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 4,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "fishing"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3332,
+    "mashup_name": "mymaps.dk",
+    "ground_truth_apis": [
+      "google_adwords",
+      "google_maps",
+      "panoramio",
+      "wikipedia"
+    ],
+    "ground_truth_categories": [
+      "advertising",
+      "mapping",
+      "photos",
+      "reference"
+    ],
+    "recommended_categories": [
+      "autocomplete",
+      "place details",
+      "reverse geocoding",
+      "search"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 4,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "autocomplete",
+          "place details",
+          "reverse geocoding",
+          "search"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3413,
+    "mashup_name": "gluetogo",
+    "ground_truth_apis": [
+      "getglue"
+    ],
+    "ground_truth_categories": [
+      "social"
+    ],
+    "recommended_categories": [
+      "ai / nlp",
+      "cloud infrastructure",
+      "data & analytics",
+      "e‑commerce & marketplace",
+      "geolocation & maps",
+      "identity & authentication",
+      "messaging & notifications",
+      "payments & billing",
+      "search & recommendation",
+      "video & audio"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "ai / nlp",
+          "cloud infrastructure",
+          "data & analytics",
+          "e‑commerce & marketplace",
+          "geolocation & maps",
+          "identity & authentication",
+          "messaging & notifications",
+          "payments & billing",
+          "search & recommendation",
+          "video & audio"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3539,
+    "mashup_name": "key-metrics-google-analytics",
+    "ground_truth_apis": [
+      "google_analytics_managment"
+    ],
+    "ground_truth_categories": [
+      "analytics"
+    ],
+    "recommended_categories": [
+      "geocoding"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "geocoding"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3610,
+    "mashup_name": "cheap-flights-to",
+    "ground_truth_apis": [
+      "geonames",
+      "wikipedia"
+    ],
+    "ground_truth_categories": [
+      "reference"
+    ],
+    "recommended_categories": [
+      "discounts"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "discounts"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3668,
+    "mashup_name": "jessicas-automated-gaming",
+    "ground_truth_apis": [
+      "betfair"
+    ],
+    "ground_truth_categories": [
+      "gambling"
+    ],
+    "recommended_categories": [],
+    "num_tasks": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 1,
+    "tasks": []
+  },
+  {
+    "case_id": 3942,
+    "mashup_name": "movie-showtimes-map",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "geolocation",
+      "movie ticketing"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "geolocation",
+          "movie ticketing"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4034,
+    "mashup_name": "stumbleread-friendfeed-reader",
+    "ground_truth_apis": [
+      "friendfeed"
+    ],
+    "ground_truth_categories": [
+      "other"
+    ],
+    "recommended_categories": [],
+    "num_tasks": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 1,
+    "tasks": []
+  },
+  {
+    "case_id": 4075,
+    "mashup_name": "streetartlocator",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "directions",
+      "geocoding",
+      "geolocation",
+      "maps",
+      "places",
+      "street view"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 6,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "directions",
+          "geocoding",
+          "geolocation",
+          "maps",
+          "places",
+          "street view"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4164,
+    "mashup_name": "neargle",
+    "ground_truth_apis": [
+      "geonames"
+    ],
+    "ground_truth_categories": [
+      "reference"
+    ],
+    "recommended_categories": [
+      "microsoft graph",
+      "user management"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "microsoft graph",
+          "user management"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4279,
+    "mashup_name": "custom-flickr-calendar",
+    "ground_truth_apis": [
+      "flickr"
+    ],
+    "ground_truth_categories": [
+      "photos"
+    ],
+    "recommended_categories": [
+      "direct urls for every available size",
+      "owner’s public profile url",
+      "photo metadata"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "direct urls for every available size",
+          "owner’s public profile url",
+          "photo metadata"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4337,
+    "mashup_name": "enomalism-elastic-computing",
+    "ground_truth_apis": [
+      "amazon_ec2",
+      "amazon_s3"
+    ],
+    "ground_truth_categories": [
+      "cloud",
+      "storage"
+    ],
+    "recommended_categories": [
+      "command line utilities",
+      "file system operations"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "command line utilities",
+          "file system operations"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4605,
+    "mashup_name": "22books",
+    "ground_truth_apis": [
+      "amazon_product_advertising"
+    ],
+    "ground_truth_categories": [
+      "ecommerce"
+    ],
+    "recommended_categories": [
+      "api",
+      "authentication",
+      "cache",
+      "database",
+      "email",
+      "media",
+      "payments",
+      "search",
+      "sms",
+      "storage"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "api",
+          "authentication",
+          "cache",
+          "database",
+          "email",
+          "media",
+          "payments",
+          "search",
+          "sms",
+          "storage"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4670,
+    "mashup_name": "bunnybot",
+    "ground_truth_apis": [
+      "amazon_ec2"
+    ],
+    "ground_truth_categories": [
+      "cloud"
+    ],
+    "recommended_categories": [
+      "code generation",
+      "image captioning",
+      "image classification",
+      "image colorization",
+      "image super_resolution",
+      "image_text retrieval",
+      "language models",
+      "local model deployment",
+      "open_source gpt",
+      "speech recognition",
+      "speech_to_text",
+      "stable diffusion",
+      "style transfer",
+      "text classification",
+      "text generation",
+      "text summarization",
+      "text_to_image generation",
+      "text_to_speech",
+      "text_to_text retrieval"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 19,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "code generation",
+          "image captioning",
+          "image classification",
+          "image colorization",
+          "image super_resolution",
+          "image_text retrieval",
+          "language models",
+          "local model deployment",
+          "open_source gpt",
+          "speech recognition",
+          "speech_to_text",
+          "stable diffusion",
+          "style transfer",
+          "text classification",
+          "text generation",
+          "text summarization",
+          "text_to_image generation",
+          "text_to_speech",
+          "text_to_text retrieval"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4675,
+    "mashup_name": "epicurious-dish-day",
+    "ground_truth_apis": [
+      "google_gadgets"
+    ],
+    "ground_truth_categories": [
+      "widgets"
+    ],
+    "recommended_categories": [
+      "vegetarian recipes"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "vegetarian recipes"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4964,
+    "mashup_name": "portland-transit-trimet-max",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "database schema discovery"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "database schema discovery"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5105,
+    "mashup_name": "new-7-wonders-world",
+    "ground_truth_apis": [
+      "google_maps",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "video"
+    ],
+    "recommended_categories": [
+      "geocoding",
+      "static maps"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "geocoding",
+          "static maps"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5114,
+    "mashup_name": "billhighway",
+    "ground_truth_apis": [
+      "strikeiron_sms_mobile_marketing"
+    ],
+    "ground_truth_categories": [
+      "messaging"
+    ],
+    "recommended_categories": [
+      "conversion tracking",
+      "pay‑per‑click (ppc) marketing strategy"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "conversion tracking",
+          "pay‑per‑click (ppc) marketing strategy"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5236,
+    "mashup_name": "poland-maps",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "directions",
+      "geocoding",
+      "geolocation",
+      "javascript",
+      "places",
+      "static maps",
+      "street view"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "directions",
+          "geocoding",
+          "geolocation",
+          "javascript",
+          "places",
+          "static maps",
+          "street view"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5238,
+    "mashup_name": "travel-itinerary-planner",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "directions",
+      "distance matrix",
+      "elevation",
+      "geocoding",
+      "geolocation",
+      "map display and interaction",
+      "places search",
+      "roads",
+      "static maps",
+      "street view",
+      "time zone"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 11,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "directions",
+          "distance matrix",
+          "elevation",
+          "geocoding",
+          "geolocation",
+          "map display and interaction",
+          "places search",
+          "roads",
+          "static maps",
+          "street view",
+          "time zone"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5251,
+    "mashup_name": "sunday-morning-rides",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "analytics & tracking",
+      "cloud & devops",
+      "education",
+      "email",
+      "entertainment",
+      "e‑commerce",
+      "file storage & sharing",
+      "finance & stock data",
+      "gaming",
+      "health & fitness",
+      "iot & smart devices",
+      "machine learning & ai",
+      "maps & geolocation",
+      "messaging & chat",
+      "miscellaneous",
+      "news & media",
+      "payments & fintech",
+      "real‑time data",
+      "search & recommendation",
+      "security & identity",
+      "social media",
+      "travel & booking",
+      "video & streaming",
+      "weather"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 24,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "analytics & tracking",
+          "cloud & devops",
+          "education",
+          "email",
+          "entertainment",
+          "e‑commerce",
+          "file storage & sharing",
+          "finance & stock data",
+          "gaming",
+          "health & fitness",
+          "iot & smart devices",
+          "machine learning & ai",
+          "maps & geolocation",
+          "messaging & chat",
+          "miscellaneous",
+          "news & media",
+          "payments & fintech",
+          "real‑time data",
+          "search & recommendation",
+          "security & identity",
+          "social media",
+          "travel & booking",
+          "video & streaming",
+          "weather"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5331,
+    "mashup_name": "tennis-jobs-map",
+    "ground_truth_apis": [
+      "google_maps",
+      "indeed"
+    ],
+    "ground_truth_categories": [
+      "jobs",
+      "mapping"
+    ],
+    "recommended_categories": [
+      "geocoding",
+      "map_tile services",
+      "reverse_geocoding",
+      "routing"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "geocoding",
+          "map_tile services",
+          "reverse_geocoding",
+          "routing"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5496,
+    "mashup_name": "netvibes-digg-widget",
+    "ground_truth_apis": [
+      "netvibes"
+    ],
+    "ground_truth_categories": [
+      "widgets"
+    ],
+    "recommended_categories": [
+      "e_commerce apis",
+      "mapping apis",
+      "places apis",
+      "search apis",
+      "social media apis"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "e_commerce apis",
+          "mapping apis",
+          "places apis",
+          "search apis",
+          "social media apis"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5580,
+    "mashup_name": "alpinaut",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "city‑specific open data portals",
+      "google places / foursquare api",
+      "mapbox directions api",
+      "openrouteservice (ors) / graphhopper",
+      "openstreetmap (osm) – overpass api"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "city‑specific open data portals",
+          "google places / foursquare api",
+          "mapbox directions api",
+          "openrouteservice (ors) / graphhopper",
+          "openstreetmap (osm) – overpass api"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5584,
+    "mashup_name": "thursday-club",
+    "ground_truth_apis": [
+      "google_maps",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "video"
+    ],
+    "recommended_categories": [],
+    "num_tasks": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 2,
+    "tasks": []
+  },
+  {
+    "case_id": 5657,
+    "mashup_name": "retrotube",
+    "ground_truth_apis": [
+      "amazon_product_advertising",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "ecommerce",
+      "video"
+    ],
+    "recommended_categories": [],
+    "num_tasks": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 2,
+    "tasks": []
+  },
+  {
+    "case_id": 5659,
+    "mashup_name": "mandelbrot-fractal-explorer",
+    "ground_truth_apis": [
+      "openlayers"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "android.hardware.camera2",
+      "camera hal 2.0"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "android.hardware.camera2",
+          "camera hal 2.0"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 6002,
+    "mashup_name": "tripcart",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "places api"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "places api"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 6063,
+    "mashup_name": "google-maps-quiz",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "games",
+      "geocoding",
+      "maps"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "games",
+          "geocoding",
+          "maps"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 6067,
+    "mashup_name": "icjobs-map-germany",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "education statistics",
+      "labor market"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "education statistics",
+          "labor market"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 6255,
+    "mashup_name": "live-u-mich-bus-maps",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "google maps directions api",
+      "gtfs_rt feeds",
+      "nextbus api",
+      "openmobilitydata",
+      "opentripplanner",
+      "transit api"
+    ],
+    "num_tasks": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 6,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "google maps directions api",
+          "gtfs_rt feeds",
+          "nextbus api",
+          "openmobilitydata",
+          "opentripplanner",
+          "transit api"
+        ]
+      }
+    ]
+  }
+]

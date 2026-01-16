@@ -1,0 +1,913 @@
+[
+  {
+    "case_id": 239,
+    "mashup_name": "fitcheck",
+    "ground_truth_apis": [
+      "fitbit"
+    ],
+    "ground_truth_categories": [
+      "fitness"
+    ],
+    "recommended_categories": [
+      "activity monitoring",
+      "activity tracking",
+      "applications",
+      "fitness",
+      "fitness trackers",
+      "health",
+      "health & fitness",
+      "wearable devices",
+      "wearables"
+    ],
+    "num_tasks": 1,
+    "precision": 0.1111111111111111,
+    "recall": 1.0,
+    "f1": 0.19999999999999998,
+    "tp": 1,
+    "fp": 8,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "activity monitoring",
+          "activity tracking",
+          "applications",
+          "fitness",
+          "fitness trackers",
+          "health",
+          "health & fitness",
+          "wearable devices",
+          "wearables"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 773,
+    "mashup_name": "axti.me",
+    "ground_truth_apis": [
+      "motorsportregcom"
+    ],
+    "ground_truth_categories": [
+      "sports"
+    ],
+    "recommended_categories": [
+      "data",
+      "sports",
+      "tools"
+    ],
+    "num_tasks": 1,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 2,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "data",
+          "sports",
+          "tools"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 786,
+    "mashup_name": "marinexplore",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "mapping",
+      "marine",
+      "tools",
+      "visualisations"
+    ],
+    "num_tasks": 1,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 3,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "mapping",
+          "marine",
+          "tools",
+          "visualisations"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 800,
+    "mashup_name": "university-michigan-campus-map",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "education",
+      "mapping"
+    ],
+    "num_tasks": 1,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "education",
+          "mapping"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 811,
+    "mashup_name": "vinexpo-2013-map",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "events",
+      "mapping",
+      "tools"
+    ],
+    "num_tasks": 1,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 2,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "events",
+          "mapping",
+          "tools"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1223,
+    "mashup_name": "ten-tweets-friend",
+    "ground_truth_apis": [
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "social"
+    ],
+    "recommended_categories": [
+      "social"
+    ],
+    "num_tasks": 1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "social"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1529,
+    "mashup_name": "ncaa-fund-future",
+    "ground_truth_apis": [
+      "donorschoose"
+    ],
+    "ground_truth_categories": [
+      "education"
+    ],
+    "recommended_categories": [
+      "charity",
+      "education"
+    ],
+    "num_tasks": 1,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "charity",
+          "education"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1892,
+    "mashup_name": "call-me-meeting",
+    "ground_truth_apis": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "ground_truth_categories": [
+      "messaging",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "meetings",
+      "messaging",
+      "mobile",
+      "telephony"
+    ],
+    "num_tasks": 1,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 2,
+    "fp": 2,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "meetings",
+          "messaging",
+          "mobile",
+          "telephony"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2491,
+    "mashup_name": "scanmyback",
+    "ground_truth_apis": [
+      "zazzle"
+    ],
+    "ground_truth_categories": [
+      "ecommerce"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "custom_products",
+      "ecommerce",
+      "image_printing",
+      "image_processing",
+      "image_storage",
+      "image_upload",
+      "inventory_management",
+      "order_management",
+      "payment_processing",
+      "shipping_label_generation",
+      "user_profile"
+    ],
+    "num_tasks": 1,
+    "precision": 0.08333333333333333,
+    "recall": 1.0,
+    "f1": 0.15384615384615385,
+    "tp": 1,
+    "fp": 11,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "analytics",
+          "custom_products",
+          "ecommerce",
+          "image_printing",
+          "image_processing",
+          "image_storage",
+          "image_upload",
+          "inventory_management",
+          "order_management",
+          "payment_processing",
+          "shipping_label_generation",
+          "user_profile"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2502,
+    "mashup_name": "youtube-instant",
+    "ground_truth_apis": [
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "video"
+    ],
+    "recommended_categories": [
+      "search",
+      "video"
+    ],
+    "num_tasks": 1,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "search",
+          "video"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2516,
+    "mashup_name": "instantzon-amazon-instant-search",
+    "ground_truth_apis": [
+      "amazon_product_advertising"
+    ],
+    "ground_truth_categories": [
+      "ecommerce"
+    ],
+    "recommended_categories": [
+      "ecommerce",
+      "search"
+    ],
+    "num_tasks": 1,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "ecommerce",
+          "search"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3798,
+    "mashup_name": "routeblast",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "enterprise",
+      "mapping",
+      "travel"
+    ],
+    "num_tasks": 1,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 2,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "enterprise",
+          "mapping",
+          "travel"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3824,
+    "mashup_name": "searates",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "mapping",
+      "shipping"
+    ],
+    "num_tasks": 1,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "mapping",
+          "shipping"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3825,
+    "mashup_name": "chicago-transit-authority-bus-tracker",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "mapping",
+      "transportation"
+    ],
+    "num_tasks": 1,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "mapping",
+          "transportation"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4352,
+    "mashup_name": "flicktickr",
+    "ground_truth_apis": [
+      "flickr"
+    ],
+    "ground_truth_categories": [
+      "photos"
+    ],
+    "recommended_categories": [
+      "feeds",
+      "photos"
+    ],
+    "num_tasks": 1,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "feeds",
+          "photos"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4594,
+    "mashup_name": "ultimate-gift",
+    "ground_truth_apis": [
+      "amazon_product_advertising"
+    ],
+    "ground_truth_categories": [
+      "ecommerce"
+    ],
+    "recommended_categories": [
+      "ecommerce"
+    ],
+    "num_tasks": 1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "ecommerce"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4663,
+    "mashup_name": "sale-owner",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "mapping"
+    ],
+    "num_tasks": 1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "mapping"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4708,
+    "mashup_name": "gmove",
+    "ground_truth_apis": [
+      "google_apps_email_migration"
+    ],
+    "ground_truth_categories": [
+      "email"
+    ],
+    "recommended_categories": [
+      "apps",
+      "email",
+      "enterprise",
+      "gmail",
+      "google",
+      "google apps",
+      "migration",
+      "migration utility",
+      "office",
+      "outlook"
+    ],
+    "num_tasks": 1,
+    "precision": 0.1,
+    "recall": 1.0,
+    "f1": 0.18181818181818182,
+    "tp": 1,
+    "fp": 9,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "apps",
+          "email",
+          "enterprise",
+          "gmail",
+          "google",
+          "google apps",
+          "migration",
+          "migration utility",
+          "office",
+          "outlook"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4828,
+    "mashup_name": "flickr-wrappr",
+    "ground_truth_apis": [
+      "dbpedia",
+      "flickr"
+    ],
+    "ground_truth_categories": [
+      "photos",
+      "wiki"
+    ],
+    "recommended_categories": [
+      "photos",
+      "reference",
+      "wiki"
+    ],
+    "num_tasks": 1,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1": 0.8,
+    "tp": 2,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "photos",
+          "reference",
+          "wiki"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5035,
+    "mashup_name": "careervote",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "financial",
+      "jobs",
+      "mapping"
+    ],
+    "num_tasks": 1,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 2,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "financial",
+          "jobs",
+          "mapping"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5202,
+    "mashup_name": "andrew-speaker-trip-across-atlantic",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "mapping"
+    ],
+    "num_tasks": 1,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "mapping"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5310,
+    "mashup_name": "child-care-finder",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "family",
+      "mapping"
+    ],
+    "num_tasks": 1,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "family",
+          "mapping"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5750,
+    "mashup_name": "headlinemap",
+    "ground_truth_apis": [
+      "flickr",
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "photos"
+    ],
+    "recommended_categories": [
+      "mapping",
+      "news",
+      "photos"
+    ],
+    "num_tasks": 1,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1": 0.8,
+    "tp": 2,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "mapping",
+          "news",
+          "photos"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5924,
+    "mashup_name": "caddymap",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "mapping",
+      "sports",
+      "weather"
+    ],
+    "num_tasks": 1,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 2,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "mapping",
+          "sports",
+          "weather"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 6106,
+    "mashup_name": "following-political-dollars",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "government",
+      "mapping"
+    ],
+    "num_tasks": 1,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "government",
+          "mapping"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 6281,
+    "mashup_name": "mappr",
+    "ground_truth_apis": [
+      "flickr"
+    ],
+    "ground_truth_categories": [
+      "photos"
+    ],
+    "recommended_categories": [
+      "mapping",
+      "photos"
+    ],
+    "num_tasks": 1,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "mapping",
+          "photos"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 6302,
+    "mashup_name": "flyr",
+    "ground_truth_apis": [
+      "flickr",
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "photos"
+    ],
+    "recommended_categories": [
+      "mapping",
+      "photos",
+      "search"
+    ],
+    "num_tasks": 1,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1": 0.8,
+    "tp": 2,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "single_agent",
+        "description": "Single Agent Recommendation",
+        "recommended_categories": [
+          "mapping",
+          "photos",
+          "search"
+        ]
+      }
+    ]
+  }
+]

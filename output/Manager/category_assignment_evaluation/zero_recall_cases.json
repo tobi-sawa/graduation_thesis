@@ -1,0 +1,2182 @@
+[
+  {
+    "case_id": 31,
+    "mashup_name": "vacationic",
+    "ground_truth_apis": [
+      "flickr",
+      "google_ad_manager",
+      "google_adsense",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "advertising",
+      "photos",
+      "video"
+    ],
+    "recommended_categories": [
+      "content",
+      "data",
+      "geography",
+      "location",
+      "mapping",
+      "media",
+      "search",
+      "travel"
+    ],
+    "num_tasks": 4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 8,
+    "fn": 3,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Fetch and manage geographic destination data (coordinates, type, metadata)",
+        "recommended_categories": [
+          "data",
+          "geography",
+          "location"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Render an interactive map that displays destination markers, supports zooming/panning, and layers",
+        "recommended_categories": [
+          "mapping"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Implement filtering and categorization UI so users can select destination types or regions",
+        "recommended_categories": [
+          "search",
+          "travel"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Provide descriptive content (text, images) tied to each destination for an overview",
+        "recommended_categories": [
+          "content",
+          "media"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 535,
+    "mashup_name": "linda",
+    "ground_truth_apis": [
+      "bing",
+      "open_movie_database",
+      "opencnam",
+      "wikipedia",
+      "wolfram_alpha",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "reference",
+      "search",
+      "telephony",
+      "video"
+    ],
+    "recommended_categories": [
+      "api",
+      "application_development",
+      "authentication",
+      "data",
+      "database",
+      "language",
+      "machine_learning",
+      "natural_language_processing",
+      "text"
+    ],
+    "num_tasks": 5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 9,
+    "fn": 4,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Language parsing and intent extraction to interpret user queries.",
+        "recommended_categories": [
+          "language",
+          "natural_language_processing"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "API selection and request formulation based on the extracted intent.",
+        "recommended_categories": [
+          "api",
+          "data"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Aggregating API responses, formatting, and generating the final natural language answer.",
+        "recommended_categories": [
+          "machine_learning",
+          "natural_language_processing",
+          "text"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Managing API integrations, including authentication and rate‑limit handling.",
+        "recommended_categories": [
+          "api",
+          "authentication"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Context and session management to maintain conversational state.",
+        "recommended_categories": [
+          "application_development",
+          "database"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 584,
+    "mashup_name": "bills-news",
+    "ground_truth_apis": [
+      "govtrackus",
+      "opensecrets"
+    ],
+    "ground_truth_categories": [
+      "government"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "api",
+      "backend",
+      "data",
+      "financial",
+      "mapping",
+      "politics",
+      "statistics"
+    ],
+    "num_tasks": 6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 8,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "TS1",
+        "description": "Retrieve Bill Voting Data – pull legislative voting records from a public API or dataset.",
+        "recommended_categories": [
+          "data",
+          "politics"
+        ]
+      },
+      {
+        "task_id": "TS2",
+        "description": "Retrieve Campaign Contribution Data – fetch financial contribution records from a public source.",
+        "recommended_categories": [
+          "data",
+          "financial"
+        ]
+      },
+      {
+        "task_id": "TS3",
+        "description": "Data Integration – merge bill and contribution data by identifier, normalizing formats.",
+        "recommended_categories": [
+          "analytics",
+          "data"
+        ]
+      },
+      {
+        "task_id": "TS4",
+        "description": "Impact Analysis – compute metrics that indicate potential influence of contributions on votes.",
+        "recommended_categories": [
+          "analytics",
+          "statistics"
+        ]
+      },
+      {
+        "task_id": "TS5",
+        "description": "Visualization & Reporting – create charts, tables, or maps to present the analysis to users.",
+        "recommended_categories": [
+          "analytics",
+          "mapping"
+        ]
+      },
+      {
+        "task_id": "TS6",
+        "description": "API Service Layer – design and implement endpoints that expose the integrated data and analysis for external use.",
+        "recommended_categories": [
+          "api",
+          "backend"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 773,
+    "mashup_name": "axti.me",
+    "ground_truth_apis": [
+      "motorsportregcom"
+    ],
+    "ground_truth_categories": [
+      "sports"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "api",
+      "authentication",
+      "controls",
+      "dashboard",
+      "data",
+      "events",
+      "performance",
+      "publishing",
+      "registration",
+      "reporting",
+      "results",
+      "scoring",
+      "timing",
+      "user_interface"
+    ],
+    "num_tasks": 6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 15,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Event & Participant Management – Create, edit, and schedule races plus manage competitor entries.",
+        "recommended_categories": [
+          "events",
+          "registration"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Timing Capture – Interface with timing hardware or manual input to receive lap time data in real time.",
+        "recommended_categories": [
+          "data",
+          "performance",
+          "timing"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Scoring Engine – Apply race rules to aggregate lap times into scores and determine rankings.",
+        "recommended_categories": [
+          "analytics",
+          "performance",
+          "scoring"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Result Processing & Publishing – Generate result tables, leaderboards, PDFs/HTML, and share via web or email.",
+        "recommended_categories": [
+          "publishing",
+          "reporting",
+          "results"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "MotorsportReg.com Integration – Call MotorsportReg.com’s API to import T&S data one‑click, handling authentication and data mapping.",
+        "recommended_categories": [
+          "api",
+          "authentication",
+          "data"
+        ]
+      },
+      {
+        "task_id": "T6",
+        "description": "Dashboard & Control UI – Provide race control operators with a live view of timing, scores, and status updates.",
+        "recommended_categories": [
+          "controls",
+          "dashboard",
+          "user_interface"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1307,
+    "mashup_name": "aussie-pubcrawl",
+    "ground_truth_apis": [
+      "sensis_business_search",
+      "yelp_fusion"
+    ],
+    "ground_truth_categories": [
+      "recommendations",
+      "reference"
+    ],
+    "recommended_categories": [
+      "api",
+      "authentication",
+      "business",
+      "classification",
+      "data",
+      "images",
+      "location",
+      "search",
+      "security",
+      "social"
+    ],
+    "num_tasks": 6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "TaskID1",
+        "description": "Address Input & Geocoding",
+        "recommended_categories": [
+          "location"
+        ]
+      },
+      {
+        "task_id": "TaskID2",
+        "description": "Sensis Yellow Pages Pub Search",
+        "recommended_categories": [
+          "api",
+          "business",
+          "search"
+        ]
+      },
+      {
+        "task_id": "TaskID3",
+        "description": "Yelp Review Retrieval",
+        "recommended_categories": [
+          "api",
+          "social"
+        ]
+      },
+      {
+        "task_id": "TaskID4",
+        "description": "Result Matching & Enrichment",
+        "recommended_categories": [
+          "classification",
+          "data"
+        ]
+      },
+      {
+        "task_id": "TaskID5",
+        "description": "Image & Review Display",
+        "recommended_categories": [
+          "images",
+          "location",
+          "social"
+        ]
+      },
+      {
+        "task_id": "TaskID6",
+        "description": "API Key & Security Management",
+        "recommended_categories": [
+          "authentication",
+          "security"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1489,
+    "mashup_name": "floral-gifts",
+    "ground_truth_apis": [
+      "florist_one"
+    ],
+    "ground_truth_categories": [
+      "ecommerce"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "api",
+      "authentication",
+      "email",
+      "location",
+      "mapping",
+      "monitoring",
+      "payments",
+      "personal_information_management",
+      "products",
+      "shipping"
+    ],
+    "num_tasks": 10,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 11,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task1",
+        "description": "Authenticate User – Ensure a logged‑in session or sign‑up.",
+        "recommended_categories": [
+          "authentication"
+        ]
+      },
+      {
+        "task_id": "Task2",
+        "description": "Browse Flower Catalog – Display products and descriptions.",
+        "recommended_categories": [
+          "products"
+        ]
+      },
+      {
+        "task_id": "Task3",
+        "description": "Capture Recipient Details – Collect name, phone, email.",
+        "recommended_categories": [
+          "personal_information_management"
+        ]
+      },
+      {
+        "task_id": "Task4",
+        "description": "Resolve Delivery Address via Local Florist – Use geolocation to find a nearby florist.",
+        "recommended_categories": [
+          "location",
+          "mapping"
+        ]
+      },
+      {
+        "task_id": "Task5",
+        "description": "Schedule Delivery – Choose pickup/delivery time.",
+        "recommended_categories": [
+          "shipping"
+        ]
+      },
+      {
+        "task_id": "Task6",
+        "description": "Process Payment – Handle checkout and payment gateway.",
+        "recommended_categories": [
+          "payments"
+        ]
+      },
+      {
+        "task_id": "Task7",
+        "description": "Integrate with Local Florist API – Call florist API for inventory and order placement.",
+        "recommended_categories": [
+          "api"
+        ]
+      },
+      {
+        "task_id": "Task8",
+        "description": "Send Confirmation Notifications – Email or SMS confirmations.",
+        "recommended_categories": [
+          "email"
+        ]
+      },
+      {
+        "task_id": "Task9",
+        "description": "Track Order Status – Provide real‑time status updates.",
+        "recommended_categories": [
+          "monitoring"
+        ]
+      },
+      {
+        "task_id": "Task10",
+        "description": "Generate Delivery Metrics – Analytics on deliveries, timings, etc.",
+        "recommended_categories": [
+          "analytics"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1698,
+    "mashup_name": "media-street-apps",
+    "ground_truth_apis": [
+      "yelp_fusion"
+    ],
+    "ground_truth_categories": [
+      "recommendations"
+    ],
+    "recommended_categories": [
+      "api",
+      "authentication",
+      "backend",
+      "content",
+      "data",
+      "data_as_a_service",
+      "search",
+      "seo",
+      "storage",
+      "web_site_management"
+    ],
+    "num_tasks": 5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task001",
+        "description": "Establish authentication with Yelp’s API and manage API key/secret rotation.",
+        "recommended_categories": [
+          "api",
+          "authentication"
+        ]
+      },
+      {
+        "task_id": "Task002",
+        "description": "Fetch business details and reviews from Yelp’s endpoints, handling pagination and rate limits.",
+        "recommended_categories": [
+          "api",
+          "data",
+          "data_as_a_service"
+        ]
+      },
+      {
+        "task_id": "Task003",
+        "description": "Persist and cache fetched data using a suitable backend mechanism to reduce external calls.",
+        "recommended_categories": [
+          "backend",
+          "data_as_a_service",
+          "storage"
+        ]
+      },
+      {
+        "task_id": "Task004",
+        "description": "Render business pages on Media Street sites, integrating fetched reviews and mapping data.",
+        "recommended_categories": [
+          "content",
+          "web_site_management"
+        ]
+      },
+      {
+        "task_id": "Task005",
+        "description": "Incorporate SEO best practices (structured data, meta tags) to boost local search visibility.",
+        "recommended_categories": [
+          "search",
+          "seo"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1866,
+    "mashup_name": "decisions-heroes-0",
+    "ground_truth_apis": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "ground_truth_categories": [
+      "messaging",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "data",
+      "database",
+      "geography",
+      "health",
+      "machine_learning",
+      "mapping",
+      "medicine",
+      "project_management",
+      "reporting",
+      "statistics"
+    ],
+    "num_tasks": 7,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 11,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Incident Data Ingestion & Storage",
+        "recommended_categories": [
+          "data",
+          "database"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Response Team Scheduling & Assignment",
+        "recommended_categories": [
+          "project_management"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Automatic Incident Analysis",
+        "recommended_categories": [
+          "analytics",
+          "machine_learning",
+          "statistics"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Trend & Pattern Detection",
+        "recommended_categories": [
+          "analytics",
+          "statistics"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Injury & Casualty Data Analysis",
+        "recommended_categories": [
+          "health",
+          "medicine",
+          "statistics"
+        ]
+      },
+      {
+        "task_id": "T6",
+        "description": "Hotspot Cluster Mapping",
+        "recommended_categories": [
+          "geography",
+          "mapping"
+        ]
+      },
+      {
+        "task_id": "T7",
+        "description": "Reporting & Dashboard Generation",
+        "recommended_categories": [
+          "analytics",
+          "reporting"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1898,
+    "mashup_name": "buzzdata",
+    "ground_truth_apis": [
+      "twilio"
+    ],
+    "ground_truth_categories": [
+      "telephony"
+    ],
+    "recommended_categories": [
+      "backend",
+      "cloud",
+      "collaboration",
+      "content",
+      "data",
+      "file_sharing",
+      "messaging",
+      "social",
+      "storage"
+    ],
+    "num_tasks": 3,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 9,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task1",
+        "description": "Data Storage & Retrieval",
+        "recommended_categories": [
+          "cloud",
+          "data",
+          "file_sharing",
+          "storage"
+        ]
+      },
+      {
+        "task_id": "Task2",
+        "description": "Version Control & Conflict Management",
+        "recommended_categories": [
+          "backend",
+          "cloud",
+          "data"
+        ]
+      },
+      {
+        "task_id": "Task3",
+        "description": "Social Interaction & Collaboration",
+        "recommended_categories": [
+          "collaboration",
+          "content",
+          "file_sharing",
+          "messaging",
+          "social"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2099,
+    "mashup_name": "infinilla",
+    "ground_truth_apis": [
+      "dribbble",
+      "google_app_engine"
+    ],
+    "ground_truth_categories": [
+      "other",
+      "tools"
+    ],
+    "recommended_categories": [
+      "api",
+      "applications",
+      "backend",
+      "content",
+      "images",
+      "linking",
+      "web_site_management"
+    ],
+    "num_tasks": 4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Retrieve Random Dribbble Shots from the Dribbble API",
+        "recommended_categories": [
+          "api",
+          "backend"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Render Three Images in the UI",
+        "recommended_categories": [
+          "content",
+          "images",
+          "web_site_management"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Refresh Mechanism for New Random Images",
+        "recommended_categories": [
+          "applications",
+          "web_site_management"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Link Each Image to Its Original Dribbble Shot Page",
+        "recommended_categories": [
+          "linking",
+          "web_site_management"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2540,
+    "mashup_name": "moveable-weather",
+    "ground_truth_apis": [
+      "google_gadgets",
+      "google_latitude",
+      "tropo_scripting"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "telephony",
+      "widgets"
+    ],
+    "recommended_categories": [
+      "ai",
+      "analytics",
+      "api",
+      "cloud",
+      "communication",
+      "data",
+      "data_as_a_service",
+      "geography",
+      "location",
+      "parsing",
+      "speech",
+      "text",
+      "voice"
+    ],
+    "num_tasks": 4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 13,
+    "fn": 3,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Retrieve the user's current geographic location using IP or device GPS data.",
+        "recommended_categories": [
+          "cloud",
+          "geography",
+          "location"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Query Google's hidden Weather API with the obtained location to fetch current weather data.",
+        "recommended_categories": [
+          "api",
+          "data",
+          "data_as_a_service"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Parse the API response to extract relevant weather details such as temperature, condition, humidity, etc.",
+        "recommended_categories": [
+          "analytics",
+          "data",
+          "parsing"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Convert the extracted weather information into natural language and produce spoken output via text‑to‑speech.",
+        "recommended_categories": [
+          "ai",
+          "communication",
+          "speech",
+          "text",
+          "voice"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2664,
+    "mashup_name": "myphonetap",
+    "ground_truth_apis": [
+      "twilio"
+    ],
+    "ground_truth_categories": [
+      "telephony"
+    ],
+    "recommended_categories": [
+      "api",
+      "cloud",
+      "compliance",
+      "financial",
+      "government",
+      "legal",
+      "media",
+      "payments",
+      "storage",
+      "voice",
+      "web_site_management"
+    ],
+    "num_tasks": 5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 11,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Integrate MyPhoneTap API to route calls and start/stop recording sessions",
+        "recommended_categories": [
+          "api",
+          "voice"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Implement billing logic: calculate per‑minute charges, enforce free‑trial limits, and trigger payment processing",
+        "recommended_categories": [
+          "financial",
+          "payments"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Convert raw recording data to MP3 and deliver the file to the customer",
+        "recommended_categories": [
+          "media",
+          "storage",
+          "voice"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Enforce legal compliance by detecting jurisdiction and displaying a recording‑notification message to callers",
+        "recommended_categories": [
+          "compliance",
+          "government",
+          "legal"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Store MP3 recordings securely and provide access via a web interface or API",
+        "recommended_categories": [
+          "cloud",
+          "storage",
+          "web_site_management"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2780,
+    "mashup_name": "activeprint-and-box.net",
+    "ground_truth_apis": [
+      "box"
+    ],
+    "ground_truth_categories": [
+      "content"
+    ],
+    "recommended_categories": [
+      "authentication",
+      "backend",
+      "cloud",
+      "documents",
+      "file_sharing",
+      "integration",
+      "messaging",
+      "office",
+      "options",
+      "personal_information_management",
+      "printing"
+    ],
+    "num_tasks": 6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 11,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Authenticate user with Box and obtain access token",
+        "recommended_categories": [
+          "authentication",
+          "cloud"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Retrieve list of files/folders from Box and display to user",
+        "recommended_categories": [
+          "cloud",
+          "documents",
+          "file_sharing"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Download or stream selected file content to the device",
+        "recommended_categories": [
+          "cloud",
+          "documents",
+          "file_sharing"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Configure and send print job to iPhone’s AirPrint-compatible printer",
+        "recommended_categories": [
+          "messaging",
+          "office",
+          "printing"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Manage print‑related settings (paper size, orientation, copies) within the app",
+        "recommended_categories": [
+          "options",
+          "personal_information_management"
+        ]
+      },
+      {
+        "task_id": "T6",
+        "description": "Update application architecture to support Box API endpoints and handle token refresh",
+        "recommended_categories": [
+          "backend",
+          "cloud",
+          "integration"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3045,
+    "mashup_name": "fuze-meeting-and-box.net",
+    "ground_truth_apis": [
+      "box"
+    ],
+    "ground_truth_categories": [
+      "content"
+    ],
+    "recommended_categories": [
+      "authentication",
+      "chat",
+      "cloud",
+      "collaboration",
+      "file_sharing",
+      "storage",
+      "video"
+    ],
+    "num_tasks": 5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Authenticate the user with Box via OAuth2 and obtain an access token.",
+        "recommended_categories": [
+          "authentication",
+          "cloud"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Retrieve the chosen file’s metadata and download the file from Box storage.",
+        "recommended_categories": [
+          "cloud",
+          "storage"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Authenticate the user with Fuze Meeting’s API and set up a meeting session.",
+        "recommended_categories": [
+          "authentication",
+          "chat",
+          "video"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Upload the Box‑downloaded file into the Fuze meeting space for all participants.",
+        "recommended_categories": [
+          "chat",
+          "collaboration",
+          "file_sharing",
+          "storage",
+          "video"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Enable real‑time collaboration (chat, file links, comments) within the meeting.",
+        "recommended_categories": [
+          "chat",
+          "collaboration",
+          "file_sharing",
+          "video"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3413,
+    "mashup_name": "gluetogo",
+    "ground_truth_apis": [
+      "getglue"
+    ],
+    "ground_truth_categories": [
+      "social"
+    ],
+    "recommended_categories": [
+      "api",
+      "application_development",
+      "authentication",
+      "data",
+      "error_handling",
+      "parsing",
+      "support",
+      "web_site_management"
+    ],
+    "num_tasks": 6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 8,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task1",
+        "description": "ExtractObjectData – Parse the current page’s URL, title, and any relevant metadata.",
+        "recommended_categories": [
+          "data",
+          "parsing"
+        ]
+      },
+      {
+        "task_id": "Task2",
+        "description": "AuthenticateUser – Handle OAuth or token retrieval for Glue.",
+        "recommended_categories": [
+          "api",
+          "authentication"
+        ]
+      },
+      {
+        "task_id": "Task3",
+        "description": "FetchGlueContent – Make API calls to Glue to get object‑specific discussions.",
+        "recommended_categories": [
+          "api",
+          "application_development"
+        ]
+      },
+      {
+        "task_id": "Task4",
+        "description": "RenderOverlay – Display the content in the browser in a user‑friendly overlay.",
+        "recommended_categories": [
+          "application_development",
+          "web_site_management"
+        ]
+      },
+      {
+        "task_id": "Task5",
+        "description": "HandleErrors – Gracefully handle missing data, authentication failures, and API errors.",
+        "recommended_categories": [
+          "error_handling",
+          "support"
+        ]
+      },
+      {
+        "task_id": "Task6",
+        "description": "InitializeBookmarklet – Set up the bookmarklet environment, load dependencies, and bind to the page.",
+        "recommended_categories": [
+          "application_development",
+          "web_site_management"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3610,
+    "mashup_name": "cheap-flights-to",
+    "ground_truth_apis": [
+      "geonames",
+      "wikipedia"
+    ],
+    "ground_truth_categories": [
+      "reference"
+    ],
+    "recommended_categories": [
+      "air_travel",
+      "api",
+      "booking",
+      "data",
+      "search"
+    ],
+    "num_tasks": 3,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task1",
+        "description": "Search and compare flight prices across multiple travel agencies and airline providers.",
+        "recommended_categories": [
+          "air_travel",
+          "data",
+          "search"
+        ]
+      },
+      {
+        "task_id": "Task2",
+        "description": "Search and compare hotel prices across multiple travel agencies and hotel booking platforms.",
+        "recommended_categories": [
+          "booking",
+          "data",
+          "search"
+        ]
+      },
+      {
+        "task_id": "Task3",
+        "description": "Aggregate and compare bundled travel package deals (flight + hotel) from major travel agencies.",
+        "recommended_categories": [
+          "air_travel",
+          "api",
+          "booking",
+          "data",
+          "search"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3668,
+    "mashup_name": "jessicas-automated-gaming",
+    "ground_truth_apis": [
+      "betfair"
+    ],
+    "ground_truth_categories": [
+      "gambling"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "api",
+      "big_data",
+      "business",
+      "cloud",
+      "data",
+      "deployment",
+      "gaming",
+      "hosting",
+      "reporting"
+    ],
+    "num_tasks": 4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "TaskID1",
+        "description": "Retrieve historical market data from Betfair using the Betfair API",
+        "recommended_categories": [
+          "api",
+          "data",
+          "gaming"
+        ]
+      },
+      {
+        "task_id": "TaskID2",
+        "description": "Transform and analyze the retrieved data; perform aggregations, trend calculations, and statistical summaries",
+        "recommended_categories": [
+          "analytics",
+          "big_data",
+          "data"
+        ]
+      },
+      {
+        "task_id": "TaskID3",
+        "description": "Build BIRT charts and reports from the analyzed datasets",
+        "recommended_categories": [
+          "analytics",
+          "business",
+          "reporting"
+        ]
+      },
+      {
+        "task_id": "TaskID4",
+        "description": "Host and distribute the BIRT reports via a web‑based or cloud‑based platform",
+        "recommended_categories": [
+          "cloud",
+          "deployment",
+          "hosting"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3942,
+    "mashup_name": "movie-showtimes-map",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "applications",
+      "location",
+      "movies",
+      "search"
+    ],
+    "num_tasks": 4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Obtain the user's geolocation (latitude/longitude).",
+        "recommended_categories": [
+          "location"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Query a venue/database API to find theaters within a specified radius of the user's location.",
+        "recommended_categories": [
+          "location",
+          "search"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "For each theater, retrieve its up‑to‑date movie showtimes, including titles and showtime details.",
+        "recommended_categories": [
+          "movies"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Present the aggregated theater and showtime data in a user‑friendly interface.",
+        "recommended_categories": [
+          "applications"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4034,
+    "mashup_name": "stumbleread-friendfeed-reader",
+    "ground_truth_apis": [
+      "friendfeed"
+    ],
+    "ground_truth_categories": [
+      "other"
+    ],
+    "recommended_categories": [
+      "application_development",
+      "authentication",
+      "cloud",
+      "content",
+      "data",
+      "data_as_a_service",
+      "database",
+      "news_services",
+      "platform_as_a_service",
+      "social"
+    ],
+    "num_tasks": 6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Integrate User Authentication with FriendFeed.",
+        "recommended_categories": [
+          "authentication",
+          "social"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Fetch and Parse FriendFeed Feed Items.",
+        "recommended_categories": [
+          "data",
+          "news_services",
+          "social"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Retrieve and Render Previews of Referenced Websites.",
+        "recommended_categories": [
+          "application_development",
+          "content"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Implement AJAX Auto-Refresh for the Feed.",
+        "recommended_categories": [
+          "application_development"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Deploy and Host the Application on Google App Engine.",
+        "recommended_categories": [
+          "cloud",
+          "platform_as_a_service"
+        ]
+      },
+      {
+        "task_id": "T6",
+        "description": "Persist Feed Data Using a Database Service.",
+        "recommended_categories": [
+          "data_as_a_service",
+          "database"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4164,
+    "mashup_name": "neargle",
+    "ground_truth_apis": [
+      "geonames"
+    ],
+    "ground_truth_categories": [
+      "reference"
+    ],
+    "recommended_categories": [
+      "data",
+      "location",
+      "mapping",
+      "search"
+    ],
+    "num_tasks": 3,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "TaskID1",
+        "description": "Retrieve geographic coordinates either from the browser's geolocation API or from a user-selected point on the map",
+        "recommended_categories": [
+          "location",
+          "mapping"
+        ]
+      },
+      {
+        "task_id": "TaskID2",
+        "description": "Query Google Places API and Yahoo Local API for local search results based on the coordinates, returning lists of nearby businesses or points of interest",
+        "recommended_categories": [
+          "location",
+          "mapping",
+          "search"
+        ]
+      },
+      {
+        "task_id": "TaskID3",
+        "description": "Aggregate the two result sets, de‑duplicate entries, and render them on the Google map as dynamic markers with info windows",
+        "recommended_categories": [
+          "data",
+          "location",
+          "mapping"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4352,
+    "mashup_name": "flicktickr",
+    "ground_truth_apis": [
+      "flickr"
+    ],
+    "ground_truth_categories": [
+      "photos"
+    ],
+    "recommended_categories": [
+      "api",
+      "data",
+      "design",
+      "feeds",
+      "images",
+      "social",
+      "web_site_management",
+      "widgets"
+    ],
+    "num_tasks": 2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 8,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T001",
+        "description": "Validate the Flickr feed URL and retrieve feed data (photos, titles, URLs) via Flickr's API.",
+        "recommended_categories": [
+          "api",
+          "data",
+          "feeds",
+          "images",
+          "social"
+        ]
+      },
+      {
+        "task_id": "T002",
+        "description": "Generate a scrolling ticker widget (HTML/JS/CSS) that displays the retrieved Flickr feed content for embedding on a website.",
+        "recommended_categories": [
+          "design",
+          "web_site_management",
+          "widgets"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4605,
+    "mashup_name": "22books",
+    "ground_truth_apis": [
+      "amazon_product_advertising"
+    ],
+    "ground_truth_categories": [
+      "ecommerce"
+    ],
+    "recommended_categories": [
+      "application_development",
+      "authentication",
+      "books",
+      "content",
+      "data",
+      "social"
+    ],
+    "num_tasks": 6,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 6,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "User authentication & profile management",
+        "recommended_categories": [
+          "application_development",
+          "authentication"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Book search & metadata retrieval",
+        "recommended_categories": [
+          "books",
+          "data"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "List creation & management",
+        "recommended_categories": [
+          "application_development",
+          "content"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Add / remove books from a list",
+        "recommended_categories": [
+          "content",
+          "data"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "List sharing & permissions",
+        "recommended_categories": [
+          "application_development",
+          "social"
+        ]
+      },
+      {
+        "task_id": "T6",
+        "description": "View lists & book details",
+        "recommended_categories": [
+          "books",
+          "content"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4670,
+    "mashup_name": "bunnybot",
+    "ground_truth_apis": [
+      "amazon_ec2"
+    ],
+    "ground_truth_categories": [
+      "cloud"
+    ],
+    "recommended_categories": [
+      "authentication",
+      "chat",
+      "ecommerce",
+      "messaging",
+      "payments"
+    ],
+    "num_tasks": 2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "TaskID1",
+        "description": "Implement online shopping functionality – product catalog, cart, checkout, and payment processing.",
+        "recommended_categories": [
+          "ecommerce",
+          "payments"
+        ]
+      },
+      {
+        "task_id": "TaskID2",
+        "description": "Integrate Jabber/XMPP instant messaging – client connection, presence handling, message exchange, and buddy list management.",
+        "recommended_categories": [
+          "authentication",
+          "chat",
+          "messaging"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4675,
+    "mashup_name": "epicurious-dish-day",
+    "ground_truth_apis": [
+      "google_gadgets"
+    ],
+    "ground_truth_categories": [
+      "widgets"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "api",
+      "applications",
+      "auth",
+      "classification",
+      "cloud",
+      "data",
+      "database",
+      "food",
+      "language",
+      "location",
+      "machine_learning",
+      "parsing",
+      "personal_information_management",
+      "recommendations",
+      "search",
+      "tagging",
+      "visualization"
+    ],
+    "num_tasks": 7,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 18,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task1",
+        "description": "Ingest recipe data from multiple sources and store in a structured format.",
+        "recommended_categories": [
+          "data",
+          "database",
+          "parsing"
+        ]
+      },
+      {
+        "task_id": "Task2",
+        "description": "Enable robust search and filtering of recipes (by cuisine, region, ingredients, dietary constraints).",
+        "recommended_categories": [
+          "food",
+          "search",
+          "tagging"
+        ]
+      },
+      {
+        "task_id": "Task3",
+        "description": "Classify and tag recipes with cuisine families and regional labels.",
+        "recommended_categories": [
+          "classification",
+          "food",
+          "tagging"
+        ]
+      },
+      {
+        "task_id": "Task4",
+        "description": "Generate personalized recipe recommendations.",
+        "recommended_categories": [
+          "analytics",
+          "machine_learning",
+          "recommendations"
+        ]
+      },
+      {
+        "task_id": "Task5",
+        "description": "Provide a user interface that displays recipe details, images, and cooking steps.",
+        "recommended_categories": [
+          "applications",
+          "food",
+          "visualization"
+        ]
+      },
+      {
+        "task_id": "Task6",
+        "description": "Expose public APIs for recipe retrieval and search.",
+        "recommended_categories": [
+          "api",
+          "auth",
+          "cloud"
+        ]
+      },
+      {
+        "task_id": "Task7",
+        "description": "Handle localization (language and regional specificity).",
+        "recommended_categories": [
+          "language",
+          "location",
+          "personal_information_management"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5035,
+    "mashup_name": "careervote",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "authentication",
+      "business",
+      "classification",
+      "content",
+      "data",
+      "feedback",
+      "forms",
+      "messaging",
+      "recommendations",
+      "search",
+      "social",
+      "statistics",
+      "tagging"
+    ],
+    "num_tasks": 7,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 14,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "User Authentication & Profile Management",
+        "recommended_categories": [
+          "authentication",
+          "social"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Company Data Retrieval & Aggregation",
+        "recommended_categories": [
+          "business",
+          "data"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Review & Rating Capture",
+        "recommended_categories": [
+          "content",
+          "feedback",
+          "forms"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Tagging & Classification",
+        "recommended_categories": [
+          "classification",
+          "content",
+          "tagging"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Search & Filtering Engine",
+        "recommended_categories": [
+          "data",
+          "search"
+        ]
+      },
+      {
+        "task_id": "T6",
+        "description": "Social Interaction & Sharing",
+        "recommended_categories": [
+          "messaging",
+          "social"
+        ]
+      },
+      {
+        "task_id": "T7",
+        "description": "Analytics & Recommendation Module",
+        "recommended_categories": [
+          "analytics",
+          "recommendations",
+          "statistics"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5310,
+    "mashup_name": "child-care-finder",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "booking",
+      "calendar",
+      "data",
+      "geography",
+      "location",
+      "payments",
+      "search"
+    ],
+    "num_tasks": 5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Perform location based search queries for care providers.",
+        "recommended_categories": [
+          "location",
+          "search"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Render search results as pins on Google Maps.",
+        "recommended_categories": [
+          "geography",
+          "location"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Apply user-specified filters (rating, price, availability).",
+        "recommended_categories": [
+          "search"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Retrieve and display detailed provider profiles.",
+        "recommended_categories": [
+          "data"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Enable booking and calendar scheduling of services.",
+        "recommended_categories": [
+          "booking",
+          "calendar",
+          "payments"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5580,
+    "mashup_name": "alpinaut",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "admin",
+      "analytics",
+      "api",
+      "applications",
+      "authentication",
+      "backend",
+      "big_data",
+      "data",
+      "data_as_a_service",
+      "database",
+      "documents",
+      "geography",
+      "identity",
+      "images",
+      "location",
+      "photos",
+      "search",
+      "sports",
+      "travel"
+    ],
+    "num_tasks": 8,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 19,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task1",
+        "description": "Retrieve raw route diagram files and associated metadata from data sources.",
+        "recommended_categories": [
+          "data",
+          "data_as_a_service",
+          "documents"
+        ]
+      },
+      {
+        "task_id": "Task2",
+        "description": "Store and index route metadata in a query‑optimized database.",
+        "recommended_categories": [
+          "big_data",
+          "data",
+          "database"
+        ]
+      },
+      {
+        "task_id": "Task3",
+        "description": "Implement full‑text and geo‑spatial search filters (sport, difficulty, region).",
+        "recommended_categories": [
+          "analytics",
+          "search"
+        ]
+      },
+      {
+        "task_id": "Task4",
+        "description": "Serve diagram images and supplementary media to client applications.",
+        "recommended_categories": [
+          "images",
+          "photos"
+        ]
+      },
+      {
+        "task_id": "Task5",
+        "description": "Provide integrated geographic context (geo‑coordinates, region polygons, map overlays).",
+        "recommended_categories": [
+          "geography",
+          "location",
+          "sports",
+          "travel"
+        ]
+      },
+      {
+        "task_id": "Task6",
+        "description": "Handle user authentication and account management for personalized features.",
+        "recommended_categories": [
+          "authentication",
+          "identity"
+        ]
+      },
+      {
+        "task_id": "Task7",
+        "description": "Expose RESTful or GraphQL APIs for external clients.",
+        "recommended_categories": [
+          "api",
+          "backend"
+        ]
+      },
+      {
+        "task_id": "Task8",
+        "description": "Build an administration interface for upload, review, and governance of new route data.",
+        "recommended_categories": [
+          "admin",
+          "applications",
+          "backend"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5659,
+    "mashup_name": "mandelbrot-fractal-explorer",
+    "ground_truth_apis": [
+      "openlayers"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "content",
+      "data",
+      "education",
+      "images",
+      "parsing",
+      "reference",
+      "science",
+      "search"
+    ],
+    "num_tasks": 4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 8,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task1",
+        "description": "Implement formula discovery by keyword or category search",
+        "recommended_categories": [
+          "education",
+          "science",
+          "search"
+        ]
+      },
+      {
+        "task_id": "Task2",
+        "description": "Retrieve formula content and metadata from a database or content service",
+        "recommended_categories": [
+          "content",
+          "data",
+          "parsing"
+        ]
+      },
+      {
+        "task_id": "Task3",
+        "description": "Render formulas in a visual format that supports zooming and detailed inspection",
+        "recommended_categories": [
+          "content",
+          "images"
+        ]
+      },
+      {
+        "task_id": "Task4",
+        "description": "Provide ancillary educational material such as example applications, derivations, or explanatory text for each formula",
+        "recommended_categories": [
+          "content",
+          "education",
+          "reference"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 6067,
+    "mashup_name": "icjobs-map-germany",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "api",
+      "application_development",
+      "authentication",
+      "backend",
+      "big_data",
+      "cloud",
+      "compliance",
+      "data_mining",
+      "database",
+      "identity",
+      "machine_learning",
+      "parsing",
+      "reporting",
+      "search",
+      "security",
+      "statistics"
+    ],
+    "num_tasks": 7,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 17,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "TaskID1",
+        "description": "Data Ingestion & Parsing",
+        "recommended_categories": [
+          "backend",
+          "data_mining",
+          "parsing"
+        ]
+      },
+      {
+        "task_id": "TaskID2",
+        "description": "Data Storage & Indexing",
+        "recommended_categories": [
+          "backend",
+          "cloud",
+          "database"
+        ]
+      },
+      {
+        "task_id": "TaskID3",
+        "description": "Search Engine & Query Processing",
+        "recommended_categories": [
+          "big_data",
+          "machine_learning",
+          "search"
+        ]
+      },
+      {
+        "task_id": "TaskID4",
+        "description": "API & Backend Services",
+        "recommended_categories": [
+          "api",
+          "application_development",
+          "backend"
+        ]
+      },
+      {
+        "task_id": "TaskID5",
+        "description": "User Authentication & Account Management",
+        "recommended_categories": [
+          "authentication",
+          "identity",
+          "security"
+        ]
+      },
+      {
+        "task_id": "TaskID6",
+        "description": "Analytics & Reporting",
+        "recommended_categories": [
+          "analytics",
+          "reporting",
+          "statistics"
+        ]
+      },
+      {
+        "task_id": "TaskID7",
+        "description": "Compliance & Privacy",
+        "recommended_categories": [
+          "compliance",
+          "security"
+        ]
+      }
+    ]
+  }
+]

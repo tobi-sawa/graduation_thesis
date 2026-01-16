@@ -1,0 +1,18 @@
+{
+  "total_cases": 100,
+  "macro_average": {
+    "precision": 0.13366666666666668,
+    "recall": 0.14166666666666666,
+    "f1": 0.12999999999999998
+  },
+  "micro_average": {
+    "precision": 0.030303030303030304,
+    "recall": 0.11320754716981132,
+    "f1": 0.04780876494023905
+  },
+  "total": {
+    "true_positive": 18,
+    "false_positive": 576,
+    "false_negative": 141
+  }
+}

@@ -1,0 +1,174 @@
+[
+  {
+    "case_id": 239,
+    "ground_truth": [
+      "fitbit"
+    ],
+    "predictions": [
+      "fitbit"
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "case_id": 992,
+    "ground_truth": [
+      "constantcontact"
+    ],
+    "predictions": [
+      "constantcontact"
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "case_id": 1223,
+    "ground_truth": [
+      "twitter"
+    ],
+    "predictions": [
+      "twitter"
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "case_id": 1529,
+    "ground_truth": [
+      "donorschoose"
+    ],
+    "predictions": [
+      "donorschoose",
+      "charity-navigator"
+    ],
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  },
+  {
+    "case_id": 1698,
+    "ground_truth": [
+      "yelp-fusion"
+    ],
+    "predictions": [
+      "yelp-fusion"
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "case_id": 2267,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "mapbox",
+      "google-maps",
+      "openweathermap-api",
+      "weatherapi-com",
+      "google-places-api"
+    ],
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1": 0.33333333333333337,
+    "tp": 1,
+    "fp": 4,
+    "fn": 0
+  },
+  {
+    "case_id": 2502,
+    "ground_truth": [
+      "youtube"
+    ],
+    "predictions": [
+      "youtube"
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "case_id": 4352,
+    "ground_truth": [
+      "flickr"
+    ],
+    "predictions": [
+      "flickr"
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "case_id": 4708,
+    "ground_truth": [
+      "google-apps-email-migration"
+    ],
+    "predictions": [
+      "google-apps-email-migration"
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  },
+  {
+    "case_id": 5310,
+    "ground_truth": [
+      "google-maps"
+    ],
+    "predictions": [
+      "yelp-fusion",
+      "google-maps"
+    ],
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  },
+  {
+    "case_id": 6281,
+    "ground_truth": [
+      "flickr"
+    ],
+    "predictions": [
+      "google-maps",
+      "flickr"
+    ],
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  }
+]

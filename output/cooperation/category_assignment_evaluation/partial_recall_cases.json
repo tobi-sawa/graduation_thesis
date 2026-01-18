@@ -1,0 +1,3316 @@
+[
+  {
+    "case_id": 535,
+    "mashup_name": "linda",
+    "ground_truth_apis": [
+      "bing",
+      "open_movie_database",
+      "opencnam",
+      "wikipedia",
+      "wolfram_alpha",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "reference",
+      "search",
+      "telephony",
+      "video"
+    ],
+    "recommended_categories": [
+      "accounting",
+      "addresses",
+      "advertising",
+      "analytics",
+      "animals",
+      "api",
+      "astronomy",
+      "authentication",
+      "auto",
+      "backend",
+      "barcodes",
+      "biometrics",
+      "bitcoin",
+      "blockchain",
+      "blogging",
+      "booking",
+      "bookmarks",
+      "books",
+      "bots",
+      "business",
+      "calendars",
+      "chat",
+      "cloud",
+      "collaboration",
+      "content",
+      "coupons",
+      "cryptocurrency",
+      "cycling",
+      "database",
+      "education",
+      "email",
+      "enterprise",
+      "entertainment",
+      "environment",
+      "esports",
+      "events",
+      "fax",
+      "feedback",
+      "feeds",
+      "financial",
+      "fitness",
+      "food",
+      "framework",
+      "gambling",
+      "games",
+      "geography",
+      "government",
+      "hardware",
+      "health",
+      "healthcare",
+      "hosting",
+      "identity",
+      "images",
+      "intelligence",
+      "invoicing",
+      "jobs",
+      "library",
+      "location",
+      "mail",
+      "marketing",
+      "media",
+      "medical",
+      "medicine",
+      "merchants",
+      "messaging",
+      "monitoring",
+      "movies",
+      "music",
+      "nutrition",
+      "payments",
+      "performance",
+      "photos",
+      "politics",
+      "predictions",
+      "printing",
+      "products",
+      "purchasing",
+      "qa",
+      "random",
+      "recommendations",
+      "rewards",
+      "sales",
+      "screenshots",
+      "security",
+      "semantics",
+      "sentiment",
+      "seo",
+      "shipping",
+      "spam",
+      "sports",
+      "standards",
+      "statistics",
+      "stocks",
+      "storage",
+      "support",
+      "tagging",
+      "telephony",
+      "travel",
+      "video",
+      "weather",
+      "wiki"
+    ],
+    "num_tasks": 14,
+    "precision": 0.019801980198019802,
+    "recall": 0.5,
+    "f1": 0.03809523809523809,
+    "tp": 2,
+    "fp": 99,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Receive and store the raw user query.",
+        "recommended_categories": [
+          "backend",
+          "blockchain",
+          "bots",
+          "chat",
+          "content",
+          "database",
+          "enterprise",
+          "feedback",
+          "framework",
+          "storage",
+          "support"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Preprocess the query: tokenization, lowercasing, stop‑word removal, and spell correction.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Perform intent classification to determine the user’s goal.",
+        "recommended_categories": [
+          "predictions",
+          "semantics",
+          "sentiment"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Extract entities and relevant attributes (e.g., location, date, product name).",
+        "recommended_categories": [
+          "calendars",
+          "predictions",
+          "semantics",
+          "tagging"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Map the identified intent and entities to the appropriate domain(s) from the provided category list.",
+        "recommended_categories": [
+          "accounting",
+          "nutrition",
+          "photos"
+        ]
+      },
+      {
+        "task_id": "T6",
+        "description": "Select the most suitable external API(s) for each domain (e.g., weather API for weather queries).",
+        "recommended_categories": [
+          "accounting",
+          "addresses",
+          "animals",
+          "api",
+          "astronomy",
+          "auto",
+          "barcodes",
+          "biometrics",
+          "bitcoin",
+          "bookmarks",
+          "books",
+          "coupons",
+          "cycling",
+          "education",
+          "email",
+          "environment",
+          "esports",
+          "events",
+          "fax",
+          "fitness",
+          "food",
+          "gambling",
+          "games",
+          "healthcare",
+          "hosting",
+          "identity",
+          "images",
+          "intelligence",
+          "invoicing",
+          "jobs",
+          "library",
+          "location",
+          "mail",
+          "marketing",
+          "media",
+          "medicine",
+          "messaging",
+          "monitoring",
+          "movies",
+          "nutrition",
+          "photos",
+          "politics",
+          "printing",
+          "products",
+          "purchasing",
+          "qa",
+          "recommendations",
+          "sales",
+          "screenshots",
+          "seo",
+          "shipping",
+          "spam",
+          "sports",
+          "stocks",
+          "video",
+          "weather",
+          "wiki"
+        ]
+      },
+      {
+        "task_id": "T7",
+        "description": "Construct and send API requests, handling authentication and rate limits.",
+        "recommended_categories": [
+          "accounting",
+          "addresses",
+          "advertising",
+          "animals",
+          "api",
+          "astronomy",
+          "authentication",
+          "backend",
+          "barcodes",
+          "biometrics",
+          "bitcoin",
+          "blockchain",
+          "blogging",
+          "booking",
+          "bookmarks",
+          "books",
+          "bots",
+          "business",
+          "cloud",
+          "collaboration",
+          "coupons",
+          "cycling",
+          "email",
+          "events",
+          "fax",
+          "feeds",
+          "food",
+          "gambling",
+          "games",
+          "hardware",
+          "health",
+          "healthcare",
+          "hosting",
+          "images",
+          "intelligence",
+          "invoicing",
+          "jobs",
+          "library",
+          "mail",
+          "marketing",
+          "medicine",
+          "merchants",
+          "messaging",
+          "monitoring",
+          "nutrition",
+          "payments",
+          "performance",
+          "photos",
+          "politics",
+          "printing",
+          "products",
+          "purchasing",
+          "random",
+          "rewards",
+          "sales",
+          "screenshots",
+          "security",
+          "shipping",
+          "spam",
+          "sports",
+          "stocks",
+          "support",
+          "telephony",
+          "travel",
+          "video",
+          "weather"
+        ]
+      },
+      {
+        "task_id": "T8",
+        "description": "Collect and parse responses from one or multiple APIs.",
+        "recommended_categories": [
+          "accounting",
+          "addresses",
+          "advertising",
+          "animals",
+          "api",
+          "astronomy",
+          "authentication",
+          "auto",
+          "backend",
+          "barcodes",
+          "biometrics",
+          "bitcoin",
+          "blockchain",
+          "blogging",
+          "booking",
+          "bookmarks",
+          "books",
+          "bots",
+          "business",
+          "cloud",
+          "collaboration",
+          "coupons",
+          "cryptocurrency",
+          "cycling",
+          "education",
+          "email",
+          "entertainment",
+          "environment",
+          "esports",
+          "events",
+          "fax",
+          "feeds",
+          "financial",
+          "food",
+          "gambling",
+          "games",
+          "geography",
+          "government",
+          "hardware",
+          "health",
+          "healthcare",
+          "hosting",
+          "identity",
+          "images",
+          "intelligence",
+          "invoicing",
+          "jobs",
+          "library",
+          "location",
+          "mail",
+          "marketing",
+          "media",
+          "medical",
+          "medicine",
+          "merchants",
+          "messaging",
+          "monitoring",
+          "movies",
+          "music",
+          "nutrition",
+          "payments",
+          "performance",
+          "photos",
+          "politics",
+          "printing",
+          "products",
+          "purchasing",
+          "qa",
+          "random",
+          "recommendations",
+          "rewards",
+          "sales",
+          "screenshots",
+          "seo",
+          "shipping",
+          "spam",
+          "sports",
+          "standards",
+          "statistics",
+          "stocks",
+          "support",
+          "telephony",
+          "travel",
+          "video",
+          "weather",
+          "wiki"
+        ]
+      },
+      {
+        "task_id": "T9",
+        "description": "Aggregate and reconcile data from multiple sources into a coherent information set.",
+        "recommended_categories": [
+          "accounting",
+          "analytics",
+          "auto",
+          "backend",
+          "bitcoin",
+          "books",
+          "coupons",
+          "database",
+          "entertainment",
+          "events",
+          "games",
+          "healthcare",
+          "location",
+          "mail",
+          "politics",
+          "seo",
+          "weather"
+        ]
+      },
+      {
+        "task_id": "T10",
+        "description": "Generate a natural‑language answer using templating or a language model.",
+        "recommended_categories": [
+          "accounting",
+          "books",
+          "chat",
+          "coupons",
+          "games",
+          "healthcare"
+        ]
+      },
+      {
+        "task_id": "T11",
+        "description": "Post‑process the answer: format dates, numbers, and URLs; apply personalization if needed.",
+        "recommended_categories": [
+          "accounting",
+          "books",
+          "games"
+        ]
+      },
+      {
+        "task_id": "T12",
+        "description": "Handle errors and fallbacks: provide graceful responses when APIs fail or data is missing.",
+        "recommended_categories": [
+          "accounting",
+          "advertising",
+          "api",
+          "bitcoin",
+          "books",
+          "collaboration",
+          "coupons",
+          "cycling",
+          "email",
+          "gambling",
+          "games",
+          "hardware",
+          "hosting",
+          "mail",
+          "marketing",
+          "merchants",
+          "messaging",
+          "payments",
+          "random",
+          "shipping",
+          "spam",
+          "support",
+          "video",
+          "weather"
+        ]
+      },
+      {
+        "task_id": "T13",
+        "description": "Log query, intent, API usage, and response for analytics and continuous improvement.",
+        "recommended_categories": [
+          "accounting",
+          "advertising",
+          "analytics",
+          "backend",
+          "blockchain",
+          "books",
+          "content",
+          "database",
+          "email",
+          "enterprise",
+          "feedback",
+          "framework",
+          "hosting",
+          "marketing",
+          "messaging",
+          "payments",
+          "sales",
+          "spam",
+          "storage",
+          "support"
+        ]
+      },
+      {
+        "task_id": "T14",
+        "description": "Update or cache frequently accessed data to reduce API calls and improve latency.",
+        "recommended_categories": [
+          "accounting",
+          "advertising",
+          "api",
+          "backend",
+          "books",
+          "coupons",
+          "database",
+          "email",
+          "framework",
+          "hosting",
+          "merchants",
+          "messaging",
+          "payments",
+          "sales",
+          "spam",
+          "storage"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 782,
+    "mashup_name": "wild-food-map",
+    "ground_truth_apis": [
+      "google_maps",
+      "instagram_graph"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "photos"
+    ],
+    "recommended_categories": [
+      "addresses",
+      "analytics",
+      "applications",
+      "backend",
+      "blogging",
+      "classification",
+      "collaboration",
+      "content",
+      "data",
+      "database",
+      "design",
+      "email",
+      "enterprise",
+      "feedback",
+      "framework",
+      "geography",
+      "intelligence",
+      "location",
+      "mail",
+      "marketing",
+      "media",
+      "medical",
+      "messaging",
+      "office",
+      "pdf",
+      "photos",
+      "predictions",
+      "reporting",
+      "security",
+      "spreadsheets",
+      "statistics",
+      "storage",
+      "streaming",
+      "support"
+    ],
+    "num_tasks": 15,
+    "precision": 0.029411764705882353,
+    "recall": 0.5,
+    "f1": 0.05555555555555555,
+    "tp": 1,
+    "fp": 33,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task 1",
+        "description": "Implement user authentication and profile management using OAuth 2.0, supporting social login via Instagram and email/password.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "security"
+        ]
+      },
+      {
+        "task_id": "Task 2",
+        "description": "Integrate Google Maps API to display interactive maps, support zoom, pan, and custom markers for plant locations.",
+        "recommended_categories": [
+          "data"
+        ]
+      },
+      {
+        "task_id": "Task 3",
+        "description": "Develop photo capture and upload workflow, including Instagram API integration for posting and retrieving media.",
+        "recommended_categories": [
+          "backend",
+          "content",
+          "framework",
+          "photos",
+          "storage",
+          "streaming"
+        ]
+      },
+      {
+        "task_id": "Task 4",
+        "description": "Build plant identification module using image recognition (e.g., TensorFlow Lite) to suggest species from uploaded photos.",
+        "recommended_categories": [
+          "media",
+          "photos",
+          "predictions"
+        ]
+      },
+      {
+        "task_id": "Task 5",
+        "description": "Create a plant database schema to store species information, medicinal uses, native status, and user-contributed notes.",
+        "recommended_categories": [
+          "applications",
+          "backend",
+          "database",
+          "enterprise",
+          "framework",
+          "medical",
+          "spreadsheets"
+        ]
+      },
+      {
+        "task_id": "Task 6",
+        "description": "Implement location tagging and geo-data storage, linking plant sightings to latitude/longitude and map markers.",
+        "recommended_categories": [
+          "addresses",
+          "backend",
+          "data",
+          "database",
+          "framework",
+          "geography",
+          "location"
+        ]
+      },
+      {
+        "task_id": "Task 7",
+        "description": "Develop a social feed that aggregates plant posts, supports likes, comments, shares, and follows.",
+        "recommended_categories": [
+          "backend",
+          "blogging",
+          "classification",
+          "collaboration",
+          "enterprise",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task 8",
+        "description": "Set up community moderation tools: content reporting, user flagging, and admin review workflows.",
+        "recommended_categories": [
+          "backend",
+          "blogging",
+          "collaboration",
+          "feedback",
+          "framework",
+          "support"
+        ]
+      },
+      {
+        "task_id": "Task 9",
+        "description": "Create a notification system for new posts, replies, and location-based alerts using push notifications and email.",
+        "recommended_categories": [
+          "backend",
+          "collaboration",
+          "email",
+          "framework",
+          "mail",
+          "messaging"
+        ]
+      },
+      {
+        "task_id": "Task 10",
+        "description": "Implement analytics dashboards to track user engagement, plant discovery rates, and map interaction metrics.",
+        "recommended_categories": [
+          "analytics",
+          "backend",
+          "design",
+          "enterprise",
+          "framework",
+          "intelligence",
+          "marketing",
+          "reporting",
+          "spreadsheets",
+          "statistics"
+        ]
+      },
+      {
+        "task_id": "Task 11",
+        "description": "Design an API gateway with rate limiting, authentication, and logging to secure internal services.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task 12",
+        "description": "Build responsive web and mobile frontends using React Native / Flutter, ensuring seamless map and media experiences.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "Task 13",
+        "description": "Add offline data sync and caching so users can view and add plant sightings without continuous connectivity.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task 14",
+        "description": "Provide data export options (PDF, CSV) for users to share plant lists and location data.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "office",
+          "pdf",
+          "spreadsheets",
+          "storage"
+        ]
+      },
+      {
+        "task_id": "Task 15",
+        "description": "Ensure legal and privacy compliance: GDPR, COPPA, and data retention policies, including user consent management.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1068,
+    "mashup_name": "sweet-soundtrack",
+    "ground_truth_apis": [
+      "lastfm",
+      "movie_database_tmdb"
+    ],
+    "ground_truth_categories": [
+      "entertainment",
+      "music"
+    ],
+    "recommended_categories": [
+      "backend",
+      "entertainment",
+      "hardware",
+      "library",
+      "media",
+      "video"
+    ],
+    "num_tasks": 7,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1": 0.25,
+    "tp": 1,
+    "fp": 5,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task 1",
+        "description": "Search movies by title or keyword and return matching movie IDs and titles.",
+        "recommended_categories": [
+          "backend",
+          "entertainment",
+          "hardware",
+          "library",
+          "media",
+          "video"
+        ]
+      },
+      {
+        "task_id": "Task 2",
+        "description": "Search songs by title or keyword and return matching song IDs, titles, and associated movie IDs.",
+        "recommended_categories": [
+          "backend",
+          "entertainment",
+          "hardware",
+          "library",
+          "media"
+        ]
+      },
+      {
+        "task_id": "Task 3",
+        "description": "Retrieve the full soundtrack list for a given movie ID, including track order, titles, artists, durations.",
+        "recommended_categories": [
+          "backend",
+          "entertainment"
+        ]
+      },
+      {
+        "task_id": "Task 4",
+        "description": "Retrieve detailed information for a specific song ID, including artist, duration, release date, and related movie.",
+        "recommended_categories": [
+          "backend",
+          "entertainment",
+          "library",
+          "media"
+        ]
+      },
+      {
+        "task_id": "Task 5",
+        "description": "Provide filtering capabilities for search results by year, genre, artist, or movie.",
+        "recommended_categories": [
+          "backend",
+          "entertainment",
+          "library",
+          "media",
+          "video"
+        ]
+      },
+      {
+        "task_id": "Task 6",
+        "description": "Implement pagination for search and list endpoints to handle large result sets.",
+        "recommended_categories": [
+          "backend",
+          "entertainment",
+          "library",
+          "media",
+          "video"
+        ]
+      },
+      {
+        "task_id": "Task 7",
+        "description": "Offer autocomplete suggestions for movie and song titles based on partial input.",
+        "recommended_categories": [
+          "backend",
+          "entertainment",
+          "media",
+          "video"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1213,
+    "mashup_name": "actionzap",
+    "ground_truth_apis": [
+      "citygrid",
+      "google_geocoding",
+      "google_maps",
+      "yahoo_local_search",
+      "yelp_fusion",
+      "yipit"
+    ],
+    "ground_truth_categories": [
+      "ecommerce",
+      "mapping",
+      "recommendations",
+      "search"
+    ],
+    "recommended_categories": [
+      "accounting",
+      "addresses",
+      "advertising",
+      "analytics",
+      "api",
+      "applications",
+      "authentication",
+      "backend",
+      "biometrics",
+      "bitcoin",
+      "blockchain",
+      "books",
+      "bots",
+      "business",
+      "calendars",
+      "chat",
+      "content",
+      "coupons",
+      "data",
+      "database",
+      "developers",
+      "education",
+      "email",
+      "enterprise",
+      "entertainment",
+      "events",
+      "fax",
+      "financial",
+      "fitness",
+      "food",
+      "forms",
+      "framework",
+      "geography",
+      "hardware",
+      "health",
+      "identity",
+      "invoicing",
+      "jobs",
+      "location",
+      "mail",
+      "marketing",
+      "media",
+      "merchants",
+      "messaging",
+      "movies",
+      "parsing",
+      "payments",
+      "pdf",
+      "predictions",
+      "purchasing",
+      "recommendations",
+      "reporting",
+      "rewards",
+      "sales",
+      "security",
+      "semantics",
+      "sentiment",
+      "sports",
+      "spreadsheets",
+      "standards",
+      "statistics",
+      "support",
+      "text",
+      "travel"
+    ],
+    "num_tasks": 10,
+    "precision": 0.015625,
+    "recall": 0.25,
+    "f1": 0.029411764705882353,
+    "tp": 1,
+    "fp": 63,
+    "fn": 3,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "User authentication and profile management",
+        "recommended_categories": [
+          "authentication",
+          "backend",
+          "biometrics",
+          "bots",
+          "developers",
+          "framework",
+          "identity",
+          "security",
+          "support"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Search and filter activities by location, date, type, and user preferences",
+        "recommended_categories": [
+          "addresses",
+          "data",
+          "database",
+          "education",
+          "enterprise",
+          "entertainment",
+          "events",
+          "fitness",
+          "food",
+          "geography",
+          "hardware",
+          "health",
+          "jobs",
+          "location",
+          "recommendations",
+          "sports",
+          "standards",
+          "travel"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Retrieve and aggregate reviews and ratings from multiple review platforms",
+        "recommended_categories": [
+          "applications",
+          "books",
+          "food",
+          "movies",
+          "parsing",
+          "semantics",
+          "sentiment",
+          "text"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Display daily deals and promotions for selected activities",
+        "recommended_categories": [
+          "advertising",
+          "api",
+          "content",
+          "coupons",
+          "database",
+          "food",
+          "marketing",
+          "media",
+          "rewards",
+          "sales",
+          "travel"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Manage reservation booking workflow (select date/time, number of participants, special requests)",
+        "recommended_categories": [
+          "backend",
+          "bots",
+          "calendars",
+          "database",
+          "education",
+          "enterprise",
+          "events",
+          "forms",
+          "framework",
+          "hardware",
+          "sales",
+          "sports",
+          "travel"
+        ]
+      },
+      {
+        "task_id": "T6",
+        "description": "Process payments securely and handle transaction confirmation",
+        "recommended_categories": [
+          "accounting",
+          "backend",
+          "bitcoin",
+          "blockchain",
+          "education",
+          "enterprise",
+          "financial",
+          "framework",
+          "merchants",
+          "payments",
+          "purchasing",
+          "sales"
+        ]
+      },
+      {
+        "task_id": "T7",
+        "description": "Send reservation confirmation, itinerary, and reminders to the user",
+        "recommended_categories": [
+          "backend",
+          "bots",
+          "business",
+          "calendars",
+          "chat",
+          "education",
+          "email",
+          "fax",
+          "framework",
+          "hardware",
+          "mail",
+          "messaging",
+          "pdf",
+          "rewards",
+          "sales",
+          "support"
+        ]
+      },
+      {
+        "task_id": "T8",
+        "description": "Provide detailed activity information and itinerary management",
+        "recommended_categories": [
+          "api",
+          "content",
+          "database",
+          "education",
+          "entertainment",
+          "events",
+          "fitness",
+          "food",
+          "media",
+          "parsing",
+          "pdf",
+          "sales",
+          "sports",
+          "travel"
+        ]
+      },
+      {
+        "task_id": "T9",
+        "description": "Handle cancellations, refunds, and rescheduling",
+        "recommended_categories": [
+          "accounting",
+          "backend",
+          "calendars",
+          "database",
+          "enterprise",
+          "events",
+          "financial",
+          "framework",
+          "purchasing",
+          "sales",
+          "support",
+          "travel"
+        ]
+      },
+      {
+        "task_id": "T10",
+        "description": "Analytics and reporting for business partners (booking metrics, deal performance, review trends)",
+        "recommended_categories": [
+          "accounting",
+          "advertising",
+          "analytics",
+          "backend",
+          "business",
+          "coupons",
+          "database",
+          "education",
+          "enterprise",
+          "entertainment",
+          "financial",
+          "fitness",
+          "invoicing",
+          "marketing",
+          "pdf",
+          "predictions",
+          "purchasing",
+          "reporting",
+          "sales",
+          "semantics",
+          "sentiment",
+          "sports",
+          "spreadsheets",
+          "statistics",
+          "text"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1307,
+    "mashup_name": "aussie-pubcrawl",
+    "ground_truth_apis": [
+      "sensis_business_search",
+      "yelp_fusion"
+    ],
+    "ground_truth_categories": [
+      "recommendations",
+      "reference"
+    ],
+    "recommended_categories": [
+      "addresses",
+      "backend",
+      "design",
+      "framework",
+      "location",
+      "recommendations",
+      "storage"
+    ],
+    "num_tasks": 10,
+    "precision": 0.14285714285714285,
+    "recall": 0.5,
+    "f1": 0.22222222222222224,
+    "tp": 1,
+    "fp": 6,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task ID 1",
+        "description": "Geocode the user’s Australian address to obtain latitude and longitude.",
+        "recommended_categories": [
+          "addresses",
+          "backend",
+          "location"
+        ]
+      },
+      {
+        "task_id": "Task ID 2",
+        "description": "Query the Sensis Yellow Pages API for pubs within a specified radius of the geocoded location.",
+        "recommended_categories": [
+          "backend"
+        ]
+      },
+      {
+        "task_id": "Task ID 3",
+        "description": "Parse Sensis API responses to extract pub names, addresses, and unique identifiers.",
+        "recommended_categories": [
+          "backend"
+        ]
+      },
+      {
+        "task_id": "Task ID 4",
+        "description": "For each pub, construct a Yelp API search query using the pub name and location.",
+        "recommended_categories": [
+          "backend",
+          "recommendations"
+        ]
+      },
+      {
+        "task_id": "Task ID 5",
+        "description": "Retrieve Yelp reviews for each pub, filtering to include only the most recent reviews (e.g., within the last 30 days).",
+        "recommended_categories": [
+          "backend",
+          "recommendations"
+        ]
+      },
+      {
+        "task_id": "Task ID 6",
+        "description": "Extract reviewer photos from the Yelp review data.",
+        "recommended_categories": [
+          "backend",
+          "recommendations"
+        ]
+      },
+      {
+        "task_id": "Task ID 7",
+        "description": "Merge Sensis pub data with corresponding Yelp review and photo data into a unified result set.",
+        "recommended_categories": [
+          "backend"
+        ]
+      },
+      {
+        "task_id": "Task ID 8",
+        "description": "Design and implement a user interface to display the merged pub listings with reviewer photos.",
+        "recommended_categories": [
+          "design",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task ID 9",
+        "description": "Implement error handling for API failures, rate limits, and missing data scenarios.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task ID 10",
+        "description": "Securely store and manage API keys for Sensis and Yelp, ensuring compliance with their usage policies.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "storage"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1854,
+    "mashup_name": "cloudient-personal-digital-assistant",
+    "ground_truth_apis": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "ground_truth_categories": [
+      "messaging",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "applications",
+      "backend",
+      "calendars",
+      "classification",
+      "database",
+      "design",
+      "enterprise",
+      "forms",
+      "framework",
+      "identity",
+      "politics",
+      "reporting",
+      "statistics",
+      "support",
+      "telephony"
+    ],
+    "num_tasks": 10,
+    "precision": 0.0625,
+    "recall": 0.5,
+    "f1": 0.1111111111111111,
+    "tp": 1,
+    "fp": 15,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task 1",
+        "description": "Integrate with a telephony API to receive and route incoming calls to the assistant.",
+        "recommended_categories": [
+          "framework",
+          "support",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task 2",
+        "description": "Implement blocklist management: CRUD operations for user‑defined blocked numbers.",
+        "recommended_categories": [
+          "applications",
+          "backend",
+          "database",
+          "framework",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task 3",
+        "description": "Implement time‑based filtering logic to allow or deny calls based on user‑specified schedules.",
+        "recommended_categories": [
+          "backend",
+          "calendars",
+          "database",
+          "framework",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task 4",
+        "description": "Integrate with the user’s contact list to identify known contacts and apply special handling.",
+        "recommended_categories": [
+          "backend",
+          "enterprise",
+          "framework",
+          "identity",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task 5",
+        "description": "Add close‑friends identification feature, allowing users to tag contacts and prioritize them.",
+        "recommended_categories": [
+          "backend",
+          "classification",
+          "database",
+          "framework",
+          "identity",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task 6",
+        "description": "Develop harsh handling responses for blocklist violators (e.g., automated refusal, call termination).",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task 7",
+        "description": "Automate do‑not‑call requests to companies and political organizations on behalf of the user.",
+        "recommended_categories": [
+          "backend",
+          "enterprise",
+          "framework",
+          "politics",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task 8",
+        "description": "Implement logging and analytics to track call filtering decisions and user interactions.",
+        "recommended_categories": [
+          "analytics",
+          "applications",
+          "backend",
+          "database",
+          "enterprise",
+          "framework",
+          "reporting",
+          "statistics",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task 9",
+        "description": "Create a user interface for configuring blocklists, schedules, contact tags, and do‑not‑call preferences.",
+        "recommended_categories": [
+          "applications",
+          "database",
+          "design",
+          "forms",
+          "framework",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task 10",
+        "description": "Ensure compliance with telecommunication regulations and privacy laws (e.g., GDPR, TCPA).",
+        "recommended_categories": [
+          "backend",
+          "enterprise",
+          "framework",
+          "telephony"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1866,
+    "mashup_name": "decisions-heroes-0",
+    "ground_truth_apis": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "ground_truth_categories": [
+      "messaging",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "addresses",
+      "analytics",
+      "authentication",
+      "backend",
+      "business",
+      "cloud",
+      "collaboration",
+      "content",
+      "database",
+      "design",
+      "documents",
+      "enterprise",
+      "forms",
+      "framework",
+      "geography",
+      "government",
+      "identity",
+      "intelligence",
+      "location",
+      "messaging",
+      "office",
+      "pdf",
+      "politics",
+      "predictions",
+      "reporting",
+      "security",
+      "spreadsheets",
+      "statistics",
+      "storage",
+      "support",
+      "widgets"
+    ],
+    "num_tasks": 12,
+    "precision": 0.03225806451612903,
+    "recall": 0.5,
+    "f1": 0.06060606060606061,
+    "tp": 1,
+    "fp": 30,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Incident Data Ingestion and Validation – Collect and validate incident reports from various sources.",
+        "recommended_categories": [
+          "backend",
+          "business",
+          "cloud",
+          "content",
+          "database",
+          "documents",
+          "enterprise",
+          "forms",
+          "framework",
+          "government",
+          "spreadsheets",
+          "storage",
+          "support"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Real‑time Response Time Tracking – Monitor and record response times from dispatch to arrival.",
+        "recommended_categories": [
+          "cloud",
+          "database",
+          "framework",
+          "spreadsheets",
+          "support"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Injury and Casualty Data Capture – Store detailed injury and casualty information for each incident.",
+        "recommended_categories": [
+          "backend",
+          "cloud",
+          "content",
+          "database",
+          "forms",
+          "framework",
+          "spreadsheets",
+          "storage"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Demographic Data Integration – Enrich incident data with demographic attributes of casualties.",
+        "recommended_categories": [
+          "cloud",
+          "database",
+          "framework",
+          "government",
+          "identity",
+          "spreadsheets",
+          "storage"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Pattern and Trend Analysis Engine – Analyze aggregated data to detect trends in response times, injuries, and demographics.",
+        "recommended_categories": [
+          "analytics",
+          "backend",
+          "cloud",
+          "database",
+          "enterprise",
+          "predictions",
+          "spreadsheets",
+          "statistics"
+        ]
+      },
+      {
+        "task_id": "T6",
+        "description": "Hotspot Cluster Detection and Mapping – Use spatial analytics to identify clusters of incidents and high‑risk zones.",
+        "recommended_categories": [
+          "cloud",
+          "database",
+          "enterprise",
+          "geography",
+          "government",
+          "intelligence",
+          "location"
+        ]
+      },
+      {
+        "task_id": "T7",
+        "description": "Visualization Dashboard for Incident Metrics – Provide interactive dashboards for real‑time monitoring and historical analysis.",
+        "recommended_categories": [
+          "analytics",
+          "backend",
+          "cloud",
+          "design",
+          "enterprise",
+          "reporting",
+          "spreadsheets",
+          "widgets"
+        ]
+      },
+      {
+        "task_id": "T8",
+        "description": "Alert Generation for High‑Risk Areas – Trigger alerts when hotspot thresholds are exceeded or response times degrade.",
+        "recommended_categories": [
+          "cloud",
+          "enterprise",
+          "framework",
+          "geography",
+          "intelligence",
+          "messaging",
+          "predictions"
+        ]
+      },
+      {
+        "task_id": "T9",
+        "description": "Reporting and Export Functionality – Generate customizable reports and export data for external use.",
+        "recommended_categories": [
+          "analytics",
+          "backend",
+          "business",
+          "cloud",
+          "database",
+          "enterprise",
+          "forms",
+          "framework",
+          "office",
+          "pdf",
+          "reporting",
+          "spreadsheets",
+          "statistics",
+          "storage",
+          "support"
+        ]
+      },
+      {
+        "task_id": "T10",
+        "description": "User and Role Management – Manage access control for dispatchers, analysts, and administrators.",
+        "recommended_categories": [
+          "authentication",
+          "backend",
+          "business",
+          "cloud",
+          "collaboration",
+          "content",
+          "database",
+          "enterprise",
+          "framework",
+          "security",
+          "support"
+        ]
+      },
+      {
+        "task_id": "T11",
+        "description": "GIS Integration for Spatial Analysis – Integrate with GIS tools to support mapping and geospatial queries.",
+        "recommended_categories": [
+          "addresses",
+          "cloud",
+          "database",
+          "geography",
+          "government",
+          "intelligence",
+          "location",
+          "politics"
+        ]
+      },
+      {
+        "task_id": "T12",
+        "description": "Data Security and Compliance – Ensure data privacy, encryption, and compliance with relevant regulations.",
+        "recommended_categories": [
+          "backend",
+          "cloud",
+          "content",
+          "database",
+          "enterprise",
+          "storage",
+          "support"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 1869,
+    "mashup_name": "safetygrid",
+    "ground_truth_apis": [
+      "facebook",
+      "twilio",
+      "twilio_sms"
+    ],
+    "ground_truth_categories": [
+      "messaging",
+      "social",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "backend",
+      "cloud",
+      "database",
+      "email",
+      "forms",
+      "framework",
+      "mail",
+      "messaging",
+      "monitoring",
+      "security",
+      "storage",
+      "support",
+      "telephony"
+    ],
+    "num_tasks": 10,
+    "precision": 0.14285714285714285,
+    "recall": 0.6666666666666666,
+    "f1": 0.23529411764705882,
+    "tp": 2,
+    "fp": 12,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task 1",
+        "description": "Implement user registration and authentication to manage alert recipients.",
+        "recommended_categories": [
+          "backend",
+          "database",
+          "forms",
+          "framework",
+          "security",
+          "support"
+        ]
+      },
+      {
+        "task_id": "Task 2",
+        "description": "Create an API endpoint to trigger an emergency alert event.",
+        "recommended_categories": [
+          "backend",
+          "cloud",
+          "framework",
+          "messaging",
+          "support"
+        ]
+      },
+      {
+        "task_id": "Task 3",
+        "description": "Integrate with a telephony API (e.g., Twilio Voice) to place automated phone calls.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task 4",
+        "description": "Integrate with an SMS gateway (e.g., Twilio SMS) to send text messages.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "messaging",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task 5",
+        "description": "Integrate with the Facebook Graph API to send Messenger notifications.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task 6",
+        "description": "Integrate with an email service provider (e.g., SendGrid, SES) to send alert emails.",
+        "recommended_categories": [
+          "backend",
+          "email",
+          "framework",
+          "mail",
+          "support"
+        ]
+      },
+      {
+        "task_id": "Task 7",
+        "description": "Implement logging and auditing of all sent alerts for compliance and troubleshooting.",
+        "recommended_categories": [
+          "analytics",
+          "backend",
+          "cloud",
+          "database",
+          "framework",
+          "storage",
+          "support"
+        ]
+      },
+      {
+        "task_id": "Task 8",
+        "description": "Develop mobile app push notification handling to inform users of incoming alerts.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "messaging"
+        ]
+      },
+      {
+        "task_id": "Task 9",
+        "description": "Add scheduling and retry logic for failed delivery attempts across all channels.",
+        "recommended_categories": [
+          "backend",
+          "cloud",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task 10",
+        "description": "Set up monitoring and alert failure reporting to notify administrators of delivery issues.",
+        "recommended_categories": [
+          "analytics",
+          "backend",
+          "cloud",
+          "framework",
+          "monitoring",
+          "support"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2484,
+    "mashup_name": "awayfind",
+    "ground_truth_apis": [
+      "tropo_scripting",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "social",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "authentication",
+      "backend",
+      "bots",
+      "chat",
+      "classification",
+      "content",
+      "database",
+      "email",
+      "enterprise",
+      "messaging",
+      "predictions",
+      "security",
+      "semantics",
+      "sentiment",
+      "storage",
+      "support",
+      "telephony"
+    ],
+    "num_tasks": 10,
+    "precision": 0.05555555555555555,
+    "recall": 0.5,
+    "f1": 0.09999999999999999,
+    "tp": 1,
+    "fp": 17,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task ID 1",
+        "description": "Retrieve emails from the user’s email provider via IMAP/POP3 or API.",
+        "recommended_categories": [
+          "email"
+        ]
+      },
+      {
+        "task_id": "Task ID 2",
+        "description": "Analyze and score email importance using keyword, sender, and metadata heuristics.",
+        "recommended_categories": [
+          "analytics",
+          "classification",
+          "predictions",
+          "semantics",
+          "sentiment"
+        ]
+      },
+      {
+        "task_id": "Task ID 3",
+        "description": "Send a phone call notification using a VoIP/Telephony API.",
+        "recommended_categories": [
+          "backend",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task ID 4",
+        "description": "Send an SMS notification via an SMS gateway.",
+        "recommended_categories": [
+          "messaging",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task ID 5",
+        "description": "Send an instant message notification (e.g., Slack, Teams) via their respective APIs.",
+        "recommended_categories": [
+          "bots",
+          "chat",
+          "messaging"
+        ]
+      },
+      {
+        "task_id": "Task ID 6",
+        "description": "Send a Twitter Direct Message using the Twitter API.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "Task ID 7",
+        "description": "Delegate the email to a specified user by forwarding or assigning it in the system.",
+        "recommended_categories": [
+          "email",
+          "support"
+        ]
+      },
+      {
+        "task_id": "Task ID 8",
+        "description": "Manage user preferences for notification channels and delegation rules.",
+        "recommended_categories": [
+          "backend",
+          "database",
+          "enterprise",
+          "support"
+        ]
+      },
+      {
+        "task_id": "Task ID 9",
+        "description": "Store notification logs and email metadata for audit and analytics.",
+        "recommended_categories": [
+          "analytics",
+          "backend",
+          "content",
+          "database",
+          "enterprise",
+          "storage",
+          "support"
+        ]
+      },
+      {
+        "task_id": "Task ID 10",
+        "description": "Handle authentication, authorization, and secure storage of credentials.",
+        "recommended_categories": [
+          "authentication",
+          "backend",
+          "database",
+          "email",
+          "enterprise",
+          "security",
+          "support"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2540,
+    "mashup_name": "moveable-weather",
+    "ground_truth_apis": [
+      "google_gadgets",
+      "google_latitude",
+      "tropo_scripting"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "telephony",
+      "widgets"
+    ],
+    "recommended_categories": [
+      "backend",
+      "data",
+      "framework",
+      "hardware",
+      "intelligence",
+      "location",
+      "parsing",
+      "security",
+      "telephony",
+      "weather"
+    ],
+    "num_tasks": 6,
+    "precision": 0.1,
+    "recall": 0.3333333333333333,
+    "f1": 0.15384615384615383,
+    "tp": 1,
+    "fp": 9,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "Task ID 1",
+        "description": "Acquire the user's current geographic location (latitude and longitude) using device sensors or IP geolocation.",
+        "recommended_categories": [
+          "data",
+          "intelligence",
+          "location"
+        ]
+      },
+      {
+        "task_id": "Task ID 2",
+        "description": "Construct and send an authenticated request to Google's secret Weather API with the obtained location parameters.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "security",
+          "weather"
+        ]
+      },
+      {
+        "task_id": "Task ID 3",
+        "description": "Receive and parse the API response, extracting relevant weather metrics (temperature, humidity, wind, forecast, etc.).",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "parsing",
+          "weather"
+        ]
+      },
+      {
+        "task_id": "Task ID 4",
+        "description": "Format the extracted data into a natural language summary suitable for speech output.",
+        "recommended_categories": [
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task ID 5",
+        "description": "Use a text-to-speech engine to vocalize the weather summary to the user.",
+        "recommended_categories": [
+          "hardware",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task ID 6",
+        "description": "Handle errors gracefully (e.g., network failures, API errors, location not available) and provide fallback messages.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 2930,
+    "mashup_name": "my-friends-mosaic",
+    "ground_truth_apis": [
+      "livejournal",
+      "twitter",
+      "zazzle"
+    ],
+    "ground_truth_categories": [
+      "blogging",
+      "ecommerce",
+      "social"
+    ],
+    "recommended_categories": [
+      "accounting",
+      "analytics",
+      "applications",
+      "backend",
+      "bitcoin",
+      "blockchain",
+      "blogging",
+      "cloud",
+      "content",
+      "database",
+      "design",
+      "enterprise",
+      "financial",
+      "forms",
+      "framework",
+      "intelligence",
+      "marketing",
+      "media",
+      "merchants",
+      "payments",
+      "photos",
+      "printing",
+      "products",
+      "purchasing",
+      "reporting",
+      "sales",
+      "security",
+      "shipping",
+      "statistics",
+      "widgets"
+    ],
+    "num_tasks": 12,
+    "precision": 0.03333333333333333,
+    "recall": 0.3333333333333333,
+    "f1": 0.0606060606060606,
+    "tp": 1,
+    "fp": 29,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "Task ID 1",
+        "description": "Implement OAuth authentication for Twitter and LiveJournal to obtain user access tokens.",
+        "recommended_categories": [
+          "backend",
+          "blogging",
+          "security"
+        ]
+      },
+      {
+        "task_id": "Task ID 2",
+        "description": "Retrieve the authenticated user’s friends/followers list and download each friend’s profile picture.",
+        "recommended_categories": [
+          "backend",
+          "blogging",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task ID 3",
+        "description": "Normalize and preprocess images (resize, crop, color correction) to a uniform tile size suitable for mosaics.",
+        "recommended_categories": [
+          "design",
+          "media",
+          "photos"
+        ]
+      },
+      {
+        "task_id": "Task ID 4",
+        "description": "Generate a mosaic grid algorithm that arranges the processed tiles into a cohesive image, optionally allowing user‑selected layout or theme.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "Task ID 5",
+        "description": "Provide a preview interface where users can view and adjust the mosaic before finalizing.",
+        "recommended_categories": [
+          "applications",
+          "design",
+          "framework",
+          "merchants",
+          "widgets"
+        ]
+      },
+      {
+        "task_id": "Task ID 6",
+        "description": "Offer product selection (mug, T‑shirt, mousepad, bag) with size and material options, and calculate final image resolution requirements.",
+        "recommended_categories": [
+          "backend",
+          "forms",
+          "framework",
+          "merchants",
+          "products",
+          "sales",
+          "widgets"
+        ]
+      },
+      {
+        "task_id": "Task ID 7",
+        "description": "Integrate with a printing service API to submit the final image and product details for order fulfillment.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "photos",
+          "printing"
+        ]
+      },
+      {
+        "task_id": "Task ID 8",
+        "description": "Manage order processing, payment handling, and shipping status tracking.",
+        "recommended_categories": [
+          "accounting",
+          "backend",
+          "bitcoin",
+          "enterprise",
+          "financial",
+          "framework",
+          "merchants",
+          "payments",
+          "purchasing",
+          "sales",
+          "shipping"
+        ]
+      },
+      {
+        "task_id": "Task ID 9",
+        "description": "Store user profiles, mosaic designs, and order history securely in a database.",
+        "recommended_categories": [
+          "backend",
+          "blockchain",
+          "cloud",
+          "content",
+          "database",
+          "enterprise",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task ID 10",
+        "description": "Implement error handling, rate‑limit management, and caching for API calls to improve performance and reliability.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task ID 11",
+        "description": "Add analytics to track usage metrics, conversion rates, and popular product choices.",
+        "recommended_categories": [
+          "analytics",
+          "backend",
+          "framework",
+          "intelligence",
+          "marketing",
+          "reporting",
+          "statistics"
+        ]
+      },
+      {
+        "task_id": "Task ID 12",
+        "description": "Ensure compliance with privacy policies and data protection regulations for user data and images.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3005,
+    "mashup_name": "groupcall",
+    "ground_truth_apis": [
+      "twilio",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "social",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "backend",
+      "chat",
+      "database",
+      "framework",
+      "security",
+      "spreadsheets",
+      "storage",
+      "telephony"
+    ],
+    "num_tasks": 9,
+    "precision": 0.1111111111111111,
+    "recall": 0.5,
+    "f1": 0.1818181818181818,
+    "tp": 1,
+    "fp": 8,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task ID 1",
+        "description": "Authenticate the user with Twitter using OAuth and obtain necessary permissions.",
+        "recommended_categories": [
+          "framework",
+          "security"
+        ]
+      },
+      {
+        "task_id": "Task ID 2",
+        "description": "Retrieve the authenticated user’s profile and contact list (followers/following) from Twitter.",
+        "recommended_categories": [
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task ID 3",
+        "description": "Create a new conference call session using a conferencing API (e.g., Twilio, Zoom, or Jitsi).",
+        "recommended_categories": [
+          "backend",
+          "chat",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task ID 4",
+        "description": "Generate a unique, shareable call link and embed it in a tweet or direct message.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "Task ID 5",
+        "description": "Provide a one‑click UI to start the call and automatically invite selected Twitter contacts.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "Task ID 6",
+        "description": "Manage call participants (add/remove, mute/unmute) during the session.",
+        "recommended_categories": [
+          "backend",
+          "chat",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task ID 7",
+        "description": "Store call metadata (participants, duration, timestamps) in a database for analytics or future reference.",
+        "recommended_categories": [
+          "analytics",
+          "backend",
+          "database",
+          "framework",
+          "spreadsheets",
+          "storage"
+        ]
+      },
+      {
+        "task_id": "Task ID 8",
+        "description": "Handle call termination and clean up resources (destroy session, revoke tokens if needed).",
+        "recommended_categories": [
+          "backend",
+          "chat",
+          "framework",
+          "telephony"
+        ]
+      },
+      {
+        "task_id": "Task ID 9",
+        "description": "Optionally send Twitter notifications or DMs to participants when the call starts or ends.",
+        "recommended_categories": [
+          "framework"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 3188,
+    "mashup_name": "tidespy-tide-charts-best-fishing-times",
+    "ground_truth_apis": [
+      "google_maps",
+      "noaa_national_weather_service_nws_ndfd_soap",
+      "panoramio",
+      "strikeiron_ip_address_lookup"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "photos",
+      "reference",
+      "weather"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "applications",
+      "authentication",
+      "backend",
+      "cloud",
+      "database",
+      "design",
+      "framework",
+      "geography",
+      "hosting",
+      "images",
+      "media",
+      "monitoring",
+      "parsing",
+      "performance",
+      "photos",
+      "predictions",
+      "screenshots",
+      "security",
+      "spreadsheets",
+      "storage",
+      "weather",
+      "widgets"
+    ],
+    "num_tasks": 12,
+    "precision": 0.08695652173913043,
+    "recall": 0.5,
+    "f1": 0.14814814814814817,
+    "tp": 2,
+    "fp": 21,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Identify and integrate a tide data API that supports bulk requests for the US, Pacific, Caribbean, and New Zealand regions.",
+        "recommended_categories": [
+          "framework",
+          "weather"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Identify and integrate an astronomical data API to fetch sunrise/sunset, moonrise/moonset, and moon phase for each location.",
+        "recommended_categories": [
+          "framework"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Identify and integrate a solunar/fishing times API or algorithm to compute best fishing windows for each location.",
+        "recommended_categories": [
+          "framework",
+          "predictions"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Identify and integrate a photo service (e.g., Google Places, Unsplash) to retrieve a representative image for each location.",
+        "recommended_categories": [
+          "framework",
+          "geography",
+          "images",
+          "media",
+          "parsing",
+          "photos",
+          "screenshots"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Design a data model to store location metadata, tide, astronomical, solunar, and photo information.",
+        "recommended_categories": [
+          "applications",
+          "backend",
+          "database",
+          "framework",
+          "spreadsheets",
+          "storage"
+        ]
+      },
+      {
+        "task_id": "T6",
+        "description": "Implement a caching layer (e.g., Redis) to store API responses and reduce external calls.",
+        "recommended_categories": [
+          "framework"
+        ]
+      },
+      {
+        "task_id": "T7",
+        "description": "Build a backend service that aggregates data from the integrated APIs, applies caching, and exposes a RESTful endpoint for the frontend.",
+        "recommended_categories": [
+          "applications",
+          "backend",
+          "framework",
+          "storage"
+        ]
+      },
+      {
+        "task_id": "T8",
+        "description": "Develop a frontend using Google Maps JavaScript API to display markers for each location and show an info window with tide, sun/moon, fishing, and photo details.",
+        "recommended_categories": [
+          "applications",
+          "design",
+          "widgets"
+        ]
+      },
+      {
+        "task_id": "T9",
+        "description": "Implement pagination or clustering on the map to efficiently handle 3,000+ markers.",
+        "recommended_categories": [
+          "applications",
+          "design"
+        ]
+      },
+      {
+        "task_id": "T10",
+        "description": "Add authentication and rate‑limit handling for external API usage.",
+        "recommended_categories": [
+          "applications",
+          "authentication",
+          "backend",
+          "framework",
+          "security"
+        ]
+      },
+      {
+        "task_id": "T11",
+        "description": "Deploy the backend and frontend on a scalable platform (e.g., AWS Elastic Beanstalk, GCP App Engine).",
+        "recommended_categories": [
+          "applications",
+          "cloud",
+          "framework",
+          "hosting"
+        ]
+      },
+      {
+        "task_id": "T12",
+        "description": "Monitor performance, log errors, and set up alerts for API failures or latency spikes.",
+        "recommended_categories": [
+          "analytics",
+          "applications",
+          "backend",
+          "framework",
+          "monitoring",
+          "performance"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 4337,
+    "mashup_name": "enomalism-elastic-computing",
+    "ground_truth_apis": [
+      "amazon_ec2",
+      "amazon_s3"
+    ],
+    "ground_truth_categories": [
+      "cloud",
+      "storage"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "api",
+      "applications",
+      "authentication",
+      "backend",
+      "cloud",
+      "design",
+      "developers",
+      "framework",
+      "hosting",
+      "pdf",
+      "reporting",
+      "security",
+      "spreadsheets"
+    ],
+    "num_tasks": 10,
+    "precision": 0.07142857142857142,
+    "recall": 0.5,
+    "f1": 0.125,
+    "tp": 1,
+    "fp": 13,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Discover and inventory virtual machines, containers, and hypervisors across all data centers and cloud providers.",
+        "recommended_categories": [
+          "cloud"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Automate provisioning of new virtual servers, including image selection, networking, storage, and security group configuration.",
+        "recommended_categories": [
+          "cloud",
+          "hosting"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Orchestrate migration of workloads from on‑premises to public or private cloud environments with minimal downtime.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Implement real‑time monitoring of resource utilization, health checks, and alerting for all managed hosts.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Provide auto‑scaling policies that adjust compute resources based on predefined metrics or schedules.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Manage configuration and compliance of virtual servers using declarative templates and version control.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Integrate a role‑based access control system with single sign‑on and multi‑factor authentication.",
+        "recommended_categories": [
+          "authentication",
+          "developers",
+          "security"
+        ]
+      },
+      {
+        "task_id": "T8",
+        "description": "Generate dashboards and reports for capacity planning, cost analysis, and operational metrics.",
+        "recommended_categories": [
+          "analytics",
+          "applications",
+          "design",
+          "pdf",
+          "reporting",
+          "spreadsheets"
+        ]
+      },
+      {
+        "task_id": "T9",
+        "description": "Expose RESTful APIs for third‑party integration and automation scripts.",
+        "recommended_categories": [
+          "api",
+          "applications",
+          "backend",
+          "developers",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "T10",
+        "description": "Provide a responsive web UI that allows administrators to view, manage, and troubleshoot the virtual infrastructure.",
+        "recommended_categories": [
+          "backend",
+          "design",
+          "framework"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5105,
+    "mashup_name": "new-7-wonders-world",
+    "ground_truth_apis": [
+      "google_maps",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "video"
+    ],
+    "recommended_categories": [
+      "addresses",
+      "applications",
+      "backend",
+      "cloud",
+      "database",
+      "design",
+      "framework",
+      "hosting",
+      "location",
+      "parsing",
+      "performance",
+      "standards",
+      "travel",
+      "video",
+      "widgets",
+      "wiki"
+    ],
+    "num_tasks": 9,
+    "precision": 0.0625,
+    "recall": 0.5,
+    "f1": 0.1111111111111111,
+    "tp": 1,
+    "fp": 15,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Gather geographic coordinates (latitude/longitude) for each of the New 7 Wonders.",
+        "recommended_categories": [
+          "addresses",
+          "backend",
+          "database",
+          "framework",
+          "location",
+          "parsing",
+          "standards",
+          "travel",
+          "wiki"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Search and obtain the YouTube video ID for each wonder using the YouTube Data API or pre‑selected videos.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "video"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Acquire and configure a Google Maps API key and embed the map into the application.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "widgets"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Create map markers for each wonder using the coordinates from T1.",
+        "recommended_categories": [
+          "widgets"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Attach info windows or side panels to each marker that embed the YouTube video from T2.",
+        "recommended_categories": [
+          "video",
+          "widgets"
+        ]
+      },
+      {
+        "task_id": "T6",
+        "description": "Design a responsive UI that displays the map and video player side‑by‑side or in a modal.",
+        "recommended_categories": [
+          "design"
+        ]
+      },
+      {
+        "task_id": "T7",
+        "description": "Implement error handling for API failures (Google Maps, YouTube) and missing data.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "T8",
+        "description": "Optimize performance by lazy‑loading videos and minimizing API calls.",
+        "recommended_categories": [
+          "framework",
+          "performance"
+        ]
+      },
+      {
+        "task_id": "T9",
+        "description": "Deploy the application to a hosting platform (e.g., Firebase Hosting, Netlify).",
+        "recommended_categories": [
+          "applications",
+          "cloud",
+          "framework",
+          "hosting"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5200,
+    "mashup_name": "repository66",
+    "ground_truth_apis": [
+      "google_maps",
+      "opendoar"
+    ],
+    "ground_truth_categories": [
+      "education",
+      "mapping"
+    ],
+    "recommended_categories": [
+      "addresses",
+      "analytics",
+      "backend",
+      "database",
+      "education",
+      "feeds",
+      "framework",
+      "location",
+      "monitoring",
+      "security"
+    ],
+    "num_tasks": 10,
+    "precision": 0.1,
+    "recall": 0.5,
+    "f1": 0.16666666666666669,
+    "tp": 1,
+    "fp": 9,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task ID 1",
+        "description": "Retrieve and cache the latest OpenDOAR repository list via its public API or RSS feed.",
+        "recommended_categories": [
+          "backend",
+          "database",
+          "education",
+          "feeds",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task ID 2",
+        "description": "Geocode each repository’s address or name using the Google Maps Geocoding API to obtain latitude/longitude.",
+        "recommended_categories": [
+          "addresses",
+          "backend",
+          "database",
+          "framework",
+          "location"
+        ]
+      },
+      {
+        "task_id": "Task ID 3",
+        "description": "Fetch repository growth data from the ROAR API or dataset, including historical counts.",
+        "recommended_categories": [
+          "backend",
+          "database",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task ID 4",
+        "description": "Merge the OpenDOAR metadata, geocoded coordinates, and ROAR growth figures into a unified data model per repository.",
+        "recommended_categories": [
+          "backend",
+          "database",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task ID 5",
+        "description": "Expose a RESTful endpoint that returns the merged repository data in JSON, optionally filtered by region, subject, or date range.",
+        "recommended_categories": [
+          "analytics",
+          "backend",
+          "database",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task ID 6",
+        "description": "Provide a separate endpoint that returns aggregated growth statistics suitable for charting (e.g., yearly repository counts).",
+        "recommended_categories": [
+          "analytics",
+          "backend",
+          "database",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task ID 7",
+        "description": "Implement caching and scheduled refreshes to keep data up‑to‑date while minimizing external API calls.",
+        "recommended_categories": [
+          "backend",
+          "database",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task ID 8",
+        "description": "Offer optional authentication or rate‑limiting for heavy usage scenarios.",
+        "recommended_categories": [
+          "backend",
+          "database",
+          "framework",
+          "security"
+        ]
+      },
+      {
+        "task_id": "Task ID 9",
+        "description": "Supply documentation and example client code for consuming the API.",
+        "recommended_categories": [
+          "backend",
+          "database",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task ID 10",
+        "description": "Monitor API health and log usage metrics for future scaling.",
+        "recommended_categories": [
+          "analytics",
+          "backend",
+          "database",
+          "framework",
+          "monitoring"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5331,
+    "mashup_name": "tennis-jobs-map",
+    "ground_truth_apis": [
+      "google_maps",
+      "indeed"
+    ],
+    "ground_truth_categories": [
+      "jobs",
+      "mapping"
+    ],
+    "recommended_categories": [
+      "addresses",
+      "analytics",
+      "backend",
+      "database",
+      "framework",
+      "jobs",
+      "location",
+      "semantics"
+    ],
+    "num_tasks": 6,
+    "precision": 0.125,
+    "recall": 0.5,
+    "f1": 0.2,
+    "tp": 1,
+    "fp": 7,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Query Indeed API for job listings with tennis‑related keywords and US location filter.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "jobs"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Filter and rank the retrieved listings to ensure they are tennis‑specific and select the top 50 results.",
+        "recommended_categories": [
+          "analytics",
+          "backend",
+          "framework",
+          "semantics"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Geocode each job’s address using Google Maps Geocoding API to obtain latitude/longitude coordinates.",
+        "recommended_categories": [
+          "addresses",
+          "backend",
+          "framework",
+          "location"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Aggregate the geocoded data and prepare marker payloads for map rendering.",
+        "recommended_categories": [
+          "addresses",
+          "analytics",
+          "backend",
+          "database",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Render the first 50 job markers on a Google Maps instance, including info windows with job details.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Implement error handling, API key management, and caching to optimize performance and reliability.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 5657,
+    "mashup_name": "retrotube",
+    "ground_truth_apis": [
+      "amazon_product_advertising",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "ecommerce",
+      "video"
+    ],
+    "recommended_categories": [
+      "backend",
+      "design",
+      "forms",
+      "framework",
+      "security",
+      "video"
+    ],
+    "num_tasks": 12,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1": 0.25,
+    "tp": 1,
+    "fp": 5,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "Task 1",
+        "description": "Authenticate with the YouTube Data API v3 using an API key or OAuth 2.0.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "security",
+          "video"
+        ]
+      },
+      {
+        "task_id": "Task 2",
+        "description": "Map user-selected categories (music, games, anime) to YouTube category IDs.",
+        "recommended_categories": [
+          "framework",
+          "video"
+        ]
+      },
+      {
+        "task_id": "Task 3",
+        "description": "Build a search query that includes optional age rating filters (e.g., G, PG, R).",
+        "recommended_categories": [
+          "framework",
+          "video"
+        ]
+      },
+      {
+        "task_id": "Task 4",
+        "description": "Call the YouTube Data API search endpoint with the constructed query, category ID, and age filter.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "video"
+        ]
+      },
+      {
+        "task_id": "Task 5",
+        "description": "Parse the API response to extract video metadata such as title, thumbnail, channel, and content rating.",
+        "recommended_categories": [
+          "framework",
+          "video"
+        ]
+      },
+      {
+        "task_id": "Task 6",
+        "description": "Filter the retrieved videos client‑side to ensure the age rating matches the user’s preference.",
+        "recommended_categories": [
+          "framework",
+          "video"
+        ]
+      },
+      {
+        "task_id": "Task 7",
+        "description": "Implement pagination or infinite scroll to handle large result sets.",
+        "recommended_categories": [
+          "framework",
+          "video"
+        ]
+      },
+      {
+        "task_id": "Task 8",
+        "description": "Design a Japanese UI for search input, category selection, age filter, and results display.",
+        "recommended_categories": [
+          "design",
+          "forms"
+        ]
+      },
+      {
+        "task_id": "Task 9",
+        "description": "Cache search results locally or in a CDN to reduce API calls and improve performance.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task 10",
+        "description": "Handle API quota limits, rate‑limiting, and error responses gracefully.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "video"
+        ]
+      },
+      {
+        "task_id": "Task 11",
+        "description": "Provide a fallback or alternative content suggestion if no results match the filters.",
+        "recommended_categories": [
+          "framework"
+        ]
+      },
+      {
+        "task_id": "Task 12",
+        "description": "Securely store, rotate, and manage the YouTube API key or OAuth credentials.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "security"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 6225,
+    "mashup_name": "jacktracker-24",
+    "ground_truth_apis": [
+      "flickr",
+      "google_maps",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "photos",
+      "video"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "applications",
+      "backend",
+      "cloud",
+      "collaboration",
+      "content",
+      "database",
+      "design",
+      "entertainment",
+      "framework",
+      "hosting",
+      "images",
+      "library",
+      "media",
+      "monitoring",
+      "parsing",
+      "photos",
+      "recommendations",
+      "security",
+      "spreadsheets",
+      "storage",
+      "streaming",
+      "video"
+    ],
+    "num_tasks": 12,
+    "precision": 0.08695652173913043,
+    "recall": 0.6666666666666666,
+    "f1": 0.15384615384615383,
+    "tp": 2,
+    "fp": 21,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Authenticate and establish a connection to the Jacktracker API.",
+        "recommended_categories": [
+          "framework"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Retrieve the show metadata for *24*, including title, synopsis, and cast information.",
+        "recommended_categories": [
+          "entertainment",
+          "framework",
+          "library",
+          "media",
+          "recommendations",
+          "video"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Fetch the full episode list with episode numbers, titles, air dates, and plot summaries.",
+        "recommended_categories": [
+          "entertainment",
+          "framework",
+          "library",
+          "media",
+          "recommendations",
+          "video"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Download or link episode images such as posters and key stills.",
+        "recommended_categories": [
+          "content",
+          "entertainment",
+          "framework",
+          "images",
+          "library",
+          "media",
+          "parsing",
+          "photos",
+          "recommendations",
+          "storage",
+          "streaming",
+          "video"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Persist all retrieved data in a structured database for quick access.",
+        "recommended_categories": [
+          "backend",
+          "database",
+          "framework",
+          "spreadsheets"
+        ]
+      },
+      {
+        "task_id": "T6",
+        "description": "Authenticate and connect to the Wayfaring.com API for forum functionality.",
+        "recommended_categories": [
+          "framework"
+        ]
+      },
+      {
+        "task_id": "T7",
+        "description": "Create a dedicated discussion board for each episode (waypoint) using Wayfaring.",
+        "recommended_categories": [
+          "collaboration",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "T8",
+        "description": "Associate each discussion board with its corresponding episode record in the database.",
+        "recommended_categories": [
+          "backend",
+          "database",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "T9",
+        "description": "Develop a front‑end interface to display episodes, images, plot details, and embed the discussion boards.",
+        "recommended_categories": [
+          "design",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "T10",
+        "description": "Implement user authentication, session handling, and access control for the platform.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "security"
+        ]
+      },
+      {
+        "task_id": "T11",
+        "description": "Add caching mechanisms and handle API rate limits to ensure smooth operation.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "T12",
+        "description": "Deploy the application to a hosting environment and set up monitoring and logging.",
+        "recommended_categories": [
+          "analytics",
+          "applications",
+          "cloud",
+          "framework",
+          "hosting",
+          "monitoring"
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": 6302,
+    "mashup_name": "flyr",
+    "ground_truth_apis": [
+      "flickr",
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "photos"
+    ],
+    "recommended_categories": [
+      "applications",
+      "backend",
+      "cloud",
+      "design",
+      "framework",
+      "hosting",
+      "parsing",
+      "photos"
+    ],
+    "num_tasks": 13,
+    "precision": 0.125,
+    "recall": 0.5,
+    "f1": 0.2,
+    "tp": 1,
+    "fp": 7,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Obtain and configure Flickr API key for authentication.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "photos"
+        ]
+      },
+      {
+        "task_id": "T2",
+        "description": "Implement Flickr photo search endpoint to retrieve geotagged photos based on query parameters (tags, date range, bounding box).",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "photos"
+        ]
+      },
+      {
+        "task_id": "T3",
+        "description": "Parse Flickr API response to extract photo metadata: id, title, latitude, longitude, and photo URLs.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "parsing",
+          "photos"
+        ]
+      },
+      {
+        "task_id": "T4",
+        "description": "Generate photo URLs using Flickr's URL format for desired image sizes.",
+        "recommended_categories": [
+          "backend",
+          "framework",
+          "photos"
+        ]
+      },
+      {
+        "task_id": "T5",
+        "description": "Initialize Google Maps JavaScript API and create the base map container.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Plot markers on the Google Map for each photo location, using custom icons or thumbnails.",
+        "recommended_categories": [
+          "design"
+        ]
+      },
+      {
+        "task_id": "T7",
+        "description": "Create a nested map view (e.g., a smaller map inside an info window) to show a zoomed‑in view of each photo location.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T8",
+        "description": "Add interactivity: clicking a marker opens an info window with photo details and the nested map.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T9",
+        "description": "Implement pagination or infinite scroll to load additional photos as the user interacts with the map.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "T10",
+        "description": "Implement error handling, loading indicators, and fallback UI for API failures.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "T11",
+        "description": "Optimize performance: lazy‑load images, cluster markers when many photos are present, and cache API responses.",
+        "recommended_categories": [
+          "backend",
+          "framework"
+        ]
+      },
+      {
+        "task_id": "T12",
+        "description": "Provide UI controls for search input, filters, and map navigation.",
+        "recommended_categories": [
+          "design"
+        ]
+      },
+      {
+        "task_id": "T13",
+        "description": "Deploy the mashup as a static site or serverless function, ensuring API keys are securely stored.",
+        "recommended_categories": [
+          "applications",
+          "backend",
+          "cloud",
+          "framework",
+          "hosting"
+        ]
+      }
+    ]
+  }
+]

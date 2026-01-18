@@ -1,0 +1,244 @@
+[
+  {
+    "case_id": 584,
+    "ground_truth": [
+      "opensecrets",
+      "govtrackus"
+    ],
+    "predictions": [
+      "laravel",
+      "opensecrets",
+      "maplight"
+    ],
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 782,
+    "ground_truth": [
+      "google_maps",
+      "instagram_graph"
+    ],
+    "predictions": [
+      "laravel",
+      "google_sheets",
+      "instagram_graph",
+      "zendesk_core",
+      "google_analytics_core_reporting",
+      "pixlab"
+    ],
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1": 0.25,
+    "tp": 1,
+    "fp": 5,
+    "fn": 1
+  },
+  {
+    "case_id": 1307,
+    "ground_truth": [
+      "yelp_fusion",
+      "sensis_business_search"
+    ],
+    "predictions": [
+      "laravel",
+      "yelp_fusion",
+      "cloudmine",
+      "csv2geo"
+    ],
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1": 0.3333333333333333,
+    "tp": 1,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 1854,
+    "ground_truth": [
+      "twilio_sms",
+      "twilio"
+    ],
+    "predictions": [
+      "laravel",
+      "twilio"
+    ],
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 1869,
+    "ground_truth": [
+      "facebook",
+      "twilio_sms",
+      "twilio"
+    ],
+    "predictions": [
+      "twilio",
+      "mydigitalstructure"
+    ],
+    "precision": 0.5,
+    "recall": 0.3333333333333333,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 1,
+    "fn": 2
+  },
+  {
+    "case_id": 1892,
+    "ground_truth": [
+      "twilio_sms",
+      "twilio"
+    ],
+    "predictions": [
+      "redbooth",
+      "laravel",
+      "twilio"
+    ],
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 2416,
+    "ground_truth": [
+      "twilio_sms",
+      "twilio"
+    ],
+    "predictions": [
+      "laravel",
+      "pubnub",
+      "twilio",
+      "mixpanel"
+    ],
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1": 0.3333333333333333,
+    "tp": 1,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 3005,
+    "ground_truth": [
+      "twitter",
+      "twilio"
+    ],
+    "predictions": [
+      "laravel",
+      "twilio",
+      "mixpanel"
+    ],
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 4337,
+    "ground_truth": [
+      "amazon_s3",
+      "amazon_ec2"
+    ],
+    "predictions": [
+      "google_single_signon",
+      "looker",
+      "mydigitalstructure",
+      "amazon_ec2"
+    ],
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1": 0.3333333333333333,
+    "tp": 1,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 5105,
+    "ground_truth": [
+      "youtube",
+      "google_maps"
+    ],
+    "predictions": [
+      "laravel",
+      "yahoo_yui",
+      "automattic_wordpress_widgets",
+      "youtube",
+      "csv2geo"
+    ],
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1": 0.28571428571428575,
+    "tp": 1,
+    "fp": 4,
+    "fn": 1
+  },
+  {
+    "case_id": 5331,
+    "ground_truth": [
+      "google_maps",
+      "indeed"
+    ],
+    "predictions": [
+      "amplify",
+      "parse",
+      "indeed",
+      "csv2geo"
+    ],
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1": 0.3333333333333333,
+    "tp": 1,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 5657,
+    "ground_truth": [
+      "youtube",
+      "amazon_product_advertising"
+    ],
+    "predictions": [
+      "laravel",
+      "youtube",
+      "99designs_tasks"
+    ],
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 6302,
+    "ground_truth": [
+      "google_maps",
+      "flickr"
+    ],
+    "predictions": [
+      "laravel",
+      "99designs_tasks",
+      "flickr"
+    ],
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 2,
+    "fn": 1
+  }
+]

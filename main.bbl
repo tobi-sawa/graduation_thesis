@@ -1,20 +1,28 @@
 \begin{thebibliography}{1}
 
 \bibitem{zeng2004qos}
-QoS-aware middleware for Web services composition, IEEE Transactions on
-  Software Engineering,  Vol.~30, No.~5, pp.\ 311--327 (2004).
+Zeng, L., Benatallah, B., Ngu, A. H.~H., Dumas, M., Kalagnanam, J. and Chang,
+  H.: QoS-aware middleware for Web services composition, {\em IEEE Transactions
+  on Software Engineering\/},  Vol.~30, No.~5, pp.\ 311--327 (2004).
 
 \bibitem{carman2003composition}
-Web Service Composition as Planning, pp.\ 1636--1642 (2003).
+Carman, M.~A., Serafini, L. and Traverso, P.: Web Service Composition as
+  Planning,  {\em ICAPS 2003 Workshop on Planning for Web Services\/}, pp.\
+  1636--1642 (2003).
 
 \bibitem{qin2025llmapi}
-Harnessing the Power of Large Language Model for Effective Web API
-  Recommendation, IEEE Transactions on Industrial Informatics,  Vol.~21, No.~7
-  (2025).
+Qin, S., Zhao, Y., Wu, H., Zhang, L. and He, Q.: Harnessing the Power of Large
+  Language Model for Effective Web API Recommendation, {\em IEEE Transactions
+  on Industrial Informatics\/},  Vol.~21, No.~7 (2025).
+
+\bibitem{matsumoto2025grc}
+Matsumoto, K.: Guided Reasoning Chains for API Recommendation,  {\em
+  Proceddings of International Conference on Service-Oriented Computing
+  (ICSOC)\/} (2025).
 
 \bibitem{smith1980contractnet}
-: The Contract Net Protocol: High-Level Communication and Control in a
-  Distributed Problem Solver, IEEE Transactions on Computers,  Vol.~C-29,
-  No.~12 (1980).
+Smith, R.~G.: The Contract Net Protocol: High-Level Communication and Control
+  in a Distributed Problem Solver, {\em IEEE Transactions on Computers\/},
+  Vol.~C-29, No.~12 (1980).
 
 \end{thebibliography}

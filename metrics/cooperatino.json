@@ -1,0 +1,14 @@
+{
+  "avg_input_tokens": 522411.36,
+  "avg_llm_duration_seconds": 2757.4029399999995,
+  "avg_output_tokens": 71828.16,
+  "avg_total_duration_seconds": 1456.3450899999998,
+  "avg_total_tokens": 594239.52,
+  "count": 100,
+  "errors": [],
+  "sum_input_tokens": 52241136.0,
+  "sum_llm_duration_seconds": 275740.29399999994,
+  "sum_output_tokens": 7182816.0,
+  "sum_total_duration_seconds": 145634.509,
+  "sum_total_tokens": 59423952.0
+}

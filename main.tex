@@ -9,6 +9,7 @@
 \usepackage{listings}
 \usepackage[dvipdfmx]{xcolor}
 \usepackage{amsmath}
+\usepackage{multirow}
 
 \lstdefinelanguage{json}{
   basicstyle=\ttfamily\small,
@@ -34,8 +35,8 @@
 \def\>{\(\rangle\)}
 \def\CS#1{{\tt\string#1}}
 
-\jtitle[契約ネットプロトコルに基づく\\マルチエージェントシステムを用いた複合サービス推薦]%	% 和文題目（内容梗概／目次用）
-	{契約ネットプロトコルに基づく\\マルチエージェントシステムを用いた\\複合サービス推薦}	% 和文題目
+\jtitle[契約ネットプロトコルを用いた\\マルチエージェントシステムによる\\複合サービス推薦]%	% 和文題目（内容梗概／目次用）
+	{契約ネットプロトコルを用いた\\マルチエージェントシステムによる\\複合サービス推薦}	% 和文題目
 \etitle{Composite Service Recommendation Using Contract-Net-Based LLM Multi-Agent Systems}	% 英文題目
 \jauthor{飛澤 佑季}				% 和文著者名
 \eauthor{Yuki Tobisawa}			% 英文著者名
@@ -67,16 +68,16 @@ CNPでは，コントラクタエージェント数の増加に伴い公告・�
 協調型では，マネージャがタスク分解を提示したうえで，コントラクタエージェントが分解されたタスクに対してカテゴリマッピングを行って入札する．
 本研究では，これら3つのプロトコルの分担の違いが合成計画の整合性および計画生成精度に与える影響を分析する．
 
-2つ目の課題に対しては，コントラクタエージェントの組織化により解決を図る．具体的には，コントラクタエージェントに割り当てる担当として，単一APIを担当させる設計に加え，APIカテゴリ単位で複数APIをまとめて担当させる設計も比較対象とする．各エージェントは，割り当てられたAPIの仕様のみを参照して推論・入札を行うようにし，推薦精度に与える影響を検証する．
+2つ目の課題に対しては，コントラクタエージェントの組織化により解決を図る．本研究では，単一APIを担当させる設計を基本とし，APIカテゴリ単位で複数APIをまとめて担当させる設計については今後の検討課題として位置付ける．各エージェントは，割り当てられたAPIの仕様のみを参照して推論・入札を行うようにし，推薦精度に与える影響を検証する．
 
-本研究では，提案手法の有効性を検証するため，ProgrammableWeb の複合サービスデータを用いた評価を行った．具体的には，複合サービスデータ 400 件をテストデータとし，対応する 909 件の Web API を対象として，マネージャ主導・コントラクタ主導・協調型という3種類のタスク分解方式を適用してサービス合成を実行し，各方式の計画生成精度を比較した．生成されたサービス計画と正解計画を照合し，適合率，再現率，F1 スコアを算出することでタスク分解方式の性能を評価した．また，コントラクタエージェントの組織化（単一API単位の割当と，カテゴリ単位で複数APIを割り当てる設計）についても，各エージェントの入札行動と推薦精度を比較し，役割分担の違いがサービス合成結果に与える影響を分析した．また本研究の貢献は以下の通りである．
+本研究では，提案手法の有効性を検証するため，ProgrammableWeb の複合サービスデータを用いた評価を行った．具体的には，複合サービスデータ 400 件をテストデータとし，対応する 909 件の Web API を対象として，マネージャ主導・コントラクタ主導・協調型という3種類のタスク分解方式を適用してサービス合成を実行し，各方式の計画生成精度を比較した．生成されたサービス計画と正解計画を照合し，適合率，再現率，F1 スコアを算出することでタスク分解方式の性能を評価した．また，コントラクタエージェントの組織化については単一API単位の割当を採用し，複数APIを担当させる設計の影響は今後の課題として整理した．また本研究の貢献は以下の通りである．
 \begin{description}
 
 \item[推論タスク割り当て]
 マネージャ主導・コントラクタ主導・協調型の3つのタスク分解プロトコルを比較し，ユーザ要求の粒度に応じた適切な方式を分析した。適合率・再現率・F1 値で評価した結果，本手法は単一方式を上回る性能を示した。
 
 \item[コントラクタエージェントの組織化] 
-エージェント数と担当API数を変化させた実験を実施し，専門性の深さと分担効率の関係を評価した。その結果，APIカテゴリを限定した専門エージェントを用いることで，単一エージェント方式と比較してサービス推論の正確性が向上し，大規模サービス集合に対してもスケーラブルに動作することが明らかとなった
+単一API単位で専門化したコントラクタ構成を用い，分散保持の有効性と推薦精度への影響を評価した．複数APIを担当させる設計については今後の課題として位置付けた．
 \end{description}
 \end{jabstract}
 
@@ -100,16 +101,16 @@ In CNP, as the number of contractor agents increases, the communication volume f
 
 For the first challenge, we compare three task decomposition protocols: manager-led, contractor-led, and collaborative. In the manager-led approach, the manager performs task decomposition and category decomposition, announces task specifications, and contractor agents bid on their capability to handle tasks along with API proposals. In the contractor-led approach, contractor agents perform task decomposition and category mapping based on their assigned API specifications and submit bids. In the collaborative approach, the manager presents task decomposition, and contractor agents perform category mapping for the decomposed tasks and submit bids. This research clarifies which of these three protocols is suitable according to requirement types such as granularity and ambiguity, and analyzes how differences in task distribution affect the consistency of composition plans and plan generation accuracy.
 
-For the second challenge, we seek solutions through organization of contractor agents. Specifically, in addition to a design where each contractor agent handles a single API, we also compare a design where agents handle multiple APIs grouped by API category. Each agent performs inference and bidding by referencing only the specifications of their assigned API (or multiple APIs belonging to their category), and we verify the effects on recommendation accuracy and communication load.
+For the second challenge, we seek solutions through organization of contractor agents. In this study, we adopt a design where each contractor agent handles a single API, and leave the evaluation of multi-API assignment by category as future work. Each agent performs inference and bidding by referencing only the specifications of their assigned API, and we verify the effects on recommendation accuracy and communication load.
 
-To validate the effectiveness of the proposed method, we conducted evaluations using composite service data from ProgrammableWeb. Specifically, using 400 composite service data items as test data and targeting 909 corresponding Web APIs, we executed service composition applying three types of task decomposition methods—manager-led, contractor-led, and collaborative—and compared the plan generation accuracy of each method. By comparing generated service plans against ground truth plans and calculating precision, recall, and F1 scores, we evaluated the performance of the task decomposition methods. Additionally, regarding the organization of contractor agents (single API unit assignment versus assigning multiple APIs per category), we compared the bidding behavior and recommendation accuracy of each agent, analyzing how differences in role distribution affect service composition results. The contributions of this research are as follows:
+To validate the effectiveness of the proposed method, we conducted evaluations using composite service data from ProgrammableWeb. Specifically, using 400 composite service data items as test data and targeting 909 corresponding Web APIs, we executed service composition applying three types of task decomposition methods—manager-led, contractor-led, and collaborative—and compared the plan generation accuracy of each method. By comparing generated service plans against ground truth plans and calculating precision, recall, and F1 scores, we evaluated the performance of the task decomposition methods. We adopt single-API assignment for contractor agents in this study and leave multi-API assignment as future work. The contributions of this research are as follows:
 
 \begin{description}
 \item[Inference Task Allocation]
 We compared three task decomposition protocols—manager-led, contractor-led, and collaborative—and analyzed appropriate methods according to the granularity of user requirements. Evaluation results using precision, recall, and F1 scores demonstrated that our method outperforms single-method approaches.
 
 \item[Organization of Contractor Agents]
-We conducted experiments varying the number of agents and assigned APIs, evaluating the relationship between depth of specialization and distribution efficiency. The results revealed that using specialized agents limited to specific API categories improves the accuracy of service inference compared to single-agent approaches and operates scalably even for large-scale service collections.
+We evaluated a single-API contractor design and its impact on recommendation accuracy. The effects of assigning multiple APIs per contractor are left as future work.
 \end{description}
 
 \end{abstract}
@@ -124,7 +125,7 @@ We conducted experiments varying the number of agents and assigned APIs, evaluat
 
 一方，近年急速に発展している大規模言語モデル（Large Language Model; LLM）は，自然言語で記述された要求から計画を生成し，外部ツールや API を呼び出す能力を備えており，ユーザに形式的な記述を要求することなくサービス合成を行う枠組みとして期待されている。しかし，単一の汎用 LLM エージェントに広範なサービス領域を一括して扱わせる場合，個々のサービス仕様や実行環境に関する専門的な知識の理解が浅くなりやすい。また，多数の API 仕様や利用例を一つのプロンプトに詰め込む必要があるため，プロンプトの膨張とコンテキスト長制限に起因する性能劣化が生じるという問題がある。
 
-本研究では，これらの課題を解決するため，複数の LLM エージェントからなるマルチエージェントシステムに基づくサービス合成手法を提案する。各エージェントを特定の API カテゴリや機能領域に特化させることで，プロンプト内で扱う知識を局所化しつつ，専門性の高いサービス推薦を実現することを目指す。さらに，タスク割当てメカニズムとして契約ネットプロトコルを導入し，マネージャエージェントとコントラクタエージェントがタスク分解と入札・応札を通じて協調的にサービス合成を行う枠組みを設計する。本論文では，マネージャ主導・コントラクタ主導・協調型という三種類のタスク分解プロトコルを比較し，サービス合成精度や単一エージェント方式との性能差，エージェント数や担当 API 数が与える影響を評価することで，LLM ベース・マルチエージェントによるサービス合成の有効性と課題を明らかにする。
+本研究では，これらの課題を解決するため，複数の LLM エージェントからなるマルチエージェントシステムに基づくサービス合成手法を提案する。各エージェントを特定の API カテゴリや機能領域に特化させることで，プロンプト内で扱う知識を局所化しつつ，専門性の高いサービス推薦を実現することを目指す。さらに，タスク割当てメカニズムとして契約ネットプロトコルを導入し，マネージャエージェントとコントラクタエージェントがタスク分解と入札・応札を通じて協調的にサービス合成を行う枠組みを設計する。本論文では，マネージャ主導・コントラクタ主導・協調型という三種類のタスク分解プロトコルを比較し，サービス合成精度や単一エージェント方式との性能差を評価することで，LLM ベース・マルチエージェントによるサービス合成の有効性と課題を明らかにする。
 
 そこで本手法の実現にあたり，取り組むべき課題は以下の2点である．
 \begin{description}
@@ -159,7 +160,8 @@ LLM を用いたサービス合成について説明する．第3章では，契
 \subsection{LLMを用いたサービス合成}\label{subsec-LLM}
 LLMを用いたサービス合成では，自然言語で記述されたユーザ要求から，適切なWebサービスを選択・組み合わせる手法である．従来は機能要件を論理式で記述し，形式的なフロー設計が必要であったが，LLMの自然言語理解能力を活用することで，要求の意図や制約を推定し，それに基づいてタスク分割やAPI選択を行える．また，APIドキュメントの要約や入力パラメータの生成をLLMが補助することで，ユーザは専門知識なしにサービス合成を実現できる．
 
-一方で，LLMを単純にプロンプト利用するだけでは，APIの最新知識不足やハルシネーションにより推薦精度が低下することが指摘されている．さらにBERT等の従来モデルはAPIドメイン固有の知識やマッシュアップの複雑な使用パターンを十分に捉えられず，実運用レベルの推薦に課題が残る．この問題に対し，QinらはLlama-3.2-3Bを基盤とするLLMARを提案し，指示学習と多段階ファインチューニングによってAPIドメイン知識をモデル内部に注入する枠組みを示した．
+一方で，LLMを単純にプロンプト利用するだけでは，APIの最新知識不足やハルシネーションにより推薦精度が低下することが指摘されている．さらにBERT等の従来モデルはAPIドメイン固有の知識やマッシュアップの複雑な使用パターンを十分に捉えられず，実運用レベルの推薦に課題が残る．この問題に対し，QinらはLlama-3.2-3Bを基盤とするLLMARを提案し\cite{qin2025llmapi}，指示学習と多段階ファインチューニングによってAPIドメイン知識をモデル内部に注入する枠組みを示した．
+また，Matsumotoらは，推論過程を階層的に分解して段階的に進める Guided Reasoning Chains (GRC) を提案し\cite{matsumoto2025grc}，要求の抽象度に応じてコア機能抽出，カテゴリ選択，候補列挙，最終推薦という流れで推論を行うようLLMを誘導する．このように推論プロセスを明示化する設計は，要求理解と候補整理を分離する本研究の枠組みとも整合的であり，API推薦の安定性向上に寄与することが示唆される．
 
 LLMARの特徴は，API推薦を単一タスクとして扱わず，以下の4つのサブタスクに分解して学習する点にある．
 \begin{itemize}
@@ -179,7 +181,7 @@ LLMARの特徴は，API推薦を単一タスクとして扱わず，以下の4�
 \subsection{契約ネットプロトコル}\label{subsec-cnt}
 
 契約ネットプロトコル（Contract Net Protocol; CNP）は，
-Reid G. Smith によって提案された分散問題解決のための高水準通信プロトコルであり，
+Reid G. Smith によって提案された分散問題解決のための高水準通信プロトコルであり\cite{smith1980contractnet}，
 分散環境におけるタスク割当てと協調計算を，交渉に基づくメッセージ交換によって実現する枠組みである．
 CNP では，タスクを外部に委託したい側のエージェントをマネージャ（manager），タスクの実行を引き受ける側のエージェントをコントラクタ（contractor）と呼び，両者の間でタスクの告知，入札，契約締結，結果報告といった
 一連のやり取りを明示的なプロトコルとして規定している．
@@ -427,7 +429,7 @@ CNP による公告・入札・選択の枠組みにおいて，マネージャ�
 要求全体との整合性を確認した上で，
 最終的な API 集合をAPI群として確定させる．
 
-\begin{figure}[!b]
+\begin{figure}[!t]
   \centering
   \includegraphics[width=\linewidth]{image/cooperate.png}
   \caption{協調型プロトコルのシーケンス図}
@@ -439,8 +441,9 @@ CNP による公告・入札・選択の枠組みにおいて，マネージャ�
 
 \subsection{実験設定}\label{subsec-format}
 本研究では，提案する CNP ベースのマルチエージェント方式について，
-推論タスク割り当てプロトコル（マネージャ主導・コントラクタ主導・協調型）と
-コントラクタエージェントの組織化（単一 API 単位／カテゴリ単位）を比較する．
+推論タスク割り当てプロトコル（マネージャ主導・コントラクタ主導・協調型）を比較する．
+コントラクタエージェントの組織化については単一 API 単位の設計を採用し，
+カテゴリ単位で複数 API を担当させる設計は今後の課題とする．
 いずれの設定においても，ユーザ要求（マッシュアップ要件）を入力としてAPI群を生成し，
 正解計画との照合によって計画生成精度を評価する．
 LLM には gpt-oss20B を用いた．
@@ -469,16 +472,18 @@ LLM には gpt-oss20B を用いた．
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.5\linewidth]{image/api_info.png}
-  \caption{原子サービスデータの構成概念}
-  \label{fig:api}
-\end{figure}
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.5\linewidth]{image/mushup_info.png}
-  \caption{複合サービスデータの構成概念}
-  \label{fig:mashup}
+  \begin{minipage}[t]{0.28\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{image/api_info.png}
+    \caption{原子サービスデータの構成概念}
+    \label{fig:api}
+  \end{minipage}\hspace{0.04\linewidth}
+  \begin{minipage}[t]{0.28\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{image/mushup_info.png}
+    \caption{複合サービスデータの構成概念}
+    \label{fig:mashup}
+  \end{minipage}
 \end{figure}
 
 
@@ -486,25 +491,7 @@ LLM には gpt-oss20B を用いた．
 \subsubsection{評価指標}\label{subsubsec-metrics}
 提案手法（CNP に基づくマルチエージェント方式）で生成される API 推薦結果の品質を評価するため，
 適合率（Precision），再現率（Recall），および F1 スコアを用いる．
-照合は API 名一致に基づく集合評価として行い，正解集合を $G$，生成された推薦 API 集合を $P$ とすると，
-$TP, FP, FN$ はそれぞれ以下で定義される．
-\begin{equation}
-TP = |P \cap G|,\quad FP = |P \setminus G|,\quad FN = |G \setminus P|
-\end{equation}
-ここで，$TP$（True Positive）は推薦した API のうち正解に含まれる API 数，
-$FP$（False Positive）は推薦したが正解に含まれない API 数，
-$FN$（False Negative）は正解に含まれるが推薦できなかった API 数を表す．
-このとき，適合率，再現率，F1 スコアは以下の式から算出される．
-\begin{equation}
-\text{適合率} = \frac{TP}{TP + FP}
-\end{equation}
-\begin{equation}
-\text{再現率} = \frac{TP}{TP + FN}
-\end{equation}
-\begin{equation}
-\text{F1 スコア} = 2 \cdot \frac{\text{適合率} \cdot \text{再現率}}{\text{適合率} + \text{再現率}}
-\end{equation}
-
+照合は API 名一致に基づく集合評価として行う．
 本研究では，最終的な推薦結果だけでなく，プロトコルの各段階における中間結果についても同様の指標を算出し，
 推論過程のどの段階で精度が変化するかを分析する．
 具体的には，各プロトコルにおいて以下の段階で評価を行う．
@@ -521,7 +508,7 @@ $FN$（False Negative）は正解に含まれるが推薦できなかった API 
 カテゴリ割当て時点よりも候補が絞り込まれる．
 入札時点の評価により，コントラクタの専門的知識がどの程度活用されているかを確認できる．
 
-\item[最終統合後]
+\item[最終推薦]
 マネージャエージェントが全コントラクタからの入札を集約・統合し，
 最終的に採用する API 集合を確定した段階である．
 この段階の評価が，提案手法全体としての推薦精度を表す．
@@ -531,52 +518,82 @@ $FN$（False Negative）は正解に含まれるが推薦できなかった API 
 各プロトコルにおいて推論のどの段階で精度が向上または低下するかを明らかにし，
 タスク分解方式の違いが推薦精度に与える影響を詳細に分析する．
 
-\subsubsection{マネージャ主導タスク分解}\label{subsubsec-manager-conclusion}
-マネージャ主導方式の結果を示す．
-本方式では，まずマネージャが要件文をタスク分解し，各タスクに対してカテゴリを割り当てる．その後，要件文とカテゴリを対象カテゴリのコントラクタエージェントに提示して入札を受け，最後に入札結果から適切な API を統合するという流れである．
-表~\ref{tab:manager-results}に示す通り，カテゴリ割当て時点では適合率は 0.111，再現率は 0.607，F1 値は 0.177 となった．
-入札時点では適合率は 0.047，再現率は 0.485，F1 値は 0.079 となった．適合率は前の時点に比べて低下した．これは，入札で候補APIが拡張され，正解に含まれない候補も多く含まれるためである．
-最終統合後では適合率は 0.159，再現率は 0.298，F1 値は 0.193 となった．適合率は前の時点に比べて改善した．
+加えて，各プロトコルの実行時間と入出力トークン数を計測し，平均値で比較した．
+表~\ref{tab:runtime-token-results}に示す．
 
 \begin{table}[tb]
   \centering
-  \caption{マネージャ主導方式の推薦結果}
-  \label{tab:manager-results}
-  \begin{tabular}{l c c c}
+  \caption{各方式の実行時間とトークン数（平均）}
+  \label{tab:runtime-token-results}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{|l|r|r|r|r|r|}
     \hline
-    段階 & 適合率 & 再現率 & F1 値 \\
+    方式 & 入力トークン & 出力トークン & 総トークン & LLM時間(s) & 総時間(s) \\
     \hline
-    カテゴリ割当て時点 & 0.111 & 0.607 & 0.177 \\
-    入札時点 & 0.047 & 0.485 & 0.079 \\
-    最終統合後 & 0.159 & 0.298 & 0.193 \\
+    マネージャ主導 & 9843.45 & 2716.56 & 12560.01 & 22.43 & 183.87 \\
     \hline
-  \end{tabular}
+    協調型 & 522411.36 & 71828.16 & 594239.52 & 2757.40 & 1456.35 \\
+    \hline
+    単一エージェント & 15403.46 & 35469.25 & 50872.71 & 261.04 & 739.67 \\
+    \hline
+  \end{tabular}%
+  }
 \end{table}
+
+\subsubsection{マネージャ主導タスク分解}\label{subsubsec-manager-conclusion}
+マネージャ主導方式の結果を示す．
+本方式では，まずマネージャが要件文をタスク分解し，各タスクに対してカテゴリを割り当てる．その後，要件文とカテゴリを対象カテゴリのコントラクタエージェントに提示して入札を受け，最後に入札結果から適切な API を統合するという流れである．
+表~\ref{tab:all-recommendation-results}に示す通り，カテゴリ割当て時点では適合率は 0.111，再現率は 0.607，F1 値は 0.177 となった．
+入札時点では適合率は 0.047，再現率は 0.485，F1 値は 0.079 となった．適合率は前の時点に比べて低下した．これは，入札で候補APIが拡張され，正解に含まれない候補も多く含まれるためである．
+最終統合後では適合率は 0.159，再現率は 0.298，F1 値は 0.193 となった．適合率は前の時点に比べて改善した．
+また，実行時間とトークン数については，他の方式と比較して最も効率的であった．総トークン数は約12,560，総実行時間は約183秒であり，マネージャが事前にカテゴリを絞り込むことで，不要な通信や処理を抑制できたためと考えられる．
 
 \subsubsection{コントラクタ主導タスク分解}\label{subsubsec-bidder-conclusion}
 コントラクタ主導方式の結果を示す．コントラクタが担当領域の API 仕様に基づいて分解を提案するため，
 局所的な知識を反映した提案が得られる一方で，提案間の統合にはマネージャ側での整合性確認が重要となる．
+
 \subsubsection{協調型タスク分解}\label{subsubsec-cooperative-conclusion}
 協調型方式の結果を示す．マネージャによるタスク分解とコントラクタによるカテゴリ分解を組み合わせることで，
 整合性と柔軟性の両立を図る．
-表~\ref{tab:cooperation-results}に示す通り，カテゴリ割当て時点では適合率は 0.047，再現率は 0.347，F1 値は 0.078 となった．
+表~\ref{tab:all-recommendation-results}に示す通り，カテゴリ割当て時点では適合率は 0.047，再現率は 0.347，F1 値は 0.078 となった．
 入札時点では適合率は 0.034，再現率は 0.260，F1 値は 0.058 となった．適合率は前の時点に比べて低下した．これは，入札で候補APIが拡張され，正解に含まれない候補も多く含まれるためである．
 最終統合後では適合率は 0.083，再現率は 0.223，F1 値は 0.114 となった．適合率は前の時点に比べて改善した．
 また，最終統合後の精度はマネージャ主導方式よりも低く，分担により柔軟性は高まる一方で，
+一方，実行時間とトークン数については，3方式の中で最もコストが高くなった．総トークン数は約594,240，総実行時間は約1,456秒に達した．これは，マネージャとコントラクタ間での多段階のやり取りが発生し，各ステップでの入出力が増大したためである．
 提案の統合段階における情報損失が影響していると考えられる．
 
-\begin{table}[tb]
+表~\ref{tab:all-recommendation-results}に示す通り，各方式の推薦結果を比較できる．
+
+\begin{table}[H]
   \centering
-  \caption{協調型方式の推薦結果}
-  \label{tab:cooperation-results}
-  \begin{tabular}{l c c c}
-    \hline
-    段階 & 適合率 & 再現率 & F1 値 \\
-    \hline
-    カテゴリ割当て時点 & 0.047 & 0.347 & 0.078 \\
-    入札時点 & 0.034 & 0.260 & 0.058 \\
-    最終統合後 & 0.083 & 0.223 & 0.114 \\
-    \hline
+  \caption{推薦結果の比較}
+  \label{tab:all-recommendation-results}
+  \begin{tabular}{|l|l|c|c|c|}
+    \cline{1-1}\cline{2-5}
+    方式 & 段階 & 適合率 & 再現率 & F1 値 \\
+    \cline{1-1}\cline{2-5}
+    \multirow{3}{*}{マネージャ主導} & カテゴリ割当て時点 & 0.111 & 0.607 & 0.177 \\
+    \cline{2-5}
+     & 入札時点 & 0.047 & 0.485 & 0.079 \\
+    \cline{2-5}
+     & 最終推薦 & 0.159 & 0.298 & 0.193 \\
+    \cline{1-1}\cline{2-5}
+    \multirow{3}{*}{コントラクタ主導} & カテゴリ割当て時点 & 0.000 & 0.000 & 0.000 \\
+    \cline{2-5}
+     & 入札時点 & 0.000 & 0.000 & 0.000 \\
+    \cline{2-5}
+     & 最終推薦 & 0.000 & 0.000 & 0.000 \\
+    \cline{1-1}\cline{2-5}
+    \multirow{3}{*}{協調型} & カテゴリ割当て時点 & 0.047 & 0.347 & 0.078 \\
+    \cline{2-5}
+     & 入札時点 & 0.034 & 0.260 & 0.058 \\
+    \cline{2-5}
+     & 最終推薦 & 0.083 & 0.223 & 0.114 \\
+    \cline{1-1}\cline{2-5}
+    \multirow{2}{*}{単一エージェント} & カテゴリ割当て時点 & 0.174 & 0.310 & 0.208 \\
+    \cline{2-5}
+     & 最終推薦 & 0.137 & 0.141 & 0.130 \\
+    \cline{1-1}\cline{2-5}
   \end{tabular}
 \end{table}
 
@@ -594,34 +611,54 @@ $FN$（False Negative）は正解に含まれるが推薦できなかった API 
 実際に，単一エージェント方式は適合率 0.137，再現率 0.141 であるのに対し，
 マネージャ主導方式は適合率 0.159，再現率 0.298 を示しており，
 タスク分解と入札・統合のプロトコル差が結果の差に寄与していると考えられる．
+さらに協調型では，適合率 0.083，再現率 0.223 と単一エージェント方式より改善する一方，
+マネージャ主導方式よりは低い値となった．タスク分解の柔軟性は得られるが，
+入札結果の統合で情報損失が生じやすいことが影響していると考えられる．
 
-\begin{table}[tb]
-  \centering
-  \caption{単一エージェント方式の推薦結果}
-  \label{tab:single-results}
-  \begin{tabular}{l c}
-    \hline
-    指標 & 値 \\
-    \hline
-    適合率 & 0.137 \\
-    再現率 & 0.141 \\
-    F1 値 & 0.130 \\
-    \hline
-  \end{tabular}
-\end{table}
+表~\ref{tab:all-recommendation-results}に単一エージェント方式の結果も示す．
+
+\subsection{プロトコル間の比較考察}\label{subsec-protocol-comparison}
+本研究で比較した 3 つのプロトコル（マネージャ主導型，コントラクタ主導型，協調型）について，推薦精度，推論コスト，およびシステムの振る舞いの観点から詳細な考察を行う．
+
+\subsubsection{推薦精度の観点}
+推薦精度の比較において，マネージャ主導型が最もバランスの取れた性能（適合率 0.159，再現率 0.298）を示した．
+この要因として，マネージャによる事前のカテゴリ絞り込み（トップダウンアプローチ）が，探索空間を適切に限定し，無関係な API からのノイズ（誤った入札）を効果的に排除できた点が挙げられる．
+一方で，協調型（適合率 0.083，再現率 0.223）は，コントラクタ側でのカテゴリ推定とマネージャ側での統合という柔軟な手続き持つものの，マネージャ主導型ほどの精度には達しなかった．
+これは，各コントラクタが局所的な視点でカテゴリ適合性を判断するため，システム全体としての一貫性が保ちにくく，結果としてマネージャが統合時に正解候補を見落とす，あるいは誤った候補を採用する頻度が高まったためと推察される．
+コントラクタ主導型に関しては，全コントラクタが要件解釈を行うことによる発散のリスクが顕在化し，有効な推薦集合を形成することが困難であった．
+以上の結果は，LLM を用いたマルチエージェントシステムにおいて，完全な自律分散（ボトムアップ）よりも，ある程度の中央制御（トップダウンの構造化）を残した階層的な意思決定の方が，サービス合成のような複雑なタスクにおいては有効であることを示唆している．
+
+\subsubsection{推論コストと効率性の観点}
+推論コスト（トークン数および実行時間）の観点では，マネージャ主導型の優位性が顕著であった．
+その総トークン数（約 1.2 万）は，協調型（約 59 万）の約 50 分の 1，単一エージェント（約 5 万）と比較しても約 4 分の 1 に留まった．
+これは，マネージャ主導型が初期段階でタスクと対象カテゴリを明確に定義し，関係するコントラクタ（API）のみに入札を求めるという「選択的な通信」を実現しているためである．
+対照的に，協調型やコントラクタ主導型では，マネージャと多数のコントラクタ間でのブロードキャスト的な通信や，多段階のネゴシエーションが発生し，通信量が指数関数的に増大した．特に協調型では，柔軟性を担保するための調整コストが非常に高くつくことが明らかになった．
+実運用を想定した場合，API 数の増加に対するスケーラビリティの観点からも，通信量を抑制できるマネージャ主導型の設計が最も合理的であると言える．
+
+\subsubsection{責任分担と柔軟性のトレードオフ}
+各プロトコルの特性を責任分担の視点から整理すると，以下のトレードオフが確認できる．
+マネージャ主導型はマネージャの負荷・責任が大きく，マネージャが初期のカテゴリ判定を誤ると，その後のマッチングで挽回することが難しいというリスク（単一障害点に近い特性）を持つ．しかし，今回の実験結果からは，そのリスクよりも探索効率向上のメリットが上回ることが示された．
+一方，協調型やコントラクタ主導型はコントラクタの自律性を重視し，マネージャの判断ミスを局所的な知識で補完できる可能性を持つが，その代償として統合の複雑さと通信コストが増大する．
+今回の実験設定においては，効率性を重視したマネージャ主導型が有利に働いたが，要件が極めて曖昧でカテゴリ定義自体が困難なケースや，未知の API を探索的に発見する必要があるケースにおいては，協調型のような柔軟なアプローチが再評価される可能性も残されている．
 
 \subsection{今後の課題}\label{subsec-future-work}
-今後の課題として，(1) 公告範囲の動的制御や入札の事前フィルタリング等による通信効率化，
-(2) 要求タイプ推定に基づくプロトコル自動選択，(3) Plan の入出力整合性検査の強化（型・スキーマの導入）
-などが挙げられる．
+今後の課題として，本研究のプロトコル別結果を踏まえた改善施策を具体化する必要がある．
+まず，入札時点で候補が拡張され適合率が低下する傾向が見られたため，
+公告範囲の動的制御や入札の事前フィルタリングにより候補の過剰生成を抑制し，通信量と誤推薦を低減する．
+次に，要求の粒度・曖昧さにより有利な方式が異なることが示されたため，
+要求タイプ推定に基づくプロトコル自動選択を導入し，要求ごとに最適な分担で推論する．
+さらに，タスクの入出力整合性を強化し，
+統合段階での不整合や情報損失を検出・修正できる仕組みを整える．
+加えて，本研究ではコントラクタエージェントに 1 API のみを割り当てているため，
+今後は 1 エージェントに複数 API を持たせた場合の精度・通信量・統合負荷の変化を評価し，
+専門性の深さと分担効率の最適なバランスを検証する実験を追加で実施する．
 
 \newpage
 \section{おわりに}
 \label{sec-conclusion}
 本論文では，LLM を用いたマルチエージェントシステムに基づく Web サービス合成手法を提案した．
 契約ネットプロトコルに基づくタスク分解メカニズムを導入し，マネージャ主導・コントラクタ主導・協調型という
-三種類のタスク分解プロトコルを設計・比較した．また，入札エージェントの組織化として，単一 API 単位の割当てに加え，
-カテゴリ単位で複数 API をまとめて担当させる設計を比較した．
+三種類のタスク分解プロトコルを設計・比較した．また，入札エージェントの組織化としては，単一 API 単位の割当てを採用し，カテゴリ単位で複数 API をまとめて担当させる設計は今後の課題とした．
 
 本研究の貢献は以下である．本研究で設定した課題に対して，次のように具体的な検証と知見を示した．
 \begin{description}
@@ -629,12 +666,17 @@ $FN$（False Negative）は正解に含まれるが推薦できなかった API 
 マネージャ主導・コントラクタ主導・協調型の 3 方式を比較し，要求の粒度・曖昧さに応じて有利な方式が異なることを示した．
 要求タイプに応じて方式を切り替える運用が，単一方式に固定するよりも有効であることを確認した．
 \item[コントラクタエージェントの組織化]
-API 仕様を分散保持する専門エージェントの設計を評価し，単一エージェント方式と比較して
-推薦の正確性を高めつつ，大規模サービス集合に対してもスケーラブルに動作することを示した．
+単一API単位で専門化したコントラクタ構成を用い，分散保持の有効性と推薦精度への影響を評価した．
+複数APIを担当させる設計については今後の課題として位置付けた．
 \end{description}
 
-今後の展望として，通信効率化，プロトコル自動選択，Plan の入出力整合性検査の強化などに取り組むことで，
+今後の展望として，通信効率化，プロトコル自動選択，タスクの入出力整合性強化などに取り組むことで，
 より実用的で柔軟なサービス合成システムの実現を目指す．
+
+\newpage
+\section*{謝辞}
+本研究を行うにあたり, 熱心なご指導, ご助言を賜りました指導教官の村上陽
+平教授を並びに松本賢司さんに深く感謝を申し上げます.
 
 \newpage
 \bibliographystyle{kuisunsrt}

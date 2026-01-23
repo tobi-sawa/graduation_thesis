@@ -1,0 +1,604 @@
+[
+  {
+    "case_id": 535,
+    "mashup_name": "linda",
+    "ground_truth_apis": [
+      "bing",
+      "open_movie_database",
+      "opencnam",
+      "wikipedia",
+      "wolfram_alpha",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "reference",
+      "search",
+      "telephony",
+      "video"
+    ],
+    "recommended_categories": [
+      "ecommerce",
+      "real_estate",
+      "ride_share",
+      "science",
+      "search",
+      "social",
+      "url_shortener",
+      "weather"
+    ],
+    "num_tasks": 9,
+    "precision": 0.125,
+    "recall": 0.25,
+    "f1": 0.16666666666666666,
+    "tp": 1,
+    "fp": 7,
+    "fn": 3,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Parse user input to extract intent, entities, and context (e.g., location, time, subject).",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Determine the appropriate external API(s) to satisfy the intent and construct the correct request.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Retrieve, combine, and transform data from the chosen API(s) into a unified structure.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Generate a concise, user‑friendly response in natural language that incorporates the retrieved data.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Return available job postings at selected retail locations",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Track and expose user presence (online/offline) to Linda AI.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Persist chat messages to QuickBlox cloud storage for history retrieval.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T8",
+        "description": "Create a new blog post on behalf of the user",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T9",
+        "description": "Create a new gadget within the user's Hyves account",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 782,
+    "mashup_name": "wild-food-map",
+    "ground_truth_apis": [
+      "google_maps",
+      "instagram_graph"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "photos"
+    ],
+    "recommended_categories": [
+      "addresses",
+      "advertising",
+      "analytics",
+      "photos"
+    ],
+    "num_tasks": 12,
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1": 0.3333333333333333,
+    "tp": 1,
+    "fp": 3,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Geocoding plant location data and rendering interactive maps showing plant distribution",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Connecting to Instagram API to publish plant images, captions, and location tags",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Implementing image recognition for plant species identification (AI classification)",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Providing user accounts, forums, and comment sections for community knowledge exchange",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Enable user contributions of new plant sightings, comments, and ratings.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Provide geospatial search and filtering of plant occurrences on the map.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Generate analytics on plant distribution and user engagement.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T8",
+        "description": "Ensure robust data storage, backup, and retrieval of plant records and media.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T9",
+        "description": "Maintain a RESTful API for external clients to query plant data",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T10",
+        "description": "Support image hosting and retrieval for plant photos",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T11",
+        "description": "Host and serve photo content efficiently.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T12",
+        "description": "Manage API keys, rate limits, and secure connections to Instagram and Google Maps services.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 1866,
+    "mashup_name": "decisions-heroes-0",
+    "ground_truth_apis": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "ground_truth_categories": [
+      "messaging",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "database",
+      "marketing",
+      "messaging",
+      "photos",
+      "reference",
+      "security",
+      "tools"
+    ],
+    "num_tasks": 8,
+    "precision": 0.14285714285714285,
+    "recall": 0.5,
+    "f1": 0.22222222222222224,
+    "tp": 1,
+    "fp": 6,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Ingest and store incident data (timestamp, location, severity, injuries, casualties) using a ticketing or custom data system.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Compute and visualize response-time statistics (average, median, distribution) per incident and per team.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Analyze injury severity and casualty demographics (age, gender, medical condition) across incidents.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Generate a heatmap of hotspot clusters by aggregating incident locations and identifying high-risk zones.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Export comprehensive analytical reports in PDF/CSV and provide API access for dashboards.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Provide interactive dashboards and reports summarizing key metrics and trends.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Manage emergency response teams, roster members, and auto-assign teams to incidents based on proximity and skill.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T8",
+        "description": "Send real‑time alerts to assigned teams when new incidents match high‑risk patterns.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 2416,
+    "mashup_name": "textwhosnext",
+    "ground_truth_apis": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "ground_truth_categories": [
+      "messaging",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "database",
+      "enterprise",
+      "messaging",
+      "widgets"
+    ],
+    "num_tasks": 6,
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1": 0.3333333333333333,
+    "tp": 1,
+    "fp": 3,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Create and store a patron entry in the waitlist",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Determine the next patron in the queue and retrieve their contact information",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Send a text (SMS) message to the patron notifying them that it is their turn",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Remove a patron from the queue once they have been served",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Support administrative actions such as clearing the queue or cancelling patron entries",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Schedule and orchestrate the notification workflow (e.g., using cloud functions or cron jobs).",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 2540,
+    "mashup_name": "moveable-weather",
+    "ground_truth_apis": [
+      "google_gadgets",
+      "google_latitude",
+      "tropo_scripting"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "telephony",
+      "widgets"
+    ],
+    "recommended_categories": [
+      "backend",
+      "location",
+      "mapping",
+      "office",
+      "telephony"
+    ],
+    "num_tasks": 6,
+    "precision": 0.4,
+    "recall": 0.6666666666666666,
+    "f1": 0.5,
+    "tp": 2,
+    "fp": 3,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Determine the user's current location using IP geolocation or user input.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Call Google's Weather API to fetch the current weather conditions for that location.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Format and deliver the weather data as spoken output or text to the user.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Optionally convert the formatted weather details into spoken audio for the user.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Convert the textual summary into audio (speech) and deliver it to the user.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Deliver the spoken audio back to the user through the mashup interface.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 2918,
+    "mashup_name": "locafollow",
+    "ground_truth_apis": [
+      "google_app_engine",
+      "google_cloud_translation",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "social",
+      "tools",
+      "translation"
+    ],
+    "recommended_categories": [
+      "tools"
+    ],
+    "num_tasks": 6,
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 0,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Identify and retrieve a list of Twitter users that match a location-based query and contain specified keywords in Bio or Location.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Execute a bulk follow action to follow each user in the retrieved list.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Send bulk follow requests to selected users while respecting API rate limits and user preferences",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Perform bulk follow actions for the filtered users.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Provide feedback to the user about the outcome of each follow action",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Provide a user interface or API wrapper for developers to integrate LocaFollow into their applications.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 2930,
+    "mashup_name": "my-friends-mosaic",
+    "ground_truth_apis": [
+      "livejournal",
+      "twitter",
+      "zazzle"
+    ],
+    "ground_truth_categories": [
+      "blogging",
+      "ecommerce",
+      "social"
+    ],
+    "recommended_categories": [
+      "advertising",
+      "design",
+      "ecommerce",
+      "search"
+    ],
+    "num_tasks": 7,
+    "precision": 0.25,
+    "recall": 0.3333333333333333,
+    "f1": 0.28571428571428575,
+    "tp": 1,
+    "fp": 3,
+    "fn": 2,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Fetch friends' profile pictures and photos from Twitter and LiveJournal accounts.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Create a mosaic image by arranging the retrieved photos into a cohesive design.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Provide an interface to select merchandise and process orders for printing the mosaic.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Export the final mosaic as print‑ready files (e.g., TIFF/PNG) compatible with various merchandise templates",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Provide an ordering interface that lets users choose product type, size, and place payment",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Create a front‑end product selection and checkout flow for the user to order the printed item.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Process the payment and send the order details to the print service.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 3166,
+    "mashup_name": "darwin-bus-map",
+    "ground_truth_apis": [
+      "google_maps",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "social"
+    ],
+    "recommended_categories": [
+      "data_mining",
+      "database",
+      "mapping",
+      "tools"
+    ],
+    "num_tasks": 7,
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1": 0.3333333333333333,
+    "tp": 1,
+    "fp": 3,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Fetch all publicly available bus routes and their timetables for Darwin.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Retrieve a comprehensive list of bus stops, with geolocation and operational details.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Collect real-time traffic and bus location data to inform the user of current conditions.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Obtain StreetView imagery for each bus stop to provide visual context.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Fetch StreetView images for each bus stop location",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Show StreetView images for each bus stop",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Allow timeline navigation through scheduled stops",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 5584,
+    "mashup_name": "thursday-club",
+    "ground_truth_apis": [
+      "google_maps",
+      "youtube"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "video"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "backend",
+      "ecommerce",
+      "location",
+      "mapping",
+      "recommendations",
+      "security",
+      "tools",
+      "translation",
+      "url_shortener",
+      "weather"
+    ],
+    "num_tasks": 6,
+    "precision": 0.09090909090909091,
+    "recall": 0.5,
+    "f1": 0.15384615384615385,
+    "tp": 1,
+    "fp": 10,
+    "fn": 1,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Search for venues matching category criteria within a specified geographic radius",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Retrieve latitude and longitude for each venue to plot on a map interface",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Present the list of nearby venues to the user via a visual map or list",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Display the filtered venues on an interactive map with markers and pop‑ups containing venue details.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Allow keyword search for venues by name or description",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Determine the nearest venues to a supplied coordinate (requires external venue data)",
+        "recommended_categories": []
+      }
+    ]
+  }
+]

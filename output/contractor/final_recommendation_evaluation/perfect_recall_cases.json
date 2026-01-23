@@ -1,0 +1,91 @@
+[
+  {
+    "case_id": 1223,
+    "ground_truth": [
+      "twitter"
+    ],
+    "predictions": [
+      "twitter",
+      "amazon_dynamodb"
+    ],
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  },
+  {
+    "case_id": 2516,
+    "ground_truth": [
+      "amazon_product_advertising"
+    ],
+    "predictions": [
+      "amazon_product_advertising",
+      "laravel"
+    ],
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  },
+  {
+    "case_id": 2780,
+    "ground_truth": [
+      "box"
+    ],
+    "predictions": [
+      "stsoftware_job_track",
+      "tutorials_garden",
+      "box",
+      "zapier"
+    ],
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 3,
+    "fn": 0
+  },
+  {
+    "case_id": 3413,
+    "ground_truth": [
+      "getglue"
+    ],
+    "predictions": [
+      "bugsnag",
+      "google_custom_search",
+      "twitter_search",
+      "google_closure_compiler",
+      "getglue"
+    ],
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1": 0.33333333333333337,
+    "tp": 1,
+    "fp": 4,
+    "fn": 0
+  },
+  {
+    "case_id": 6281,
+    "ground_truth": [
+      "flickr"
+    ],
+    "predictions": [
+      "flickr",
+      "google_app_engine",
+      "sqlify",
+      "prosperent",
+      "highcharts",
+      "mocky"
+    ],
+    "precision": 0.16666666666666666,
+    "recall": 1.0,
+    "f1": 0.2857142857142857,
+    "tp": 1,
+    "fp": 5,
+    "fn": 0
+  }
+]

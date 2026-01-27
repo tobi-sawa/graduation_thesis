@@ -1,0 +1,2024 @@
+{
+  "outputs_root": "outputs_100",
+  "num_cases": 100,
+  "micro": {
+    "precision": 0.02872531418312388,
+    "recall": 0.10062893081761007,
+    "f1": 0.0446927374301676,
+    "tp": 16,
+    "fp": 541,
+    "fn": 143
+  },
+  "macro": {
+    "precision": 0.10575,
+    "recall": 0.12166666666666666,
+    "f1": 0.10491341991341992
+  },
+  "cases": [
+    {
+      "case_dir": "1068",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 2,
+      "ground_truth": [
+        "lastfm",
+        "movie_database_tmdb"
+      ],
+      "matched_apis": [
+        "movie database api",
+        "music api"
+      ]
+    },
+    {
+      "case_dir": "1213",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 12,
+      "fn": 6,
+      "ground_truth": [
+        "citygrid",
+        "google_geocoding",
+        "google_maps",
+        "yahoo_local_search",
+        "yelp_fusion",
+        "yipit"
+      ],
+      "matched_apis": [
+        "amadeus travel api",
+        "expedia rapid api",
+        "google maps geocoding api",
+        "google places api",
+        "here geocoding & search api",
+        "lyft api",
+        "openstreetmap nominatim api",
+        "openweathermap api",
+        "skyscanner api",
+        "tripadvisor api",
+        "uber api",
+        "yelp fusion api"
+      ]
+    },
+    {
+      "case_dir": "1223",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "ground_truth": [
+        "twitter"
+      ],
+      "matched_apis": [
+        "twitter"
+      ]
+    },
+    {
+      "case_dir": "1262",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "ground_truth": [
+        "twitter"
+      ],
+      "matched_apis": []
+    },
+    {
+      "case_dir": "1286",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 8,
+      "fn": 1,
+      "ground_truth": [
+        "weather_central"
+      ],
+      "matched_apis": [
+        "accuweather",
+        "climacell (tomorrow.io)",
+        "open_meteo",
+        "openweathermap",
+        "visual crossing weather",
+        "weatherapi.com",
+        "weatherbit",
+        "weatherstack"
+      ]
+    },
+    {
+      "case_dir": "1307",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "ground_truth": [
+        "sensis_business_search",
+        "yelp_fusion"
+      ],
+      "matched_apis": [
+        "yelp api"
+      ]
+    },
+    {
+      "case_dir": "1337",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 1,
+      "ground_truth": [
+        "twitter"
+      ],
+      "matched_apis": [
+        "get /api/users/me",
+        "post /api/auth/login",
+        "post /api/auth/register",
+        "put /api/users/me"
+      ]
+    },
+    {
+      "case_dir": "1366",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 21,
+      "fn": 2,
+      "ground_truth": [
+        "google_maps",
+        "twitter"
+      ],
+      "matched_apis": [
+        "eventbrite public api",
+        "google places api",
+        "openweathermap api",
+        "seatgeek search api",
+        "stripe api",
+        "ticket api (ticketapi.com)",
+        "ticketmaster discovery api",
+        "ticketmaster ticket api",
+        "ticketmaster ticketing api",
+        "ticketmaster ticketing events api",
+        "ticketmaster ticketing order cancellation api",
+        "ticketmaster ticketing order confirmation api",
+        "ticketmaster ticketing order history api",
+        "ticketmaster ticketing order refund api",
+        "ticketmaster ticketing order refund cancellation api",
+        "ticketmaster ticketing order refund confirmation api",
+        "ticketmaster ticketing order refund history api",
+        "ticketmaster ticketing order refund status api",
+        "ticketmaster ticketing order status api",
+        "ticketmaster ticketing orders api",
+        "ticketmaster venue api"
+      ]
+    },
+    {
+      "case_dir": "1489",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "ground_truth": [
+        "florist_one"
+      ],
+      "matched_apis": [
+        "bcrypt",
+        "werkzeug.security"
+      ]
+    },
+    {
+      "case_dir": "1491",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 6,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "abortcontroller",
+        "fetch",
+        "usecallback",
+        "useeffect",
+        "useref",
+        "usestate"
+      ]
+    },
+    {
+      "case_dir": "1529",
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "ground_truth": [
+        "donorschoose"
+      ],
+      "matched_apis": [
+        "charity‑navigator",
+        "donorschoose"
+      ]
+    },
+    {
+      "case_dir": "1698",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "ground_truth": [
+        "yelp_fusion"
+      ],
+      "matched_apis": [
+        "yelp_fusion"
+      ]
+    },
+    {
+      "case_dir": "1854",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "ground_truth": [
+        "twilio",
+        "twilio_sms"
+      ],
+      "matched_apis": []
+    },
+    {
+      "case_dir": "1866",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "ground_truth": [
+        "twilio",
+        "twilio_sms"
+      ],
+      "matched_apis": []
+    },
+    {
+      "case_dir": "1869",
+      "precision": 0.125,
+      "recall": 0.3333333333333333,
+      "f1": 0.18181818181818182,
+      "tp": 1,
+      "fp": 7,
+      "fn": 2,
+      "ground_truth": [
+        "facebook",
+        "twilio",
+        "twilio_sms"
+      ],
+      "matched_apis": [
+        "facebook graph api",
+        "mailgun",
+        "nexmo (vonage)",
+        "plivo",
+        "sendgrid",
+        "sendinblue",
+        "twilio",
+        "vonage"
+      ]
+    },
+    {
+      "case_dir": "1892",
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "twilio",
+        "twilio_sms"
+      ],
+      "matched_apis": [
+        "tropo‑scripting",
+        "twilio"
+      ]
+    },
+    {
+      "case_dir": "1898",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "twilio"
+      ],
+      "matched_apis": [
+        "1and1"
+      ]
+    },
+    {
+      "case_dir": "2099",
+      "precision": 0.08333333333333333,
+      "recall": 0.5,
+      "f1": 0.14285714285714285,
+      "tp": 1,
+      "fp": 11,
+      "fn": 1,
+      "ground_truth": [
+        "dribbble",
+        "google_app_engine"
+      ],
+      "matched_apis": [
+        "500px",
+        "behance",
+        "dribbble",
+        "flickr",
+        "giphy",
+        "instagram",
+        "pinterest",
+        "pixabay",
+        "reddit",
+        "tenor",
+        "tumblr",
+        "unsplash"
+      ]
+    },
+    {
+      "case_dir": "2267",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "google maps",
+        "mapbox",
+        "openweathermap",
+        "weatherapi.com"
+      ]
+    },
+    {
+      "case_dir": "2282",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "ground_truth": [
+        "google_gmail_oauth"
+      ],
+      "matched_apis": []
+    },
+    {
+      "case_dir": "2344",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "ground_truth": [
+        "twilio",
+        "twilio_sms"
+      ],
+      "matched_apis": [
+        "twilio rest api"
+      ]
+    },
+    {
+      "case_dir": "239",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "ground_truth": [
+        "fitbit"
+      ],
+      "matched_apis": [
+        "fitbit"
+      ]
+    },
+    {
+      "case_dir": "2416",
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "twilio",
+        "twilio_sms"
+      ],
+      "matched_apis": [
+        "twilio",
+        "vonage"
+      ]
+    },
+    {
+      "case_dir": "2484",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 2,
+      "ground_truth": [
+        "tropo_scripting",
+        "twitter"
+      ],
+      "matched_apis": [
+        "gmail api",
+        "slack api",
+        "twilio api",
+        "twitter api"
+      ]
+    },
+    {
+      "case_dir": "2491",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 10,
+      "fn": 1,
+      "ground_truth": [
+        "zazzle"
+      ],
+      "matched_apis": [
+        "analytics api",
+        "custom product api",
+        "image processing api",
+        "image storage api",
+        "image upload api",
+        "inventory management api",
+        "order management api",
+        "payment processing api",
+        "shipping label api",
+        "user profile api"
+      ]
+    },
+    {
+      "case_dir": "2502",
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "ground_truth": [
+        "youtube"
+      ],
+      "matched_apis": [
+        "dailymotion",
+        "vimeo",
+        "youtube"
+      ]
+    },
+    {
+      "case_dir": "2516",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "amazon_product_advertising"
+      ],
+      "matched_apis": [
+        "amazon product advertising api"
+      ]
+    },
+    {
+      "case_dir": "2540",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 8,
+      "fn": 3,
+      "ground_truth": [
+        "google_gadgets",
+        "google_latitude",
+        "tropo_scripting"
+      ],
+      "matched_apis": [
+        "autocheck",
+        "autotrader",
+        "carfax",
+        "cargurus",
+        "carmax",
+        "edmunds",
+        "kelley blue book",
+        "nada guides"
+      ]
+    },
+    {
+      "case_dir": "2598",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 7,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "easypost",
+        "fedex developer account",
+        "postmates",
+        "shipengine",
+        "shippo",
+        "ups developer kit",
+        "usps web tools"
+      ]
+    },
+    {
+      "case_dir": "2599",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 13,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "binance",
+        "bitfinex",
+        "bitstamp",
+        "bittrex",
+        "coinapi",
+        "coincap",
+        "coingecko",
+        "coinmarketcap",
+        "coinpaprika",
+        "gemini",
+        "huobi",
+        "kraken",
+        "okx"
+      ]
+    },
+    {
+      "case_dir": "2664",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "twilio"
+      ],
+      "matched_apis": [
+        "tropo_scripting"
+      ]
+    },
+    {
+      "case_dir": "2714",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 3,
+      "ground_truth": [
+        "foursquare",
+        "google_maps",
+        "twitter"
+      ],
+      "matched_apis": [
+        "google maps geocoding api"
+      ]
+    },
+    {
+      "case_dir": "2780",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "box"
+      ],
+      "matched_apis": [
+        "upload a file to box (v2)"
+      ]
+    },
+    {
+      "case_dir": "2918",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "ground_truth": [
+        "google_app_engine",
+        "google_cloud_translation",
+        "twitter"
+      ],
+      "matched_apis": []
+    },
+    {
+      "case_dir": "2930",
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "ground_truth": [
+        "livejournal",
+        "twitter",
+        "zazzle"
+      ],
+      "matched_apis": [
+        "recognizeim",
+        "simpleapi",
+        "twitter"
+      ]
+    },
+    {
+      "case_dir": "3005",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 19,
+      "fn": 2,
+      "ground_truth": [
+        "twilio",
+        "twitter"
+      ],
+      "matched_apis": [
+        "agora",
+        "auth0",
+        "aws lambda",
+        "cloud functions for firebase",
+        "daily.co",
+        "firebase auth",
+        "firebase cloud messaging",
+        "firebase hosting",
+        "firebase realtime database",
+        "firestore",
+        "jitsi meet",
+        "mongodb atlas",
+        "netlify",
+        "passport.js",
+        "postgresql on heroku",
+        "supabase realtime",
+        "twilio programmable video",
+        "vercel",
+        "vercel serverless functions"
+      ]
+    },
+    {
+      "case_dir": "3045",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "box"
+      ],
+      "matched_apis": [
+        "box api"
+      ]
+    },
+    {
+      "case_dir": "31",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 14,
+      "fn": 4,
+      "ground_truth": [
+        "flickr",
+        "google_ad_manager",
+        "google_adsense",
+        "youtube"
+      ],
+      "matched_apis": [
+        "amadeus travel apis",
+        "auth0 api",
+        "booking.com api",
+        "expedia rapid api",
+        "google maps api",
+        "google places api",
+        "kayak api",
+        "priceline api",
+        "rentalcars.com api",
+        "skyscanner api",
+        "stripe api",
+        "tripadvisor api",
+        "twilio api",
+        "yelp fusion api"
+      ]
+    },
+    {
+      "case_dir": "3115",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 5,
+      "fn": 1,
+      "ground_truth": [
+        "bing_maps"
+      ],
+      "matched_apis": [
+        "noaa climate data online (cdo) api",
+        "noaa national centers for environmental information (ncei) api",
+        "noaa national hurricane center (nhc) api",
+        "noaa national weather service (nws) api",
+        "noaa tides & currents api"
+      ]
+    },
+    {
+      "case_dir": "3166",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 3,
+      "fn": 2,
+      "ground_truth": [
+        "google_maps",
+        "twitter"
+      ],
+      "matched_apis": [
+        "directions api",
+        "distance matrix api",
+        "roads api"
+      ]
+    },
+    {
+      "case_dir": "3188",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 4,
+      "ground_truth": [
+        "google_maps",
+        "noaa_national_weather_service_nws_ndfd_soap",
+        "panoramio",
+        "strikeiron_ip_address_lookup"
+      ],
+      "matched_apis": [
+        "tidespy_tide_charts_best_fishing_times"
+      ]
+    },
+    {
+      "case_dir": "3332",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 10,
+      "fn": 4,
+      "ground_truth": [
+        "google_adwords",
+        "google_maps",
+        "panoramio",
+        "wikipedia"
+      ],
+      "matched_apis": [
+        "bing maps locations api",
+        "danish geodata api (geodata.dk)",
+        "geoapify places api",
+        "google places api",
+        "here geocoding & search api",
+        "locationiq",
+        "mapbox geocoding api",
+        "opencage geocoder",
+        "openstreetmap nominatim",
+        "tomtom search api"
+      ]
+    },
+    {
+      "case_dir": "3413",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 10,
+      "fn": 1,
+      "ground_truth": [
+        "getglue"
+      ],
+      "matched_apis": [
+        "agora",
+        "algolia",
+        "auth0",
+        "aws (ec2, s3)",
+        "mapbox",
+        "openai (chatgpt)",
+        "segment",
+        "shopify",
+        "stripe",
+        "twilio"
+      ]
+    },
+    {
+      "case_dir": "3539",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "google_analytics_managment"
+      ],
+      "matched_apis": [
+        "google maps geocoding api"
+      ]
+    },
+    {
+      "case_dir": "3610",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "ground_truth": [
+        "geonames",
+        "wikipedia"
+      ],
+      "matched_apis": [
+        "cleartrip"
+      ]
+    },
+    {
+      "case_dir": "3668",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "betfair"
+      ],
+      "matched_apis": [
+        "bittrex"
+      ]
+    },
+    {
+      "case_dir": "3798",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "bing maps distance matrix",
+        "google maps distance matrix"
+      ]
+    },
+    {
+      "case_dir": "3824",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 20,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "australia post api",
+        "bing maps",
+        "canada post api",
+        "dhl api",
+        "easypost",
+        "esri arcgis online",
+        "fedex web services",
+        "google maps platform",
+        "here technologies",
+        "mapbox",
+        "openstreetmap (osm) + nominatim",
+        "pirate ship",
+        "royal mail api",
+        "shipengine",
+        "shippo",
+        "shipstation",
+        "stamps.com",
+        "tomtom maps sdk",
+        "ups developer kit",
+        "usps web tools"
+      ]
+    },
+    {
+      "case_dir": "3825",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "nextbus",
+        "transit"
+      ]
+    },
+    {
+      "case_dir": "3942",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "google_maps_geolocation",
+        "moviepilot"
+      ]
+    },
+    {
+      "case_dir": "4034",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "friendfeed"
+      ],
+      "matched_apis": [
+        "friendfeed api"
+      ]
+    },
+    {
+      "case_dir": "4075",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 6,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "directions api",
+        "geocoding api",
+        "geolocation api",
+        "maps javascript api",
+        "places api",
+        "street view api"
+      ]
+    },
+    {
+      "case_dir": "4164",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "geonames"
+      ],
+      "matched_apis": [
+        "get https://graph.microsoft.com/v1.0/users"
+      ]
+    },
+    {
+      "case_dir": "4279",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 3,
+      "fn": 1,
+      "ground_truth": [
+        "flickr"
+      ],
+      "matched_apis": [
+        "flickr.people.getinfo",
+        "flickr.photos.getinfo",
+        "flickr.photos.getsizes"
+      ]
+    },
+    {
+      "case_dir": "4337",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "ground_truth": [
+        "amazon_ec2",
+        "amazon_s3"
+      ],
+      "matched_apis": []
+    },
+    {
+      "case_dir": "4352",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "ground_truth": [
+        "flickr"
+      ],
+      "matched_apis": [
+        "flickr"
+      ]
+    },
+    {
+      "case_dir": "4594",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "amazon_product_advertising"
+      ],
+      "matched_apis": [
+        "amazon ecommerce api"
+      ]
+    },
+    {
+      "case_dir": "4605",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 18,
+      "fn": 1,
+      "ground_truth": [
+        "amazon_product_advertising"
+      ],
+      "matched_apis": [
+        "algolia",
+        "apollo server",
+        "auth0",
+        "aws elasticache",
+        "aws s3",
+        "cloudinary",
+        "firebase auth",
+        "google cloud storage",
+        "graphql",
+        "hasura",
+        "heroku postgres",
+        "postgresql",
+        "redis",
+        "redis labs",
+        "sendgrid",
+        "stripe",
+        "supabase",
+        "twilio"
+      ]
+    },
+    {
+      "case_dir": "4663",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": []
+    },
+    {
+      "case_dir": "4670",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 23,
+      "fn": 1,
+      "ground_truth": [
+        "amazon_ec2"
+      ],
+      "matched_apis": [
+        "deepai image captioning",
+        "deepai image classification",
+        "deepai image colorization",
+        "deepai image super‑resolution",
+        "deepai image to image",
+        "deepai image to text",
+        "deepai sentiment analysis",
+        "deepai speech to text",
+        "deepai text classification",
+        "deepai text generation",
+        "deepai text summarization",
+        "deepai text to image",
+        "deepai text to speech",
+        "eleutherai gpt‑neo / gpt‑j",
+        "hugging face inference api",
+        "hugging face transformers (node)",
+        "openai clip",
+        "openai codex",
+        "openai dall‑e 2",
+        "openai gpt‑3 / gpt‑4",
+        "openai whisper",
+        "replicate api",
+        "stable diffusion"
+      ]
+    },
+    {
+      "case_dir": "4675",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "ground_truth": [
+        "google_gadgets"
+      ],
+      "matched_apis": [
+        "spoonacular",
+        "themealdb"
+      ]
+    },
+    {
+      "case_dir": "4708",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "ground_truth": [
+        "google_apps_email_migration"
+      ],
+      "matched_apis": [
+        "google_apps_email_migration"
+      ]
+    },
+    {
+      "case_dir": "4828",
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "ground_truth": [
+        "dbpedia",
+        "flickr"
+      ],
+      "matched_apis": [
+        "flickr"
+      ]
+    },
+    {
+      "case_dir": "4964",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "databasemetadata.gettables()"
+      ]
+    },
+    {
+      "case_dir": "5035",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "google_maps_geolocation",
+        "indeed",
+        "linkedin",
+        "salary.com"
+      ]
+    },
+    {
+      "case_dir": "5105",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 2,
+      "ground_truth": [
+        "google_maps",
+        "youtube"
+      ],
+      "matched_apis": [
+        "google maps geocoding api",
+        "google maps static maps api"
+      ]
+    },
+    {
+      "case_dir": "5114",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "ground_truth": [
+        "strikeiron_sms_mobile_marketing"
+      ],
+      "matched_apis": []
+    },
+    {
+      "case_dir": "5200",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "ground_truth": [
+        "google_maps",
+        "opendoar"
+      ],
+      "matched_apis": [
+        "google maps api"
+      ]
+    },
+    {
+      "case_dir": "5202",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "google maps api"
+      ]
+    },
+    {
+      "case_dir": "5236",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 7,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "google maps directions api",
+        "google maps geocoding api",
+        "google maps geolocation api",
+        "google maps javascript api",
+        "google maps places api",
+        "google maps static maps api",
+        "google maps street view api"
+      ]
+    },
+    {
+      "case_dir": "5238",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 11,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "google maps directions api",
+        "google maps distance matrix api",
+        "google maps elevation api",
+        "google maps geocoding api",
+        "google maps geolocation api",
+        "google maps javascript api",
+        "google maps places api",
+        "google maps roads api",
+        "google maps static maps api",
+        "google maps street view api",
+        "google maps time zone api"
+      ]
+    },
+    {
+      "case_dir": "5251",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 97,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "accuweather api",
+        "algolia api",
+        "alpha vantage api",
+        "amadeus self‑service apis",
+        "amazon alexa skills kit",
+        "amazon ses api",
+        "amplitude api",
+        "apple healthkit api",
+        "apple music api",
+        "auth0 api",
+        "aws sdk / api",
+        "bitbucket api",
+        "booking.com affiliate partner api",
+        "box api",
+        "coursera api",
+        "currencylayer api",
+        "digitalocean api",
+        "discord api",
+        "dropbox api",
+        "edx api",
+        "elasticsearch rest api",
+        "eventbrite api",
+        "facebook graph api",
+        "fitbit web api",
+        "flickr api",
+        "giphy api",
+        "github rest api",
+        "gitlab api",
+        "google analytics data api",
+        "google cloud ai apis",
+        "google cloud apis",
+        "google drive api",
+        "google fit api",
+        "google maps geocoding api",
+        "guardian api",
+        "heroku platform api",
+        "hotjar api",
+        "ibm watson api",
+        "iex cloud api",
+        "instagram basic display api",
+        "ip geolocation api (ipinfo.io)",
+        "ip2location api",
+        "ipstack api",
+        "khan academy api",
+        "linkedin api",
+        "magento 2 rest api",
+        "mailgun api",
+        "mapbox api",
+        "meetup api",
+        "microsoft azure ad graph api",
+        "microsoft azure cognitive search api",
+        "microsoft azure rest api",
+        "mixpanel api",
+        "nest api",
+        "newsapi.org",
+        "nytimes developer api",
+        "okta api",
+        "open exchange rates api",
+        "open library api",
+        "openai api",
+        "openstreetmap nominatim",
+        "openweathermap api",
+        "paypal rest api",
+        "pexels api",
+        "philips hue api",
+        "plaid api",
+        "playstation network api",
+        "pusher api",
+        "reddit api",
+        "rest countries api",
+        "sendgrid api",
+        "shopify admin api",
+        "skyscanner api",
+        "slack api",
+        "socket.io",
+        "spotify charts api",
+        "spotify web api",
+        "square api",
+        "steam web api",
+        "stripe api",
+        "telegram bot api",
+        "tenor api",
+        "the movie database (tmdb) api",
+        "tiktok api",
+        "timezonedb api",
+        "twilio programmable messaging",
+        "twitch api",
+        "twitter api v2",
+        "unsplash api",
+        "vimeo api",
+        "weatherapi.com",
+        "weatherstack api",
+        "woocommerce rest api",
+        "xbox live api",
+        "yahoo finance api (via rapidapi)",
+        "youtube data api",
+        "youtube live streaming api"
+      ]
+    },
+    {
+      "case_dir": "5310",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "google maps",
+        "yelp fusion"
+      ]
+    },
+    {
+      "case_dir": "5331",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 15,
+      "fn": 2,
+      "ground_truth": [
+        "google_maps",
+        "indeed"
+      ],
+      "matched_apis": [
+        "arcgis geocoding service",
+        "arcgis routing service",
+        "bing maps rest services",
+        "google maps directions api",
+        "google maps geocoding api",
+        "here geocoding & search api",
+        "here routing api",
+        "mapbox directions api",
+        "mapbox geocoding api",
+        "mapquest directions api",
+        "mapquest geocoding api",
+        "openstreetmap nominatim",
+        "openstreetmap overpass api",
+        "tomtom routing api",
+        "tomtom search api"
+      ]
+    },
+    {
+      "case_dir": "535",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 14,
+      "fn": 6,
+      "ground_truth": [
+        "bing",
+        "open_movie_database",
+        "opencnam",
+        "wikipedia",
+        "wolfram_alpha",
+        "youtube"
+      ],
+      "matched_apis": [
+        "accuweather",
+        "apple push notification service",
+        "firebase cloud messaging",
+        "google maps",
+        "ipapi",
+        "ipgeolocation.io",
+        "ipstack",
+        "mapbox",
+        "noaa climate data online (cdo)",
+        "openaq",
+        "openstreetmap nominatim",
+        "openweathermap",
+        "weatherapi.com",
+        "weatherbit.io"
+      ]
+    },
+    {
+      "case_dir": "543",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 3,
+      "fn": 4,
+      "ground_truth": [
+        "dbpedia",
+        "guardian",
+        "new_york_times_article_search",
+        "thomson_reuters_open_calais"
+      ],
+      "matched_apis": [
+        "google maps geocoding api",
+        "guardian api",
+        "new york times api"
+      ]
+    },
+    {
+      "case_dir": "5496",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 25,
+      "fn": 1,
+      "ground_truth": [
+        "netvibes"
+      ],
+      "matched_apis": [
+        "amazon product advertising api",
+        "bing web search api",
+        "duckduckgo instant answer api",
+        "ebay finding api",
+        "flickr api",
+        "foursquare places api",
+        "google books api",
+        "google custom search api",
+        "google maps directions api",
+        "google maps distance matrix api",
+        "google maps elevation api",
+        "google maps geocoding api",
+        "google maps geolocation api",
+        "google maps places api",
+        "google maps roads api",
+        "google news api",
+        "google places api",
+        "google shopping api",
+        "instagram basic display api",
+        "openstreetmap nominatim api",
+        "pinterest api",
+        "reddit api",
+        "twitter search api",
+        "yahoo! search web services",
+        "yelp fusion api"
+      ]
+    },
+    {
+      "case_dir": "5580",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 7,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "city‑specific open data portals",
+        "foursquare api",
+        "google places api",
+        "graphhopper",
+        "mapbox directions api",
+        "openrouteservice (ors)",
+        "openstreetmap (osm) – overpass api"
+      ]
+    },
+    {
+      "case_dir": "5584",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "ground_truth": [
+        "google_maps",
+        "youtube"
+      ],
+      "matched_apis": []
+    },
+    {
+      "case_dir": "5657",
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "ground_truth": [
+        "amazon_product_advertising",
+        "youtube"
+      ],
+      "matched_apis": [
+        "youtube"
+      ]
+    },
+    {
+      "case_dir": "5659",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "ground_truth": [
+        "openlayers"
+      ],
+      "matched_apis": []
+    },
+    {
+      "case_dir": "5750",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 2,
+      "ground_truth": [
+        "flickr",
+        "google_maps"
+      ],
+      "matched_apis": [
+        "google maps api",
+        "news api"
+      ]
+    },
+    {
+      "case_dir": "584",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "ground_truth": [
+        "govtrackus",
+        "opensecrets"
+      ],
+      "matched_apis": []
+    },
+    {
+      "case_dir": "5924",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 9,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "accuweather",
+        "api_football",
+        "google maps api",
+        "mapbox",
+        "openstreetmap",
+        "openweathermap api",
+        "sports open data api",
+        "thesportsdb",
+        "weatherapi"
+      ]
+    },
+    {
+      "case_dir": "6002",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "places api"
+      ]
+    },
+    {
+      "case_dir": "6063",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 4,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "google maps geocoding api",
+        "google maps javascript api",
+        "google maps places api",
+        "google maps static api"
+      ]
+    },
+    {
+      "case_dir": "6067",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 5,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "eurostat api",
+        "oecd.stat api",
+        "unesco institute for statistics (uis) api",
+        "us census bureau api",
+        "world bank open data"
+      ]
+    },
+    {
+      "case_dir": "6106",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 5,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "google maps javascript api",
+        "mapbox",
+        "open data api",
+        "open government data api",
+        "openstreetmap"
+      ]
+    },
+    {
+      "case_dir": "6225",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 3,
+      "ground_truth": [
+        "flickr",
+        "google_maps",
+        "youtube"
+      ],
+      "matched_apis": [
+        "tvdb",
+        "tvmaze"
+      ]
+    },
+    {
+      "case_dir": "6255",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 5,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "google maps directions api",
+        "gtfs‑rt feeds",
+        "nextbus api",
+        "opentripplanner / openmobilitydata",
+        "transit api"
+      ]
+    },
+    {
+      "case_dir": "6281",
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.33333333333333337,
+      "tp": 1,
+      "fp": 4,
+      "fn": 0,
+      "ground_truth": [
+        "flickr"
+      ],
+      "matched_apis": [
+        "bing maps",
+        "flickr",
+        "google maps",
+        "mapbox",
+        "mapquest"
+      ]
+    },
+    {
+      "case_dir": "6302",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 2,
+      "ground_truth": [
+        "flickr",
+        "google_maps"
+      ],
+      "matched_apis": [
+        "flickr api",
+        "google maps api"
+      ]
+    },
+    {
+      "case_dir": "76",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 10,
+      "fn": 1,
+      "ground_truth": [
+        "google_pagespeed_insights"
+      ],
+      "matched_apis": [
+        "algolia search api",
+        "firebase authentication",
+        "google cloud firestore",
+        "google cloud vision api",
+        "google places api",
+        "mapbox api",
+        "opentable api",
+        "stripe api",
+        "twilio api",
+        "yelp fusion api"
+      ]
+    },
+    {
+      "case_dir": "773",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "ground_truth": [
+        "motorsportregcom"
+      ],
+      "matched_apis": [
+        "eventbrite",
+        "motorsportreg"
+      ]
+    },
+    {
+      "case_dir": "782",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 7,
+      "fn": 2,
+      "ground_truth": [
+        "google_maps",
+        "instagram_graph"
+      ],
+      "matched_apis": [
+        "google maps android sdk – places sdk for android",
+        "google maps api for work",
+        "google maps geocoding api",
+        "google maps geolocation api",
+        "google maps ios sdk – places sdk for ios",
+        "google maps javascript api – places library",
+        "google places api (web service)"
+      ]
+    },
+    {
+      "case_dir": "786",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 9,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "arcgis rest api",
+        "bing maps api",
+        "google charts api",
+        "google earth engine api",
+        "google maps api",
+        "highcharts api",
+        "mapbox api",
+        "mapquest api",
+        "openstreetmap api"
+      ]
+    },
+    {
+      "case_dir": "800",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "google maps api",
+        "google maps geocoding api"
+      ]
+    },
+    {
+      "case_dir": "811",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "ground_truth": [
+        "google_maps"
+      ],
+      "matched_apis": [
+        "google_maps_geolocation"
+      ]
+    },
+    {
+      "case_dir": "860",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "ground_truth": [
+        "seomoz",
+        "whois"
+      ],
+      "matched_apis": [
+        "index api"
+      ]
+    },
+    {
+      "case_dir": "992",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "ground_truth": [
+        "constantcontact"
+      ],
+      "matched_apis": [
+        "constantcontact"
+      ]
+    }
+  ]
+}

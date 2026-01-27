@@ -1,0 +1,1749 @@
+[
+  {
+    "case_id": 800,
+    "mashup_name": "university-michigan-campus-map",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "mapping",
+      "messaging",
+      "office",
+      "photos",
+      "reference"
+    ],
+    "num_tasks": 5,
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1": 0.33333333333333337,
+    "tp": 1,
+    "fp": 4,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Implement search functionality to query building names and return building details including latitude and longitude.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Provide map visualization that displays the campus layout and allows the user to view a building on the map.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Enable pin or marker placement on map corresponding to the searched building.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Render markers on the map at the returned coordinates and display building information",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Fetch and display building information (address, coordinates, contact details) when a building is selected.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 811,
+    "mashup_name": "vinexpo-2013-map",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "advertising",
+      "events",
+      "framework",
+      "mapping",
+      "photos",
+      "social",
+      "statistics",
+      "storage",
+      "transportation"
+    ],
+    "num_tasks": 5,
+    "precision": 0.1111111111111111,
+    "recall": 1.0,
+    "f1": 0.19999999999999998,
+    "tp": 1,
+    "fp": 8,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Integrate Google Maps API to render the event venue layout.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Provide real‑time navigation and location markers for exhibitors and attendees.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Render a Google Maps instance with custom markers or overlays representing each facility.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Implement a search and filtering interface that highlights selected facilities on the map.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Provide internal routing or navigation between facilities within the premises",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 1223,
+    "mashup_name": "ten-tweets-friend",
+    "ground_truth_apis": [
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "social"
+    ],
+    "recommended_categories": [
+      "database",
+      "social"
+    ],
+    "num_tasks": 5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Authenticate the user with Twitter using OAuth.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Retrieve the authenticated user's list of friends or followers.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Fetch recent tweets for each friend.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Limit the retrieved tweets to the most recent ten per friend.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Present the tweets in the mashup interface.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 1262,
+    "mashup_name": "tweeting-earth",
+    "ground_truth_apis": [
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "social"
+    ],
+    "recommended_categories": [
+      "applications",
+      "feedback",
+      "mapping",
+      "performance",
+      "security",
+      "social"
+    ],
+    "num_tasks": 6,
+    "precision": 0.16666666666666666,
+    "recall": 1.0,
+    "f1": 0.2857142857142857,
+    "tp": 1,
+    "fp": 5,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Retrieve tweets from TweetingEarth based on selected time zone and display them in a list or grid",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Implement the 3‑D Earth rotation and interactive time zone selection using mouse events",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Handle cross‑browser compatibility and graceful degradation for older browsers",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Ensure the UI works across modern browsers (Safari, Firefox, Chrome, Opera, IE9, iPad).",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Display a popup or panel with tweet details when the user clicks on a timezone area",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Ensure compatibility with modern browsers (Safari, Firefox, Chrome, Opera, IE9, iPad).",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 1286,
+    "mashup_name": "myweather",
+    "ground_truth_apis": [
+      "weather_central"
+    ],
+    "ground_truth_categories": [
+      "weather"
+    ],
+    "recommended_categories": [
+      "backend",
+      "big_data",
+      "design",
+      "location",
+      "tools",
+      "weather"
+    ],
+    "num_tasks": 6,
+    "precision": 0.16666666666666666,
+    "recall": 1.0,
+    "f1": 0.2857142857142857,
+    "tp": 1,
+    "fp": 5,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Fetch current weather data for a specified location from an external weather API",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Aggregate and normalize the fetched weather data for consistency",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Render the normalized weather data in a visual UI component (e.g., charts, icons)",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Implement caching and update logic to keep displayed data fresh",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Notify users of significant weather events or alerts for their location.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Build a front‑end component that consumes the stored data and creates a clean visual UI.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 1366,
+    "mashup_name": "flowd",
+    "ground_truth_apis": [
+      "google_maps",
+      "twitter"
+    ],
+    "ground_truth_categories": [
+      "mapping",
+      "social"
+    ],
+    "recommended_categories": [
+      "addresses",
+      "backend",
+      "mapping",
+      "photos",
+      "reference",
+      "security",
+      "social",
+      "translation"
+    ],
+    "num_tasks": 7,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1": 0.4,
+    "tp": 2,
+    "fp": 6,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Create and manage favorite spots with location coordinates and metadata.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Allow users to share favorite spots with friends via social features or messaging.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Retrieve and display events or gigs near the user’s location for selected artists.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Recommend relevant events based on user preferences",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Filter the retrieved events to those featuring the user's favorite artists.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Search for nearby gigs of a specified artist within a given radius.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Share a marker (e.g., generate shareable link or embed data) with friends.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 1489,
+    "mashup_name": "floral-gifts",
+    "ground_truth_apis": [
+      "florist_one"
+    ],
+    "ground_truth_categories": [
+      "ecommerce"
+    ],
+    "recommended_categories": [
+      "coupons",
+      "ecommerce",
+      "office",
+      "personal_information_management",
+      "photos",
+      "search",
+      "spam",
+      "telephony",
+      "tools",
+      "url_shortener",
+      "video",
+      "weather"
+    ],
+    "num_tasks": 7,
+    "precision": 0.08333333333333333,
+    "recall": 1.0,
+    "f1": 0.15384615384615385,
+    "tp": 1,
+    "fp": 11,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Collect gift selection and recipient information from the user.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Obtain or infer the recipient's address via an external address or location service.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Calculate shipping/delivery logistics for the floral gift.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Process payment securely for the floral gift.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Generate an invoice and record the transaction in the accounting system.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Track the lifecycle of the order and delivery, producing logs and status updates for analytics.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Provide order confirmation and tracking information for the delivery.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 1491,
+    "mashup_name": "qmpeople-places",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "data",
+      "mapping",
+      "other",
+      "tools",
+      "weather"
+    ],
+    "num_tasks": 6,
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1": 0.33333333333333337,
+    "tp": 1,
+    "fp": 4,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Retrieve latitude and longitude for a place selected from the right-side box",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Render the retrieved coordinates as markers on a Google Map",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Allow the user to draw or select four additional places on the map after clicking the 'Next' button",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Enable drawing of additional places or shapes on the map after clicking the Next button.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Optionally trigger a status update or notification when a location is selected or added.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Store the selected places in a temporary or persistent data store for later use.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 1854,
+    "mashup_name": "cloudient-personal-digital-assistant",
+    "ground_truth_apis": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "ground_truth_categories": [
+      "messaging",
+      "telephony"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "applications",
+      "backend",
+      "messaging",
+      "reference",
+      "telephony"
+    ],
+    "num_tasks": 9,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "tp": 2,
+    "fp": 4,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Maintain and query a caller blocklist to quickly identify disallowed numbers.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Determine the current time of day to apply time-based call filtering rules.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Cross-check caller number against a personal contact list and close-friend identifiers.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Handle blocking or allowing calls and generate appropriate voice or text responses.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Submit requests to external companies and political organisations for inclusion on their do‑not‑call lists.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Automatically submit do‑not‑call requests to relevant companies and political organizations on behalf of the user.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Dispatch do‑not‑call registration requests to relevant organizations.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T8",
+        "description": "Integrate with telephony platform as an auto‑attendant service",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T9",
+        "description": "Log call handling decisions for auditing and analytics purposes.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 2267,
+    "mashup_name": "google-maps-weather-mashup",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "mapping",
+      "tools",
+      "weather"
+    ],
+    "num_tasks": 4,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 2,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Query Google Maps API with a location query to return latitude and longitude.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Using the coordinates from T1, call a weather service to fetch a five‑day forecast.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Present the forecast data (temperature, conditions, etc.) to the user in a readable format.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Subscribe to the beebotte channel to receive and display updated forecast data.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 2282,
+    "mashup_name": "0boxer",
+    "ground_truth_apis": [
+      "google_gmail_oauth"
+    ],
+    "ground_truth_categories": [
+      "email"
+    ],
+    "recommended_categories": [
+      "email"
+    ],
+    "num_tasks": 7,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Retrieve email metadata from a user's Gmail account to analyze inbox contents",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Calculate the user's inbox zero status and related metrics",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Generate rewards and update the user’s progress based on inbox metrics",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Persist user score history and reward data for future retrieval.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Generate mailbox statistics (e.g., number of unread messages, size, folder distribution).",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Display notifications and update UI within the Gmail plugin.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Optionally recommend music tracks to play as background while working on email (music API integration)",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 2516,
+    "mashup_name": "instantzon-amazon-instant-search",
+    "ground_truth_apis": [
+      "amazon_product_advertising"
+    ],
+    "ground_truth_categories": [
+      "ecommerce"
+    ],
+    "recommended_categories": [
+      "ecommerce",
+      "framework"
+    ],
+    "num_tasks": 5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Accept a keyword query and return a list of matching products from the Amazon catalogue with name, description, and price information.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Retrieve and provide detailed information (name, description, price) for each product returned by the search.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Support instant autocomplete suggestions as the user types keywords.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Render autocomplete dropdown with product suggestions in real time",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Ensure instant response latency suitable for live search UX.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 2664,
+    "mashup_name": "myphonetap",
+    "ground_truth_apis": [
+      "twilio"
+    ],
+    "ground_truth_categories": [
+      "telephony"
+    ],
+    "recommended_categories": [
+      "payments",
+      "telephony"
+    ],
+    "num_tasks": 7,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Record phone calls through a telephony gateway.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Convert recorded audio streams to MP3 format.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Track call duration and calculate charges per minute.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Apply a 2‑minute free trial and adjust billing accordingly.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Notify callers that the call is being recorded (legal compliance).",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Store MP3 files and provide access links.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Enforce legal compliance regarding recording notifications.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 2780,
+    "mashup_name": "activeprint-and-box.net",
+    "ground_truth_apis": [
+      "box"
+    ],
+    "ground_truth_categories": [
+      "content"
+    ],
+    "recommended_categories": [
+      "content",
+      "enterprise",
+      "other",
+      "tools"
+    ],
+    "num_tasks": 6,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 3,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Authenticate user with Box using OAuth or API token",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "List files and folders within the user's Box account",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Download or stream the selected file content",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Send the file to the device's printer for printing",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Provide optional print settings (paper size, orientation, copies, etc.) to customize the print job.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Track print job status and provide completion notifications",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 3115,
+    "mashup_name": "hurricane-watch-visualization",
+    "ground_truth_apis": [
+      "bing_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "backend",
+      "data_mining",
+      "feeds",
+      "mapping",
+      "storage",
+      "telephony",
+      "tools",
+      "video",
+      "weather"
+    ],
+    "num_tasks": 7,
+    "precision": 0.1111111111111111,
+    "recall": 1.0,
+    "f1": 0.19999999999999998,
+    "tp": 1,
+    "fp": 8,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Acquire and ingest hurricane track and advisory data from a reliable source such as NOAA or a public meteorological API.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Parse raw hurricane data into a structured format (e.g., GeoJSON with timestamps) suitable for visualization.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Integrate a map viewer component to plot hurricane tracks and advisories geographically.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Integrate a timeline viewer component to display hurricane events chronologically.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Implement interaction logic to keep the map and timeline synchronized (e.g., selecting a point on the map highlights the corresponding timeline entry).",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Implement timeline visualization that aligns with the map view.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Synchronize map and timeline interactions so selecting an item on one updates the other.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 3413,
+    "mashup_name": "gluetogo",
+    "ground_truth_apis": [
+      "getglue"
+    ],
+    "ground_truth_categories": [
+      "social"
+    ],
+    "recommended_categories": [
+      "search",
+      "social",
+      "tools"
+    ],
+    "num_tasks": 6,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 2,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Parse the current page to identify the Glue object (e.g., by URL or DOM markers)",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Call Glue's API to fetch the list of users who have interacted with the object and their comments",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Obtain or renew an OAuth token or access cookie to authenticate requests to Glue on behalf of the visitor",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Construct and display a UI overlay (e.g., modal or widget) that shows the collected friend comments",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Handle cross‑origin requests and potential CORS restrictions so the bookmarklet can communicate with Glue APIs",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Handle errors, rate limits, and privacy considerations gracefully",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 3668,
+    "mashup_name": "jessicas-automated-gaming",
+    "ground_truth_apis": [
+      "betfair"
+    ],
+    "ground_truth_categories": [
+      "gambling"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "backend",
+      "cloud",
+      "financial",
+      "gambling",
+      "messaging",
+      "pdf",
+      "storage",
+      "tools",
+      "wiki"
+    ],
+    "num_tasks": 6,
+    "precision": 0.1,
+    "recall": 1.0,
+    "f1": 0.18181818181818182,
+    "tp": 1,
+    "fp": 9,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Connect to the Betfair API, authenticate, and fetch historical market data needed for analysis.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Process the fetched data and feed it into the BIRT engine to create visual charts and reports.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Export or deliver the BIRT-generated reports to end users or downstream systems (e.g., PDF, HTML).",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Deploy or render the generated BIRT reports within the application",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Record analytics events and provide actionable insights via an analytics interface.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Schedule recurring report generation and archival",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 3798,
+    "mashup_name": "routeblast",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "mapping",
+      "payments"
+    ],
+    "num_tasks": 6,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Retrieve distance between two addresses or coordinates.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Retrieve estimated travel time between two addresses or coordinates.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Calculate estimated mileage cost based on user-provided reimbursement rate.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Store mileage expense records in an accounting system for reimbursement claims.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Generate a trip summary report with distance, time, and cost details",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Compute mileage reimbursement amounts based on a per‑mile rate if requested.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 3824,
+    "mashup_name": "searates",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "addresses",
+      "backend",
+      "mapping",
+      "messaging"
+    ],
+    "num_tasks": 5,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 3,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Retrieve the current geographic coordinates of a specified container from SeaRates",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Fetch detailed shipping status, route and ETA information for the container",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Render the container position on a real-time map for visual tracking",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Render real‑time position and route on an interactive map with route overlays and ETA markers",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Create server‑side logic to process and expose SeaRates data to the front‑end",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 3942,
+    "mashup_name": "movie-showtimes-map",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "mapping",
+      "tools"
+    ],
+    "num_tasks": 5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Determine the user's geographic location (via IP address or manual input).",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Query a movie/showtime API to obtain theaters and their current or upcoming showtimes for the given location.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Format and present the retrieved theater and showtime data in a user‐friendly interface.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Compile and display the results in a user‑friendly format (e.g., list or map)",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Aggregate and display theater locations and their respective showtimes in a user-friendly interface.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 4075,
+    "mashup_name": "streetartlocator",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "bookmarks",
+      "database",
+      "mapping",
+      "tools"
+    ],
+    "num_tasks": 5,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 3,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Query Google Maps API for street art place identifiers based on user-provided area or search term.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Aggregate and format street art metadata (name, address, image, description) from community sources.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Render map with interactive markers and pop‑ups showcasing street art details.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Embed the resulting data into a Google Maps mashup, displaying markers for each street art location.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Provide API or query parameters to support advanced filtering/sorting and map marker coordinates for front‑end rendering.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 4594,
+    "mashup_name": "ultimate-gift",
+    "ground_truth_apis": [
+      "amazon_product_advertising"
+    ],
+    "ground_truth_categories": [
+      "ecommerce"
+    ],
+    "recommended_categories": [
+      "api",
+      "ecommerce",
+      "email",
+      "financial",
+      "messaging",
+      "payments",
+      "security"
+    ],
+    "num_tasks": 9,
+    "precision": 0.14285714285714285,
+    "recall": 1.0,
+    "f1": 0.25,
+    "tp": 1,
+    "fp": 6,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Retrieve product listings from Amazon eCommerce API.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Implement keyword search functionality against Amazon's catalog.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Apply filters (price range, category, seller ratings) to search results.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Present the filtered and sorted product list to the user in a user-friendly format.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Handle checkout workflow and payment processing",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Serve targeted advertising banners alongside product listings",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Track order shipment status via Amazon Tracking API or similar",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T8",
+        "description": "Generate personalized gift recommendations using item similarity and user preferences",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T9",
+        "description": "Retrieve order status and tracking information",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 4663,
+    "mashup_name": "sale-owner",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "backend",
+      "framework",
+      "mapping"
+    ],
+    "num_tasks": 7,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 2,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Retrieve and render high‑resolution map tiles or satellite imagery for the target geographic area.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Query a database or external service to obtain detailed real‑estate listings for millions of properties.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Collect neighborhood statistics including crime rates, school performance data, and other demographic indicators.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Aggregate the map, listings, and neighborhood data into a cohesive user experience.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Optionally manage user email subscriptions or notifications about properties (e.g., send alerts when new listings appear).",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Implement search and filter capabilities for users to narrow down listings.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Maintain synchronization between listing data and map visualization, ensuring real‑time updates.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 5035,
+    "mashup_name": "careervote",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "backend",
+      "email",
+      "mapping",
+      "merchants",
+      "natural_language_processing",
+      "news_services",
+      "office",
+      "other",
+      "personal_information_management",
+      "photos"
+    ],
+    "num_tasks": 8,
+    "precision": 0.1,
+    "recall": 1.0,
+    "f1": 0.18181818181818182,
+    "tp": 1,
+    "fp": 9,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Handle user authentication and session tokens",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Retrieve static company data from a database or external source",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Create and store a new review for a given company",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Accept a rating value from a user and update company’s overall rating",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Allow users to assign custom tags to companies",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Provide search and filter capabilities based on tags, rating, or other criteria",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Aggregate and return rating statistics and review listings for a company",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T8",
+        "description": "Allow users to share company info via social channels",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 5238,
+    "mashup_name": "travel-itinerary-planner",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "mapping"
+    ],
+    "num_tasks": 6,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Compute the geographic distance between two specified city names",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Build an ordered list of landmark stops that can be visited in a single day with appropriate travel times and opening hours",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Retrieve a list of notable landmarks or points of interest within a specified city.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Generate a day‑trip route that connects the retrieved landmarks in a logical order (e.g., minimizing travel time or distance).",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Format and return the finalized itinerary, including timestamps, distances, and suggested transport methods.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Construct an optimal day‑tour itinerary that sequences landmarks within a user‑defined time budget.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 5251,
+    "mashup_name": "sunday-morning-rides",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "mapping",
+      "messaging",
+      "reporting",
+      "tools"
+    ],
+    "num_tasks": 10,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 3,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Store and retrieve ride track data in a database",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Calculate and provide optimal routes between two or more waypoints",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Render stored ride tracks on a Google Maps interface",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Authenticate users and manage session state for the ride portal",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Allow users to share ride data with other community members",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Collect and process live GPS data from rider devices for real-time tracking",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Integrate real‑time GPS data ingestion from users’ devices",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T8",
+        "description": "Update ride metadata such as title, description, or difficulty rating.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T9",
+        "description": "Authenticate and authorize users for protected actions (uploading, liking, commenting).",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T10",
+        "description": "Generate usage analytics for the platform",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 5924,
+    "mashup_name": "caddymap",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "analytics",
+      "chat",
+      "classification",
+      "mapping",
+      "pdf",
+      "photos",
+      "recommendations",
+      "storage",
+      "tools",
+      "url_shortener",
+      "weather"
+    ],
+    "num_tasks": 6,
+    "precision": 0.09090909090909091,
+    "recall": 1.0,
+    "f1": 0.16666666666666669,
+    "tp": 1,
+    "fp": 10,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Retrieve a list of US golf courses with geolocation and basic details from a suitable data source",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Render the golf courses on a Google Maps view and provide an interactive marker system",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Integrate real‑time weather information for each golf course location",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Implement search and filter functionality to allow users to find courses based on attributes (e.g., state, rating, course type)",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Present detailed course information (e.g., course length, rating, hazards) to the user",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Provide a responsive UI that synchronizes map markers, search results, and detail panels.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 6067,
+    "mashup_name": "icjobs-map-germany",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "business",
+      "cloud",
+      "data_mining",
+      "domains",
+      "email",
+      "enterprise",
+      "location",
+      "machine_learning",
+      "mapping",
+      "tools"
+    ],
+    "num_tasks": 6,
+    "precision": 0.1,
+    "recall": 1.0,
+    "f1": 0.18181818181818182,
+    "tp": 1,
+    "fp": 9,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Consume company‑specific APIs or data feeds to gather real‑time job postings and update the local job database",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Implement a search engine that allows users to query the aggregated job database by keyword, location, industry, and job type",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Deliver detailed job descriptions and application links for each listing, including metadata such as salary range, required qualifications, and application deadline",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Facilitate secure user accounts for job seekers to save searches, bookmark listings, and receive personalized job alerts",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Optionally incorporate advertising or monetization components (e.g., banner ads, partner links).",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Manage user authentication and preferences for alerts.",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 6106,
+    "mashup_name": "following-political-dollars",
+    "ground_truth_apis": [
+      "google_maps"
+    ],
+    "ground_truth_categories": [
+      "mapping"
+    ],
+    "recommended_categories": [
+      "design",
+      "mapping",
+      "tools"
+    ],
+    "num_tasks": 7,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "tp": 1,
+    "fp": 2,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Consume the Fundrace Project data source to fetch donation records containing zip code, party affiliation, and donation amount.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Aggregate donation amounts by zip code and party, producing totals and percent shares for each combination.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Translate zip codes into geographical coordinates (latitude/longitude) for mapping purposes.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Expose API endpoints or data feeds that supply the aggregated data in formats suitable for charting libraries and map visualizations.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Embed interactive map layers to display donation density and party affiliation per ZIP",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Integrate all components into a cohesive web application for end‑users",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Expose a public API endpoint to serve the aggregated data and visualizations",
+        "recommended_categories": []
+      }
+    ]
+  },
+  {
+    "case_id": 6281,
+    "mashup_name": "mappr",
+    "ground_truth_apis": [
+      "flickr"
+    ],
+    "ground_truth_categories": [
+      "photos"
+    ],
+    "recommended_categories": [
+      "advertising",
+      "big_data",
+      "photos",
+      "tools"
+    ],
+    "num_tasks": 7,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1": 0.4,
+    "tp": 1,
+    "fp": 3,
+    "fn": 0,
+    "tasks": [
+      {
+        "task_id": "T1",
+        "description": "Authenticate with Flickr OAuth and fetch geotagged photos for specified users, tags, or collections",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T2",
+        "description": "Process and store photo metadata, including latitude, longitude, and thumbnail URLs",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T3",
+        "description": "Integrate a mapping service (e.g., Google Maps, Leaflet) to plot photo locations on an interactive map",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T4",
+        "description": "Develop a Flash-based UI that renders the map, photos, and provides search/filter controls",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T5",
+        "description": "Render an interactive Flash map that places markers at photo locations and displays thumbnails on interaction.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T6",
+        "description": "Enable marker click events to display photo details and thumbnails.",
+        "recommended_categories": []
+      },
+      {
+        "task_id": "T7",
+        "description": "Handle user authentication with Flickr and manage API rate limits or caching.",
+        "recommended_categories": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,1684 @@
+[
+  {
+    "case_id": 31,
+    "ground_truth": [
+      "flickr",
+      "google_ad_manager",
+      "youtube",
+      "google_adsense"
+    ],
+    "predictions": [
+      "rackspace_cloud_files",
+      "mapquest",
+      "amadeus",
+      "paypal",
+      "amplify"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 4
+  },
+  {
+    "case_id": 76,
+    "ground_truth": [
+      "google_pagespeed_insights"
+    ],
+    "predictions": [
+      "google_apps_script_execution"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 239,
+    "ground_truth": [
+      "fitbit"
+    ],
+    "predictions": [
+      "highcharts",
+      "fanbridge",
+      "new_relic",
+      "contentful"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 1
+  },
+  {
+    "case_id": 535,
+    "ground_truth": [
+      "youtube",
+      "wolfram_alpha",
+      "wikipedia",
+      "bing",
+      "opencnam",
+      "open_movie_database"
+    ],
+    "predictions": [
+      "zillow",
+      "alexa_web_information_service",
+      "giphy",
+      "idescat_population_search",
+      "short_and_tweet",
+      "florist_one",
+      "lyft",
+      "ebay_finding",
+      "pinterest_domain",
+      "analytics_seo",
+      "microsoft_bing",
+      "sdss_imgcutout",
+      "brandify",
+      "google_book_search_book_viewability",
+      "accuweather"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 15,
+    "fn": 6
+  },
+  {
+    "case_id": 584,
+    "ground_truth": [
+      "opensecrets",
+      "govtrackus"
+    ],
+    "predictions": [
+      "laravel",
+      "yahoo_term_extraction",
+      "google_drive"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 2
+  },
+  {
+    "case_id": 773,
+    "ground_truth": [
+      "motorsportregcom"
+    ],
+    "predictions": [
+      "actual_reports",
+      "microsoft_translator",
+      "drawloop",
+      "geoloqi",
+      "your_mapper_crimescore",
+      "plivo",
+      "reuters_spotlight",
+      "google_distance_matrix",
+      "editgrid",
+      "amazon_queue_service"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 1
+  },
+  {
+    "case_id": 782,
+    "ground_truth": [
+      "google_maps",
+      "instagram_graph"
+    ],
+    "predictions": [
+      "google_ads",
+      "csv2geo",
+      "smugmug",
+      "simpleapi",
+      "mixpanel",
+      "recognizeim",
+      "touchnote"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 2
+  },
+  {
+    "case_id": 786,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "hetzner",
+      "laravel",
+      "watchmouse"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 800,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "google_street_view_image",
+      "timezonedb",
+      "anything2pdf",
+      "slack_incoming_webhooks",
+      "arcweb",
+      "your_mapper_crimescore",
+      "google_maps_elevation"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1
+  },
+  {
+    "case_id": 811,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "rackspace_cloud_files",
+      "fire_eagle",
+      "yahoo_traffic",
+      "eventbrite",
+      "laravel",
+      "yahoo_ads",
+      "google_maps_android",
+      "clicky",
+      "expono"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 9,
+    "fn": 1
+  },
+  {
+    "case_id": 860,
+    "ground_truth": [
+      "seomoz",
+      "whois"
+    ],
+    "predictions": [
+      "instagram_real_time",
+      "clockwork_sms"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2
+  },
+  {
+    "case_id": 992,
+    "ground_truth": [
+      "constantcontact"
+    ],
+    "predictions": [
+      "kissmetrics",
+      "google_apps_script_execution"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 1068,
+    "ground_truth": [
+      "lastfm",
+      "movie_database_tmdb"
+    ],
+    "predictions": [
+      "gengo_human_translation",
+      "akismet",
+      "google_analytics_core_reporting",
+      "pdf_generator",
+      "rovi_cloud_services",
+      "google_single_signon",
+      "enthusem",
+      "dnsimple"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 8,
+    "fn": 2
+  },
+  {
+    "case_id": 1213,
+    "ground_truth": [
+      "google_maps",
+      "yahoo_local_search",
+      "yipit",
+      "yelp_fusion",
+      "citygrid",
+      "google_geocoding"
+    ],
+    "predictions": [
+      "telegram_bot",
+      "paymentwall",
+      "page2images",
+      "flickr",
+      "pdf_generator",
+      "csv2geo",
+      "google_single_signon",
+      "mixpanel",
+      "twilio",
+      "aerisweather",
+      "zapier"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 11,
+    "fn": 6
+  },
+  {
+    "case_id": 1262,
+    "ground_truth": [
+      "twitter"
+    ],
+    "predictions": [
+      "google_pagespeed_insights",
+      "cartodb",
+      "google_recaptcha",
+      "appharbor",
+      "twitter_streaming",
+      "uservoice"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 6,
+    "fn": 1
+  },
+  {
+    "case_id": 1286,
+    "ground_truth": [
+      "weather_central"
+    ],
+    "predictions": [
+      "sqlify",
+      "google_app_engine",
+      "ipinfoio_ip_geolocation",
+      "parse",
+      "pusher",
+      "yahoo_yui",
+      "aerisweather"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1
+  },
+  {
+    "case_id": 1307,
+    "ground_truth": [
+      "yelp_fusion",
+      "sensis_business_search"
+    ],
+    "predictions": [
+      "pushover_message",
+      "google_app_engine",
+      "maplarge",
+      "geobytes_ajax_autocomplete_cities_list",
+      "uclassify",
+      "galileo",
+      "rapleaf",
+      "amazon_queue_service"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 8,
+    "fn": 2
+  },
+  {
+    "case_id": 1337,
+    "ground_truth": [
+      "twitter"
+    ],
+    "predictions": [
+      "openlayers",
+      "laravel"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 1366,
+    "ground_truth": [
+      "google_maps",
+      "twitter"
+    ],
+    "predictions": [
+      "google_street_view_image",
+      "timezonedb",
+      "csv2geo",
+      "plancast",
+      "google_recaptcha",
+      "quickblox",
+      "google_directions",
+      "geonames",
+      "images",
+      "google_distance_matrix",
+      "google_cloud_translation",
+      "dbpedia_spotlight"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 12,
+    "fn": 2
+  },
+  {
+    "case_id": 1491,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "crowdflower",
+      "google_geocoding",
+      "bizvizz",
+      "pusher",
+      "bugsnag",
+      "mapquest_open_directions",
+      "block_avenue_neighborhood_reviews",
+      "your_mapper_crimescore",
+      "google_maps_android",
+      "weather_channel"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 1
+  },
+  {
+    "case_id": 1529,
+    "ground_truth": [
+      "donorschoose"
+    ],
+    "predictions": [],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 1
+  },
+  {
+    "case_id": 1698,
+    "ground_truth": [
+      "yelp_fusion"
+    ],
+    "predictions": [
+      "laravel",
+      "google_apps_script_execution",
+      "snipshot",
+      "datumbox"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 1
+  },
+  {
+    "case_id": 1854,
+    "ground_truth": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "predictions": [
+      "mogreet",
+      "evoca",
+      "timezonedb",
+      "parse",
+      "mixpanel",
+      "appharbor"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 6,
+    "fn": 2
+  },
+  {
+    "case_id": 1869,
+    "ground_truth": [
+      "twilio",
+      "facebook",
+      "twilio_sms"
+    ],
+    "predictions": [
+      "laravel"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 3
+  },
+  {
+    "case_id": 1898,
+    "ground_truth": [
+      "twilio"
+    ],
+    "predictions": [
+      "airbrake",
+      "amazon_ses",
+      "egnyte",
+      "shopify_billing",
+      "wordpresscom",
+      "ip_apicom_geolocation"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 6,
+    "fn": 1
+  },
+  {
+    "case_id": 2099,
+    "ground_truth": [
+      "dribbble",
+      "google_app_engine"
+    ],
+    "predictions": [
+      "google_apps_script_execution",
+      "bitly"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2
+  },
+  {
+    "case_id": 2282,
+    "ground_truth": [
+      "google_gmail_oauth"
+    ],
+    "predictions": [
+      "mailjet",
+      "gmail"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 2344,
+    "ground_truth": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "predictions": [
+      "timezonedb",
+      "factual_v3",
+      "nationbuilder",
+      "google_recaptcha",
+      "janrain_engage",
+      "strikeiron_reverse_phone_and_address_append",
+      "metno_weather",
+      "retro_avatar",
+      "twitter",
+      "geonames",
+      "pubnub",
+      "ip_apicom_geolocation",
+      "mailgun"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 13,
+    "fn": 2
+  },
+  {
+    "case_id": 2416,
+    "ground_truth": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "predictions": [
+      "widgetbox",
+      "business_profiles",
+      "crmtext",
+      "amazon_dynamodb"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 2
+  },
+  {
+    "case_id": 2484,
+    "ground_truth": [
+      "tropo_scripting",
+      "twitter"
+    ],
+    "predictions": [
+      "zapier",
+      "appharbor",
+      "amazon_dynamodb"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 2
+  },
+  {
+    "case_id": 2491,
+    "ground_truth": [
+      "zazzle"
+    ],
+    "predictions": [
+      "ups_shipping",
+      "pixlab",
+      "bugsnag",
+      "stripe",
+      "tradegecko",
+      "mandrill"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 6,
+    "fn": 1
+  },
+  {
+    "case_id": 2502,
+    "ground_truth": [
+      "youtube"
+    ],
+    "predictions": [
+      "gengo_human_translation",
+      "scalarium",
+      "elasticsearch",
+      "4shared",
+      "my_jam",
+      "gatekrash",
+      "getglue",
+      "mesibo_client_side",
+      "favqs",
+      "gitlab",
+      "victoria_albert_museum",
+      "yahoo_yui",
+      "semrush_traffic_analytics",
+      "movie_database_tmdb",
+      "contentful"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 15,
+    "fn": 1
+  },
+  {
+    "case_id": 2598,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "gecko_landmarks",
+      "laravel"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 2599,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "parse",
+      "google_apps_script_execution"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 2714,
+    "ground_truth": [
+      "google_maps",
+      "twitter",
+      "foursquare"
+    ],
+    "predictions": [
+      "openlayers",
+      "google_apps_script_execution",
+      "getsentiment"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 3
+  },
+  {
+    "case_id": 2918,
+    "ground_truth": [
+      "google_app_engine",
+      "twitter",
+      "google_cloud_translation"
+    ],
+    "predictions": [
+      "zapier"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 3
+  },
+  {
+    "case_id": 2930,
+    "ground_truth": [
+      "twitter",
+      "livejournal",
+      "zazzle"
+    ],
+    "predictions": [
+      "magento_soap",
+      "unbounce",
+      "google_custom_search",
+      "design_n_buy",
+      "99designs_tasks"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 3
+  },
+  {
+    "case_id": 3005,
+    "ground_truth": [
+      "twilio",
+      "twitter"
+    ],
+    "predictions": [
+      "ipinfoio_ip_geolocation",
+      "zapier",
+      "google_sheets"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 2
+  },
+  {
+    "case_id": 3045,
+    "ground_truth": [
+      "box"
+    ],
+    "predictions": [
+      "google_apps_script_execution",
+      "vast"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 3115,
+    "ground_truth": [
+      "bing_maps"
+    ],
+    "predictions": [
+      "highcharts",
+      "google_closure_compiler",
+      "amazon_s3",
+      "openlayers",
+      "parse",
+      "impossiblefx",
+      "noaa_national_weather_service_nws_ndfd_soap",
+      "importio",
+      "superfeedr",
+      "maluuba_natural_language"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 1
+  },
+  {
+    "case_id": 3166,
+    "ground_truth": [
+      "google_maps",
+      "twitter"
+    ],
+    "predictions": [
+      "amazon_dynamodb",
+      "google_geocoding",
+      "pusher",
+      "google_maps_android",
+      "google_directions",
+      "importio"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 6,
+    "fn": 2
+  },
+  {
+    "case_id": 3188,
+    "ground_truth": [
+      "google_maps",
+      "noaa_national_weather_service_nws_ndfd_soap",
+      "strikeiron_ip_address_lookup",
+      "panoramio"
+    ],
+    "predictions": [
+      "wolfram_alpha",
+      "parse",
+      "heroku",
+      "bitly",
+      "galileo",
+      "mapbox"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 6,
+    "fn": 4
+  },
+  {
+    "case_id": 3332,
+    "ground_truth": [
+      "google_maps",
+      "wikipedia",
+      "google_adwords",
+      "panoramio"
+    ],
+    "predictions": [
+      "viamichelin",
+      "geobytes_ajax_autocomplete_cities_list"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 4
+  },
+  {
+    "case_id": 3539,
+    "ground_truth": [
+      "google_analytics_managment"
+    ],
+    "predictions": [
+      "heroku",
+      "windows_live_contacts"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 3610,
+    "ground_truth": [
+      "wikipedia",
+      "geonames"
+    ],
+    "predictions": [
+      "yahoo_travel",
+      "razorpay",
+      "sqlify",
+      "travel_portal"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 2
+  },
+  {
+    "case_id": 3798,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "stripe",
+      "google_maps_android"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 3824,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "notifo",
+      "openlayers",
+      "parse",
+      "csv2geo",
+      "slack_incoming_webhooks",
+      "pubnub",
+      "clickatell_http"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1
+  },
+  {
+    "case_id": 3825,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "parse",
+      "yahoo_bbauth"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 3942,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "google_apps_script_execution",
+      "mapquest"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 4034,
+    "ground_truth": [
+      "friendfeed"
+    ],
+    "predictions": [
+      "laravel"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 4075,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "blankslate",
+      "instapaper",
+      "pusher",
+      "google_maps_places",
+      "google_maps_android",
+      "ip_apicom_geolocation"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 6,
+    "fn": 1
+  },
+  {
+    "case_id": 4164,
+    "ground_truth": [
+      "geonames"
+    ],
+    "predictions": [
+      "ipinfoio_ip_geolocation",
+      "google_apps_script_execution",
+      "dbpedia",
+      "parse"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 1
+  },
+  {
+    "case_id": 4279,
+    "ground_truth": [
+      "flickr"
+    ],
+    "predictions": [
+      "laravel",
+      "bitly",
+      "parse"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 4337,
+    "ground_truth": [
+      "amazon_ec2",
+      "amazon_s3"
+    ],
+    "predictions": [
+      "wiserearth",
+      "circleci",
+      "htm2pdf",
+      "embedly",
+      "ipinfoio_ip_geolocation",
+      "wikipedia",
+      "google_recaptcha",
+      "google_single_signon",
+      "easy_blockchain",
+      "big_huge_thesaurus",
+      "amazon_cloudwatch",
+      "zapier",
+      "dnsimple"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 13,
+    "fn": 2
+  },
+  {
+    "case_id": 4352,
+    "ground_truth": [
+      "flickr"
+    ],
+    "predictions": [
+      "yahoo_term_extraction",
+      "youtxt",
+      "anything2pdf",
+      "google_recaptcha",
+      "feedly",
+      "yahoo_yui",
+      "bitly",
+      "addthis_sharing_endpoints",
+      "amplify",
+      "time_extractor"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 1
+  },
+  {
+    "case_id": 4594,
+    "ground_truth": [
+      "amazon_product_advertising"
+    ],
+    "predictions": [
+      "traitify",
+      "sms",
+      "google_recaptcha",
+      "pinnaclecart_rest",
+      "paypal",
+      "exchange_rate",
+      "mailgun"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1
+  },
+  {
+    "case_id": 4605,
+    "ground_truth": [
+      "amazon_product_advertising"
+    ],
+    "predictions": [
+      "dropbox"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 4670,
+    "ground_truth": [
+      "amazon_ec2"
+    ],
+    "predictions": [
+      "google_talk",
+      "laravel",
+      "akismet"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 4675,
+    "ground_truth": [
+      "google_gadgets"
+    ],
+    "predictions": [
+      "airbrake",
+      "skimlinks_link_monetization",
+      "akismet",
+      "foodcare",
+      "google_app_engine",
+      "microsoft_bot_framework_bot_direct_line",
+      "maplarge",
+      "aylien_text_analysis",
+      "pusher",
+      "google_recaptcha",
+      "janrain_engage",
+      "stripe",
+      "bitly",
+      "importio",
+      "fanbridge"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 15,
+    "fn": 1
+  },
+  {
+    "case_id": 4708,
+    "ground_truth": [
+      "google_apps_email_migration"
+    ],
+    "predictions": [
+      "google_apps_script_execution",
+      "datadog"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 4828,
+    "ground_truth": [
+      "flickr",
+      "dbpedia"
+    ],
+    "predictions": [
+      "appharbor",
+      "mydigitalstructure"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2
+  },
+  {
+    "case_id": 4964,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "mydigitalstructure"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 5035,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "new_york_times_article_search",
+      "google_visualization",
+      "google_street_view_image",
+      "nlp_tools",
+      "htm2pdf",
+      "parse",
+      "flickr",
+      "photobucket",
+      "instagram_graph",
+      "shopify_embedded_app_javascript",
+      "amazon_mechanical_turk",
+      "corpwatch",
+      "decarta",
+      "sendgrid",
+      "windows_live_contacts"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 15,
+    "fn": 1
+  },
+  {
+    "case_id": 5105,
+    "ground_truth": [
+      "google_maps",
+      "youtube"
+    ],
+    "predictions": [
+      "google_maps_places",
+      "uservoice",
+      "google_apps_script_execution",
+      "cartodb"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 2
+  },
+  {
+    "case_id": 5114,
+    "ground_truth": [
+      "strikeiron_sms_mobile_marketing"
+    ],
+    "predictions": [
+      "laravel",
+      "retailmenotcom_community_ideas"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 5200,
+    "ground_truth": [
+      "google_maps",
+      "opendoar"
+    ],
+    "predictions": [
+      "egnyte",
+      "google_web_authentication",
+      "mydigitalstructure"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 2
+  },
+  {
+    "case_id": 5202,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "disqus",
+      "google_fusion_tables",
+      "formstack",
+      "short_and_tweet",
+      "google_recaptcha",
+      "amazon_ec2",
+      "gecko_landmarks",
+      "amadeus",
+      "google_web_authentication",
+      "clickatell_http"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 1
+  },
+  {
+    "case_id": 5236,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "shizzow"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1
+  },
+  {
+    "case_id": 5238,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "mapquest",
+      "mapbox"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 5251,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "amazon_sns",
+      "google_app_engine",
+      "google_analytics_core_reporting",
+      "geobytes_ajax_autocomplete_cities_list",
+      "bing_maps",
+      "datadog",
+      "earthtools"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 1
+  },
+  {
+    "case_id": 5310,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "telapi",
+      "laravel",
+      "short_and_tweet"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 5331,
+    "ground_truth": [
+      "google_maps",
+      "indeed"
+    ],
+    "predictions": [
+      "blankslate",
+      "google_distance_matrix"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2
+  },
+  {
+    "case_id": 5496,
+    "ground_truth": [
+      "netvibes"
+    ],
+    "predictions": [
+      "parse",
+      "google_closure_compiler"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1
+  },
+  {
+    "case_id": 5580,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "snipshot",
+      "parse",
+      "business_alerts",
+      "amazon_queue_service",
+      "google_ad_manager",
+      "google_prediction"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 6,
+    "fn": 1
+  },
+  {
+    "case_id": 5584,
+    "ground_truth": [
+      "google_maps",
+      "youtube"
+    ],
+    "predictions": [
+      "yahoo_bbauth",
+      "accuweather",
+      "yelp_fusion",
+      "ipinfoio_ip_geolocation",
+      "parse",
+      "microsoft_translator",
+      "pusher",
+      "adility",
+      "mixpanel",
+      "bitly",
+      "google_maps_elevation",
+      "mapbox"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 12,
+    "fn": 2
+  },
+  {
+    "case_id": 5657,
+    "ground_truth": [
+      "amazon_product_advertising",
+      "youtube"
+    ],
+    "predictions": [
+      "google_custom_search"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 2
+  },
+  {
+    "case_id": 5659,
+    "ground_truth": [
+      "openlayers"
+    ],
+    "predictions": [
+      "impossiblefx",
+      "brightcove",
+      "bitly",
+      "google_sheets"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 1
+  },
+  {
+    "case_id": 5750,
+    "ground_truth": [
+      "flickr",
+      "google_maps"
+    ],
+    "predictions": [
+      "yahoo_yui",
+      "google_adsense"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 2
+  },
+  {
+    "case_id": 6002,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "barcelona_bicing",
+      "amazon_dynamodb",
+      "db_direct",
+      "geonames",
+      "big_huge_thesaurus"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 1
+  },
+  {
+    "case_id": 6063,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "elasticsearch",
+      "amazon_sns",
+      "microsoft_bot_framework_bot_direct_line",
+      "laravel",
+      "google_adsense",
+      "mixpanel",
+      "addthis_sharing_endpoints",
+      "contentful"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 8,
+    "fn": 1
+  },
+  {
+    "case_id": 6067,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "elasticsearch",
+      "scalarium",
+      "highcharts",
+      "rxnlp_cluster_sentences_and_short_texts",
+      "google_distance_matrix",
+      "google_geocoding",
+      "ipinfoio_ip_geolocation",
+      "pusher",
+      "importio",
+      "domaintools",
+      "whatsapp_business",
+      "campaign_monitor"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 12,
+    "fn": 1
+  },
+  {
+    "case_id": 6106,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "yahoo_yui",
+      "cartodb",
+      "google_app_engine"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 6225,
+    "ground_truth": [
+      "flickr",
+      "google_maps",
+      "youtube"
+    ],
+    "predictions": [
+      "google_closure_compiler",
+      "disqus",
+      "metalocator",
+      "ipinfoio_ip_geolocation",
+      "trakttv",
+      "pixlab",
+      "google_adsense",
+      "appharbor",
+      "geonames",
+      "dnsimple"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 10,
+    "fn": 3
+  },
+  {
+    "case_id": 6255,
+    "ground_truth": [
+      "google_maps"
+    ],
+    "predictions": [
+      "pubnub",
+      "amazon_ses",
+      "contentful"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 1
+  },
+  {
+    "case_id": 6302,
+    "ground_truth": [
+      "flickr",
+      "google_maps"
+    ],
+    "predictions": [
+      "laravel"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 2
+  }
+]

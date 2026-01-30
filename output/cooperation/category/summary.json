@@ -1,0 +1,29 @@
+{
+  "total_cases": 100,
+  "perfect_recall_cases": 51,
+  "partial_recall_cases": 20,
+  "zero_recall_cases": 29,
+  "recall_distribution": {
+    "0%": 29,
+    "1-25%": 1,
+    "26-50%": 17,
+    "51-75%": 2,
+    "76-99%": 0,
+    "100%": 51
+  },
+  "macro_average": {
+    "precision": 0.11109938672438671,
+    "recall": 0.6066666666666667,
+    "f1": 0.17661731878820983
+  },
+  "micro_average": {
+    "precision": 0.08994708994708994,
+    "recall": 0.5666666666666667,
+    "f1": 0.1552511415525114
+  },
+  "total": {
+    "true_positive": 85,
+    "false_positive": 860,
+    "false_negative": 65
+  }
+}

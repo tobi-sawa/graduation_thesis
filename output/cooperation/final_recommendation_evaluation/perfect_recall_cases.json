@@ -5,12 +5,12 @@
       "google_pagespeed_insights"
     ],
     "predictions": [
-      "laravel",
       "looker",
-      "new_relic",
-      "parsebot",
       "google_pagespeed_insights",
-      "amazon_dynamodb"
+      "watchmouse",
+      "google_analytics_core_reporting",
+      "cloudmine",
+      "page2images"
     ],
     "precision": 0.16666666666666666,
     "recall": 1.0,
@@ -25,15 +25,16 @@
       "fitbit"
     ],
     "predictions": [
-      "looker",
+      "gethealth",
       "parse",
+      "looker",
       "fitbit"
     ],
-    "precision": 0.3333333333333333,
+    "precision": 0.25,
     "recall": 1.0,
-    "f1": 0.5,
+    "f1": 0.4,
     "tp": 1,
-    "fp": 2,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -42,16 +43,18 @@
       "motorsportregcom"
     ],
     "predictions": [
-      "laravel",
-      "gitlab",
-      "teamsnap",
-      "motorsportregcom"
+      "parse",
+      "quickblox",
+      "eventbrite",
+      "mydigitalstructure",
+      "motorsportregcom",
+      "cloudmine"
     ],
-    "precision": 0.25,
+    "precision": 0.16666666666666666,
     "recall": 1.0,
-    "f1": 0.4,
+    "f1": 0.2857142857142857,
     "tp": 1,
-    "fp": 3,
+    "fp": 5,
     "fn": 0
   },
   {
@@ -60,10 +63,47 @@
       "constantcontact"
     ],
     "predictions": [
-      "formstack",
-      "zendesk_core",
-      "mydigitalstructure",
-      "constantcontact"
+      "looker",
+      "laravel",
+      "netvibes",
+      "constantcontact",
+      "cloudmine"
+    ],
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1": 0.33333333333333337,
+    "tp": 1,
+    "fp": 4,
+    "fn": 0
+  },
+  {
+    "case_id": 1892,
+    "ground_truth": [
+      "twilio",
+      "twilio_sms"
+    ],
+    "predictions": [
+      "redbooth",
+      "twilio",
+      "twilio_sms"
+    ],
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1": 0.8,
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  },
+  {
+    "case_id": 2780,
+    "ground_truth": [
+      "box"
+    ],
+    "predictions": [
+      "lulu_publishing",
+      "box",
+      "google_cloud_print",
+      "cloudmine"
     ],
     "precision": 0.25,
     "recall": 1.0,
@@ -73,114 +113,19 @@
     "fn": 0
   },
   {
-    "case_id": 1529,
-    "ground_truth": [
-      "donorschoose"
-    ],
-    "predictions": [
-      "cloudmine",
-      "looker",
-      "contentful",
-      "donorschoose",
-      "us_census_bureau"
-    ],
-    "precision": 0.2,
-    "recall": 1.0,
-    "f1": 0.33333333333333337,
-    "tp": 1,
-    "fp": 4,
-    "fn": 0
-  },
-  {
-    "case_id": 2282,
-    "ground_truth": [
-      "google_gmail_oauth"
-    ],
-    "predictions": [
-      "google_gmail_oauth",
-      "fanbridge",
-      "google_gadgets",
-      "gmail",
-      "google_web_authentication",
-      "amazon_dynamodb"
-    ],
-    "precision": 0.16666666666666666,
-    "recall": 1.0,
-    "f1": 0.2857142857142857,
-    "tp": 1,
-    "fp": 5,
-    "fn": 0
-  },
-  {
-    "case_id": 2502,
-    "ground_truth": [
-      "youtube"
-    ],
-    "predictions": [
-      "laravel",
-      "youtube",
-      "stupeflix"
-    ],
-    "precision": 0.3333333333333333,
-    "recall": 1.0,
-    "f1": 0.5,
-    "tp": 1,
-    "fp": 2,
-    "fn": 0
-  },
-  {
-    "case_id": 2664,
-    "ground_truth": [
-      "twilio"
-    ],
-    "predictions": [
-      "laravel",
-      "cicero",
-      "new_relic",
-      "amazon_ec2",
-      "amazon_s3",
-      "stripe",
-      "twilio"
-    ],
-    "precision": 0.14285714285714285,
-    "recall": 1.0,
-    "f1": 0.25,
-    "tp": 1,
-    "fp": 6,
-    "fn": 0
-  },
-  {
-    "case_id": 2780,
-    "ground_truth": [
-      "box"
-    ],
-    "predictions": [
-      "google_cloud_print",
-      "mydigitalstructure",
-      "box"
-    ],
-    "precision": 0.3333333333333333,
-    "recall": 1.0,
-    "f1": 0.5,
-    "tp": 1,
-    "fp": 2,
-    "fn": 0
-  },
-  {
     "case_id": 3045,
     "ground_truth": [
       "box"
     ],
     "predictions": [
-      "laravel",
-      "mixpanel",
+      "slack_real_time_messaging",
       "box"
     ],
-    "precision": 0.3333333333333333,
+    "precision": 0.5,
     "recall": 1.0,
-    "f1": 0.5,
+    "f1": 0.6666666666666666,
     "tp": 1,
-    "fp": 2,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -189,17 +134,15 @@
       "betfair"
     ],
     "predictions": [
-      "laravel",
-      "actual_reports",
       "looker",
-      "mydigitalstructure",
-      "betfair"
+      "betfair",
+      "appharbor"
     ],
-    "precision": 0.2,
+    "precision": 0.3333333333333333,
     "recall": 1.0,
-    "f1": 0.33333333333333337,
+    "f1": 0.5,
     "tp": 1,
-    "fp": 4,
+    "fp": 2,
     "fn": 0
   },
   {
@@ -208,15 +151,16 @@
       "flickr"
     ],
     "predictions": [
-      "laravel",
       "pdf_generator",
-      "flickr"
+      "99designs_tasks",
+      "flickr",
+      "30_boxes"
     ],
-    "precision": 0.3333333333333333,
+    "precision": 0.25,
     "recall": 1.0,
-    "f1": 0.5,
+    "f1": 0.4,
     "tp": 1,
-    "fp": 2,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -225,15 +169,14 @@
       "flickr"
     ],
     "predictions": [
-      "netvibes",
-      "parsebot",
+      "yahoo_yui",
       "flickr"
     ],
-    "precision": 0.3333333333333333,
+    "precision": 0.5,
     "recall": 1.0,
-    "f1": 0.5,
+    "f1": 0.6666666666666666,
     "tp": 1,
-    "fp": 2,
+    "fp": 1,
     "fn": 0
   },
   {
@@ -242,18 +185,16 @@
       "google_apps_email_migration"
     ],
     "predictions": [
-      "appharbor",
-      "looker",
-      "google_calendar",
+      "csv2geo",
       "google_apps_email_migration",
-      "mydigitalstructure",
-      "99designs_tasks"
+      "new_relic",
+      "google_calendar"
     ],
-    "precision": 0.16666666666666666,
+    "precision": 0.25,
     "recall": 1.0,
-    "f1": 0.2857142857142857,
+    "f1": 0.4,
     "tp": 1,
-    "fp": 5,
+    "fp": 3,
     "fn": 0
   },
   {
@@ -263,16 +204,33 @@
       "flickr"
     ],
     "predictions": [
-      "cloudmine",
-      "flickr",
       "dbpedia",
-      "elasticsearch",
-      "amazon_dynamodb"
+      "amazon_dynamodb",
+      "cloudmine",
+      "flickr"
     ],
-    "precision": 0.4,
+    "precision": 0.5,
     "recall": 1.0,
-    "f1": 0.5714285714285715,
+    "f1": 0.6666666666666666,
     "tp": 2,
+    "fp": 2,
+    "fn": 0
+  },
+  {
+    "case_id": 5496,
+    "ground_truth": [
+      "netvibes"
+    ],
+    "predictions": [
+      "netvibes",
+      "parsebot",
+      "laravel",
+      "feedly"
+    ],
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1": 0.4,
+    "tp": 1,
     "fp": 3,
     "fn": 0
   },
@@ -282,8 +240,8 @@
       "flickr"
     ],
     "predictions": [
-      "laravel",
-      "yahoo_yui",
+      "netvibes",
+      "parse",
       "flickr"
     ],
     "precision": 0.3333333333333333,

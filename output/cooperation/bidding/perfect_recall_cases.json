@@ -1,0 +1,432 @@
+[
+  {
+    "case_id": 76,
+    "mashup_name": "website-gradercom",
+    "num_tasks": 7,
+    "ground_truth": [
+      "google_pagespeed_insights"
+    ],
+    "bidding_apis": [
+      "laravel",
+      "uservoice",
+      "schoology",
+      "watchmouse",
+      "editgrid",
+      "google_pagespeed_insights",
+      "s3bubble",
+      "pocket",
+      "google_sheets",
+      "new_relic",
+      "google_analytics_core_reporting",
+      "google_prediction",
+      "looker",
+      "donorschoose",
+      "internet_archive",
+      "amazon_s3",
+      "cloudmine",
+      "elasticsearch",
+      "aiderss",
+      "amadeus",
+      "bizvizz",
+      "oracle_netsuite",
+      "page2images",
+      "actual_reports",
+      "spotify_web",
+      "box",
+      "amazon_dynamodb",
+      "compete",
+      "pdf_generator",
+      "traitify"
+    ],
+    "precision": 0.03333333333333333,
+    "recall": 1.0,
+    "f1": 0.06451612903225806,
+    "tp": 1,
+    "fp": 29,
+    "fn": 0
+  },
+  {
+    "case_id": 239,
+    "mashup_name": "fitcheck",
+    "num_tasks": 5,
+    "ground_truth": [
+      "fitbit"
+    ],
+    "bidding_apis": [
+      "datarella",
+      "laravel",
+      "elcies_connected_services",
+      "notifo",
+      "parse",
+      "amazon_dynamodb",
+      "oracle_netsuite",
+      "looker",
+      "amazon_ec2",
+      "google_sheets",
+      "google_storage",
+      "gethealth",
+      "fitbit",
+      "telegram_bot",
+      "whatsapp_business"
+    ],
+    "precision": 0.06666666666666667,
+    "recall": 1.0,
+    "f1": 0.125,
+    "tp": 1,
+    "fp": 14,
+    "fn": 0
+  },
+  {
+    "case_id": 773,
+    "mashup_name": "axti.me",
+    "num_tasks": 6,
+    "ground_truth": [
+      "motorsportregcom"
+    ],
+    "bidding_apis": [
+      "laravel",
+      "motorsportregcom",
+      "fanbridge",
+      "tradeshift",
+      "google_sheets",
+      "eventbrite",
+      "redbooth",
+      "google_gadgets",
+      "teamsnap",
+      "google_calendar",
+      "formstack",
+      "google_analytics_core_reporting",
+      "looker",
+      "cloudmine",
+      "telegram_bot",
+      "mapmyfitness",
+      "mailgun",
+      "enthusem",
+      "google_storage",
+      "actual_reports",
+      "quickblox",
+      "box",
+      "parse",
+      "amazon_dynamodb",
+      "amazon_alexa_skill_voice_service",
+      "eduroam",
+      "lulu_publishing",
+      "abios_esports",
+      "mydigitalstructure",
+      "pdf_generator",
+      "yahoo_yui"
+    ],
+    "precision": 0.03225806451612903,
+    "recall": 1.0,
+    "f1": 0.0625,
+    "tp": 1,
+    "fp": 30,
+    "fn": 0
+  },
+  {
+    "case_id": 992,
+    "mashup_name": "ccquick",
+    "num_tasks": 5,
+    "ground_truth": [
+      "constantcontact"
+    ],
+    "bidding_apis": [
+      "laravel",
+      "netvibes",
+      "formstack",
+      "constantcontact",
+      "google_analytics_core_reporting",
+      "automattic_wordpress_widgets",
+      "looker",
+      "eduroam",
+      "infochimps_ip_intelligence_geolocation",
+      "clicky",
+      "google_bigquery",
+      "tec_mailing",
+      "gitlab",
+      "google_sheets",
+      "appharbor",
+      "google_single_signon",
+      "cloudmine",
+      "elasticsearch"
+    ],
+    "precision": 0.05555555555555555,
+    "recall": 1.0,
+    "f1": 0.10526315789473684,
+    "tp": 1,
+    "fp": 17,
+    "fn": 0
+  },
+  {
+    "case_id": 1892,
+    "mashup_name": "call-me-meeting",
+    "num_tasks": 4,
+    "ground_truth": [
+      "twilio_sms",
+      "twilio"
+    ],
+    "bidding_apis": [
+      "laravel",
+      "google_calendar",
+      "twilio_sms",
+      "twilio",
+      "zendesk_core",
+      "redbooth",
+      "quickblox"
+    ],
+    "precision": 0.2857142857142857,
+    "recall": 1.0,
+    "f1": 0.4444444444444445,
+    "tp": 2,
+    "fp": 5,
+    "fn": 0
+  },
+  {
+    "case_id": 2416,
+    "mashup_name": "textwhosnext",
+    "num_tasks": 5,
+    "ground_truth": [
+      "twilio_sms",
+      "twilio"
+    ],
+    "bidding_apis": [
+      "laravel",
+      "formstack",
+      "easy_blockchain",
+      "amazon_dynamodb",
+      "twilio_sms",
+      "oracle_netsuite",
+      "looker",
+      "google_analytics_core_reporting",
+      "twilio",
+      "amazon_ec2",
+      "google_sheets",
+      "gitlab",
+      "zendesk_core",
+      "actual_reports",
+      "cloudmine",
+      "telegram_bot"
+    ],
+    "precision": 0.125,
+    "recall": 1.0,
+    "f1": 0.2222222222222222,
+    "tp": 2,
+    "fp": 14,
+    "fn": 0
+  },
+  {
+    "case_id": 2780,
+    "mashup_name": "activeprint-and-box.net",
+    "num_tasks": 6,
+    "ground_truth": [
+      "box"
+    ],
+    "bidding_apis": [
+      "google_cloud_print",
+      "laravel",
+      "box",
+      "hpe_haven_ondemand_view_document",
+      "lulu_publishing",
+      "cloudmine"
+    ],
+    "precision": 0.16666666666666666,
+    "recall": 1.0,
+    "f1": 0.2857142857142857,
+    "tp": 1,
+    "fp": 5,
+    "fn": 0
+  },
+  {
+    "case_id": 3045,
+    "mashup_name": "fuze-meeting-and-box.net",
+    "num_tasks": 5,
+    "ground_truth": [
+      "box"
+    ],
+    "bidding_apis": [
+      "slack_real_time_messaging",
+      "box"
+    ],
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  },
+  {
+    "case_id": 3668,
+    "mashup_name": "jessicas-automated-gaming",
+    "num_tasks": 4,
+    "ground_truth": [
+      "betfair"
+    ],
+    "bidding_apis": [
+      "hetzner",
+      "box",
+      "watchmouse",
+      "google_analytics_core_reporting",
+      "looker",
+      "heroku",
+      "pdf_generator",
+      "google_sheets",
+      "amazon_s3",
+      "appharbor",
+      "redbooth",
+      "cloudmine",
+      "betfair"
+    ],
+    "precision": 0.07692307692307693,
+    "recall": 1.0,
+    "f1": 0.14285714285714288,
+    "tp": 1,
+    "fp": 12,
+    "fn": 0
+  },
+  {
+    "case_id": 4279,
+    "mashup_name": "custom-flickr-calendar",
+    "num_tasks": 4,
+    "ground_truth": [
+      "flickr"
+    ],
+    "bidding_apis": [
+      "laravel",
+      "s3bubble",
+      "amazon_alexa_skill_voice_service",
+      "amazon_ec2",
+      "lulu_publishing",
+      "99designs_tasks",
+      "flickr",
+      "google_storage",
+      "30_boxes",
+      "pdf_generator"
+    ],
+    "precision": 0.1,
+    "recall": 1.0,
+    "f1": 0.18181818181818182,
+    "tp": 1,
+    "fp": 9,
+    "fn": 0
+  },
+  {
+    "case_id": 4352,
+    "mashup_name": "flicktickr",
+    "num_tasks": 2,
+    "ground_truth": [
+      "flickr"
+    ],
+    "bidding_apis": [
+      "netvibes",
+      "flickr",
+      "cloudmine",
+      "aiderss",
+      "yahoo_yui"
+    ],
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1": 0.33333333333333337,
+    "tp": 1,
+    "fp": 4,
+    "fn": 0
+  },
+  {
+    "case_id": 4708,
+    "mashup_name": "gmove",
+    "num_tasks": 8,
+    "ground_truth": [
+      "google_apps_email_migration"
+    ],
+    "bidding_apis": [
+      "google_apps_email_migration",
+      "google_calendar",
+      "watchmouse",
+      "csv2geo",
+      "new_relic"
+    ],
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1": 0.33333333333333337,
+    "tp": 1,
+    "fp": 4,
+    "fn": 0
+  },
+  {
+    "case_id": 4828,
+    "mashup_name": "flickr-wrappr",
+    "num_tasks": 5,
+    "ground_truth": [
+      "dbpedia",
+      "flickr"
+    ],
+    "bidding_apis": [
+      "laravel",
+      "parsebot",
+      "box",
+      "watchmouse",
+      "amazon_dynamodb",
+      "s3bubble",
+      "amazon_ec2",
+      "dbpedia",
+      "flickr",
+      "google_storage",
+      "zendesk_core",
+      "cloudmine",
+      "contentful"
+    ],
+    "precision": 0.15384615384615385,
+    "recall": 1.0,
+    "f1": 0.2666666666666667,
+    "tp": 2,
+    "fp": 11,
+    "fn": 0
+  },
+  {
+    "case_id": 5496,
+    "mashup_name": "netvibes-digg-widget",
+    "num_tasks": 4,
+    "ground_truth": [
+      "netvibes"
+    ],
+    "bidding_apis": [
+      "laravel",
+      "netvibes",
+      "parsebot",
+      "thomson_reuters_open_calais",
+      "page2images",
+      "feedly",
+      "aiderss",
+      "yahoo_yui"
+    ],
+    "precision": 0.125,
+    "recall": 1.0,
+    "f1": 0.2222222222222222,
+    "tp": 1,
+    "fp": 7,
+    "fn": 0
+  },
+  {
+    "case_id": 6281,
+    "mashup_name": "mappr",
+    "num_tasks": 4,
+    "ground_truth": [
+      "flickr"
+    ],
+    "bidding_apis": [
+      "laravel",
+      "netvibes",
+      "parsebot",
+      "parse",
+      "csv2geo",
+      "internet_archive",
+      "geograph",
+      "flickr"
+    ],
+    "precision": 0.125,
+    "recall": 1.0,
+    "f1": 0.2222222222222222,
+    "tp": 1,
+    "fp": 7,
+    "fn": 0
+  }
+]
